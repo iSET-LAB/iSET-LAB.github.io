@@ -1,7 +1,10 @@
 ---
-title: "People"
-permalink: /people/
-layout: single
+permalink: /People/
+title: "Principal Investigator"
+author_profile: false
+redirect_from: 
+  - /md/
+  - /markdown.html
 ---
 
 # Lab Members
@@ -16,6 +19,8 @@ layout: single
 **Research Interests:** {{ member.research_interests }}
 
 **Email:** [{{ member.email }}](mailto:{{ member.email }})
+
+[LinkedIn]({{ member.linkedin }}) | [Google Scholar]({{ member.google_scholar }}) | [CV]({{ member.cv }})
 
 ---
 {% endfor %}
