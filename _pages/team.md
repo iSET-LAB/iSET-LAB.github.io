@@ -1,5 +1,5 @@
 ---
-permalink: /team/
+permalink: /Team/
 title: "Principal Investigator"
 author_profile: false
 redirect_from: 
@@ -20,15 +20,7 @@ redirect_from:
 
 **Email:** [{{ member.email }}](mailto:{{ member.email }})
 
-<span style="margin-right: 10px;">
-  [LinkedIn]({{ member.linkedin }}){: .btn .btn-blue}
-</span>
-<span style="margin-right: 10px;">
-  [Google Scholar]({{ member.google_scholar }}){: .btn .btn-green}
-</span>
-<span>
-  [CV]({{ member.cv }}){: .btn .btn-red}
-</span>
+[LinkedIn]({{ member.linkedin }}) | [Google Scholar]({{ member.google_scholar }}) | [CV]({{ member.cv }})
 
 ---
 {% endfor %}
