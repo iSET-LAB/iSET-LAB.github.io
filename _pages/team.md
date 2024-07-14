@@ -1,5 +1,5 @@
 ---
-permalink: /Team/
+permalink: /team/
 title: "Principal Investigator"
 author_profile: false
 redirect_from: 
