@@ -9,7 +9,7 @@ redirect_from:
 
 # Lab Members
 
-{% for member in site.data.people %}
+{% for member in site.data.team %}
 ## {{ member.name }}
 
 ![Profile Image]({{ member.image }})
