@@ -206,11 +206,14 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
-  portfolio:
+  people:
     output: true
     permalink: /:collection/:path/
+  portfolio:
+    output: false
+    permalink: /:collection/:path/
   talks:
-    output: true
+    output: false
     permalink: /:collection/:path/
 
 
