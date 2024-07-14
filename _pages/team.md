@@ -1,34 +1,32 @@
 ---
+layout: profiles
 permalink: /team/
 title: "Team iSET"
 author_profile: false
 redirect_from: 
   - /md/
   - /markdown.html
+
+
+
+
+profiles:
+  # if you want to include more than one profile, just replicate the following block
+  # and create one content file for each profile inside _pages/
+  - align: right
+    image: prof_pic.jpg
+    content: about_einstein.md
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <p>555 your office number</p>
+      <p>123 your address street</p>
+      <p>Your City, State 12345</p>
+  - align: left
+    image: prof_pic.jpg
+    content: about_einstein.md
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <p>555 your office number</p>
+      <p>123 your address street</p>
+      <p>Your City, State 12345</p>
 ---
-
-
-
-{% for member in site.data.team %}
-## {{ member.name }}
-
-![Profile Image]({{ '/images/' | append: member.image | relative_url }})
-
-**Position:** {{ member.position }}
-
-**Research Interests:** {{ member.research_interests }}
-
-**Email:** [{{ member.email }}](mailto:{{ member.email }})
-
-<span style="margin-right: 10px;">
-  [LinkedIn]({{ member.linkedin }}){: .btn .btn-blue}
-</span>
-<span style="margin-right: 10px;">
-  [Google Scholar]({{ member.google_scholar }}){: .btn .btn-green}
-</span>
-<span>
-  [CV]({{ member.cv }}){: .btn .btn-red}
-</span>
-
----
-{% endfor %}
