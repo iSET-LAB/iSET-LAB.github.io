@@ -1,0 +1,12 @@
+- name: "John Doe"
+  image: "/images/john_doe.jpg"
+  position: "PhD Student"
+  research_interests: "Machine Learning, Computer Vision"
+  email: "john.doe@example.com"
+
+- name: "Jane Smith"
+  image: "/images/jane_smith.jpg"
+  position: "Postdoctoral Researcher"
+  research_interests: "Robotics, Artificial Intelligence"
+  email: "jane.smith@example.com"
+

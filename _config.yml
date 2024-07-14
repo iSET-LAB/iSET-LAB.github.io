@@ -335,3 +335,11 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
+
+
+header_pages:
+  - index.md
+  - about.md
+  - publications.md
+  - people.md
