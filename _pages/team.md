@@ -1,32 +1,67 @@
 ---
-layout: profiles
 permalink: /team/
 title: "Team iSET"
 author_profile: false
 redirect_from: 
   - /md/
   - /markdown.html
-
-
-
-
-profiles:
-  # if you want to include more than one profile, just replicate the following block
-  # and create one content file for each profile inside _pages/
-  - align: right
-    image: prof_pic.jpg
-    content: about_einstein.md
-    image_circular: false # crops the image to make it circular
-    more_info: >
-      <p>555 your office number</p>
-      <p>123 your address street</p>
-      <p>Your City, State 12345</p>
-  - align: left
-    image: prof_pic.jpg
-    content: about_einstein.md
-    image_circular: false # crops the image to make it circular
-    more_info: >
-      <p>555 your office number</p>
-      <p>123 your address street</p>
-      <p>Your City, State 12345</p>
 ---
+
+<style>
+    img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        margin: 10px;
+    }
+
+    .0-align {
+        text-align: left;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .10-align {
+        text-align: right;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+
+    .info {
+        padding: 0 15px;
+    }
+
+    .btn {
+        padding: 5px 10px;
+        margin: 5px;
+        border: none;
+        color: white;
+        text-decoration: none;
+        background-color: #007BFF;
+    }
+</style>
+
+# Our Team
+
+Welcome to the Team iSET page! Here you'll find information about our brilliant team members.
+
+{% assign count = 0 %}
+{% for member in site.data.team %}
+<div class="{{ count | modulo: 2 | times: 10 | append: '-align' }}">
+    <img src="{{ '/images/' | append: member.image | relative_url }}" alt="{{ member.name }}" class="profile-pic">
+    <div class="info">
+        <h2>{{ member.name }}</h2>
+        <p><strong>Position:</strong> {{ member.position }}</p>
+        <p><strong>Research Interests:</strong> {{ member.research_interests }}</p>
+        <p><strong>Email:</strong> <a href="mailto:{{ member.email }}">{{ member.email }}</a></p>
+        <p>
+            <a href="{{ member.linkedin }}" class="btn btn-blue">LinkedIn</a>
+            <a href="{{ member.google_scholar }}" class="btn btn-green">Google Scholar</a>
+            <a href="{{ member.cv }}" class="btn btn-red">CV</a>
+        </p>
+    </div>
+</div>
+{% assign count = count | plus: 1 %}
+{% endfor %}
