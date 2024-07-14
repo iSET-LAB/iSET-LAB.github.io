@@ -1,13 +1,13 @@
 ---
 permalink: /team/
-title: "Principal Investigator"
+title: "Team iSET"
 author_profile: false
 redirect_from: 
   - /md/
   - /markdown.html
 ---
 
-# Lab Members
+
 
 {% for member in site.data.team %}
 ## {{ member.name }}
