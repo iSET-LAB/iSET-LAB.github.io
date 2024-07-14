@@ -9,7 +9,7 @@ redirect_from:
 
 # Lab Members
 
-{% for member in site.data.team %}
+{% for member in site.data.people %}
 ## {{ member.name }}
 
 ![Profile Image]({{ member.image }})
@@ -20,7 +20,15 @@ redirect_from:
 
 **Email:** [{{ member.email }}](mailto:{{ member.email }})
 
-[LinkedIn]({{ member.linkedin }}) | [Google Scholar]({{ member.google_scholar }}) | [CV]({{ member.cv }})
+<span style="margin-right: 10px;">
+  [LinkedIn]({{ member.linkedin }}){: .btn .btn-blue}
+</span>
+<span style="margin-right: 10px;">
+  [Google Scholar]({{ member.google_scholar }}){: .btn .btn-green}
+</span>
+<span>
+  [CV]({{ member.cv }}){: .btn .btn-red}
+</span>
 
 ---
 {% endfor %}
