@@ -1,5 +1,5 @@
 - name: "MD NAZMUS SAKIB, PH.D., A.M.ASCE, M.IEEE"
-  image: "images/MdNazmus_Sakib.jpg"
+  image: "MdNazmus_Sakib.jpg"
   position: "Director"
   research_interests: "Artificial Intelligence, Data Science"
   email: "john.doe@university.edu"
@@ -8,7 +8,7 @@
   cv: "/files/john_doe_cv.pdf"
 
 - name: "Abir Khan Ratu"
-  image: "images/AbirKhan_Ratul.jpg"
+  image: "AbirKhan_Ratul.jpg"
   position: "PhD Student"
   research_interests: "Robotics, Automation, VR"
   email: "alice.johnson@university.edu"
@@ -17,7 +17,7 @@
   cv: "/files/alice_johnson_cv.pdf"
 
 - name: "Sanjay Acharjee"
-  image: "images/Sanjay_Acharjee.jpg"
+  image: "Sanjay_Acharjee.jpg"
   position: "PhD Student"
   research_interests: "Generative AI, Deep Learning"
   email: "bob.smith@university.edu"
