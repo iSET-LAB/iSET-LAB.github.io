@@ -22,12 +22,12 @@ repository               : "iSET-LAB.github.io"
 author:
   # Biographic information
   avatar           : "iSET-1_est2023_@UTA.png"
-  name             : "MD NAZMUS SAKIB, PH.D., A.M.ASCE, M.IEEE"
+  name             : "Intelligent Systems and Emerging Technologies (iSET) Lab"
   pronouns         : # example: "she/her"  
-  bio              : "Assistant Professor, Department of Civil Engineering  The University of Texas at Arlington, Arlington, Texas"
+  bio              : "Department of Civil Engineering, The University of Texas at Arlington"
   location         : "Arlington, Texas"
   # employer         : "Red Brick University"
-  uri              : # URL
+  # uri              : # URL
   email            : "mdnazmus.sakib@uta.edu" 
 
   # Academic websites
