@@ -8,9 +8,6 @@ redirect_from:
 ---
 
 
-<div style="text-align: center;">
-  <img src="images/iSET-1_est2023_@UTA.png" alt="iSET Lab Logo" width="400" height="auto">
-</div>
 
 # Welcome to iSET Lab
 
