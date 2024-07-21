@@ -6,6 +6,7 @@
   linkedin: "https://linkedin.com/in/johndoe"
   google_scholar: "https://scholar.google.com/citations?user=johndoe"
   cv: "/files/john_doe_cv.pdf"
+  alignment: "center"
 
 - name: "Abir Khan Ratu"
   image: "AbirKhan_Ratul.jpg"
@@ -15,6 +16,7 @@
   linkedin: "https://linkedin.com/in/alicejohnson"
   google_scholar: "https://scholar.google.com/citations?user=alicejohnson"
   cv: "/files/alice_johnson_cv.pdf"
+  alignment: "left"
 
 - name: "Sanjay Acharjee"
   image: "Sanjay_Acharjee.jpg"
@@ -24,5 +26,4 @@
   linkedin: "https://linkedin.com/in/bobsmith"
   google_scholar: "https://scholar.google.com/citations?user=bobsmith"
   cv: "/files/bob_smith_cv.pdf"
-
-
+  alignment: "right"
