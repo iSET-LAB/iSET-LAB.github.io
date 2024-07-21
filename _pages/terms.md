@@ -9,9 +9,9 @@ redirect_from:
 
 <style>
     .profile-pic {
-        width: auto;
-        height: 200px;
-        margin: 20px;
+        max-width: 200px;  /* Adjust the max width as needed */
+        height: auto;      /* Maintain the natural aspect ratio */
+        margin: 10px;
     }
 
     .align-center {
@@ -48,18 +48,19 @@ redirect_from:
         border: none;
         color: white;
         text-decoration: none;
+        font-size: 1.2em;
     }
 
     .btn-blue {
-        background-color: #007BFF;
+        color: #007BFF;
     }
 
     .btn-green {
-        background-color: #28a745;
+        color: #28a745;
     }
 
     .btn-red {
-        background-color: #dc3545;
+        color: #dc3545;
     }
 </style>
 
@@ -76,9 +77,9 @@ Welcome to the Team iSET page! Here you'll find information about our brilliant 
         <p><strong>Research Interests:</strong> {{ member.research_interests }}</p>
         <p><strong>Email:</strong> <a href="mailto:{{ member.email }}">{{ member.email }}</a></p>
         <p>
-            <a href="{{ member.linkedin }}" class="btn btn-blue">LinkedIn</a>
-            <a href="{{ member.google_scholar }}" class="btn btn-green">Google Scholar</a>
-            <a href="{{ member.cv }}" class="btn btn-red">CV</a>
+            <a href="{{ member.linkedin }}" class="btn btn-blue"><i class="fab fa-linkedin"></i></a>
+            <a href="{{ member.google_scholar }}" class="btn btn-green"><i class="fas fa-graduation-cap"></i></a>
+            <a href="{{ member.cv }}" class="btn btn-red"><i class="fas fa-file-alt"></i></a>
         </p>
     </div>
 </div>
