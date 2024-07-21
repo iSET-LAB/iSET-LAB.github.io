@@ -9,9 +9,9 @@ redirect_from:
 
 <style>
     .profile-pic {
-        width: 150px;
-        height: 150px;
-        margin: 10px;
+        width: 200px;
+        height: 200px;
+        margin: 20px;
     }
 
     .align-center {
