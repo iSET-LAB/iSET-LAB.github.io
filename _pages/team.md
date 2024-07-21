@@ -11,7 +11,6 @@ redirect_from:
     .profile-pic {
         width: 150px;
         height: 150px;
-        border-radius: 50%;
         margin: 10px;
     }
 
