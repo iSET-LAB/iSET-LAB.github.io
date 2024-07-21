@@ -1,39 +1,80 @@
 ---
-permalink: /terms/
-title: "Terms and Privacy Policy"
-modified: 2016-06-06
+permalink: /team/
+title: "Team iSET"
+author_profile: false
+redirect_from: 
+  - /md/
+  - /markdown.html
 ---
 
-{% include base_path %}
-{% include toc %}
+<style>
+    .profile-pic {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        margin: 10px;
+    }
 
-## Privacy Policy
+    .align-left, .align-right {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+    }
 
-The privacy of my visitors is extremely important. This Privacy Policy outlines the types of personal information that is received and collected and how it is used.
+    .align-left {
+        flex-direction: row;
+        text-align: left;
+    }
 
-First and foremost, I will never share your email address or any other personal information to anyone without your direct consent.
+    .align-right {
+        flex-direction: row-reverse;
+        text-align: right;
+    }
 
-### Log Files
+    .info {
+        padding: 0 15px;
+    }
 
-Like many other websites, this site uses log files to help learn about when, from where, and how often traffic flows to this site. The information in these log files include:
+    .btn {
+        padding: 5px 10px;
+        margin: 5px;
+        border: none;
+        color: white;
+        text-decoration: none;
+    }
 
-* Internet Protocol addresses (IP)
-* Types of browser
-* Internet Service Provider (ISP)
-* Date and time stamp
-* Referring and exit pages
-* Number of clicks
+    .btn-blue {
+        background-color: #007BFF;
+    }
 
-All of this information is not linked to anything that is personally identifiable.
+    .btn-green {
+        background-color: #28a745;
+    }
 
-### Cookies and Web Beacons
+    .btn-red {
+        background-color: #dc3545;
+    }
+</style>
 
-When you visit this site "convenience" cookies are stored on your computer when you submit a comment to help you log in faster to [Disqus](http://disqus.com) the next time you leave a comment.
+# Our Team
 
-Third-party advertisers may also place and read cookies on your browser and/or use web beacons to collect information. This site has no access or control over these cookies. You should review the respective privacy policies on any and all third-party ad servers for more information regarding their practices and how to opt-out.
+Welcome to the Team iSET page! Here you'll find information about our brilliant team members.
 
-If you wish to disable cookies, you may do so through your web browser options. Instructions for doing so can be found on the specific web browsers' websites.
-
-#### Google Analytics
-
-Google Analytics is a web analytics tool I use to help understand how visitors engage with this website. It reports website trends using cookies and web beacons without identifying individual visitors. You can read [Google Analytics Privacy Policy](http://www.google.com/analytics/learn/privacy.html).
+{% assign count = 0 %}
+{% for member in site.data.team %}
+<div class="{% if count | modulo: 2 == 0 %}align-left{% else %}align-right{% endif %}">
+    <img src="{{ '/images/' | append: member.image | relative_url }}" alt="{{ member.name }}" class="profile-pic">
+    <div class="info">
+        <h2>{{ member.name }}</h2>
+        <p><strong>Position:</strong> {{ member.position }}</p>
+        <p><strong>Research Interests:</strong> {{ member.research_interests }}</p>
+        <p><strong>Email:</strong> <a href="mailto:{{ member.email }}">{{ member.email }}</a></p>
+        <p>
+            <a href="{{ member.linkedin }}" class="btn btn-blue">LinkedIn</a>
+            <a href="{{ member.google_scholar }}" class="btn btn-green">Google Scholar</a>
+            <a href="{{ member.cv }}" class="btn btn-red">CV</a>
+        </p>
+    </div>
+</div>
+{% assign count = count | plus: 1 %}
+{% endfor %}
