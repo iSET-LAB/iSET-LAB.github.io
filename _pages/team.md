@@ -17,13 +17,18 @@ redirect_from:
 
     .align-left, .align-right {
         display: flex;
-        flex-direction: row;
         align-items: center;
         margin-bottom: 20px;
     }
 
+    .align-left {
+        flex-direction: row;
+        text-align: left;
+    }
+
     .align-right {
         flex-direction: row-reverse;
+        text-align: right;
     }
 
     .info {
