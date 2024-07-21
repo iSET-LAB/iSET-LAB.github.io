@@ -8,25 +8,22 @@ redirect_from:
 ---
 
 <style>
-    img {
+    .profile-pic {
         width: 150px;
         height: 150px;
         border-radius: 50%;
         margin: 10px;
     }
 
-    .align-left {
-        text-align: left;
+    .align-left, .align-right {
         display: flex;
         flex-direction: row;
         align-items: center;
+        margin-bottom: 20px;
     }
 
     .align-right {
-        text-align: right;
-        display: flex;
         flex-direction: row-reverse;
-        align-items: center;
     }
 
     .info {
