@@ -10,7 +10,7 @@ redirect_from:
 <style>
     .profile-pic {
         width: 200px;
-        height: 200px;
+        height: auto;
         margin: 20px;
     }
 
