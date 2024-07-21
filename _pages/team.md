@@ -15,14 +15,14 @@ redirect_from:
         margin: 10px;
     }
 
-    .0-align {
+    .align-left {
         text-align: left;
         display: flex;
         flex-direction: row;
         align-items: center;
     }
 
-    .10-align {
+    .align-right {
         text-align: right;
         display: flex;
         flex-direction: row-reverse;
@@ -39,7 +39,18 @@ redirect_from:
         border: none;
         color: white;
         text-decoration: none;
+    }
+
+    .btn-blue {
         background-color: #007BFF;
+    }
+
+    .btn-green {
+        background-color: #28a745;
+    }
+
+    .btn-red {
+        background-color: #dc3545;
     }
 </style>
 
@@ -49,7 +60,7 @@ Welcome to the Team iSET page! Here you'll find information about our brilliant 
 
 {% assign count = 0 %}
 {% for member in site.data.team %}
-<div class="{{ count | modulo: 2 | times: 10 | append: '-align' }}">
+<div class="{% if count | modulo: 2 == 0 %}align-left{% else %}align-right{% endif %}">
     <img src="{{ '/images/' | append: member.image | relative_url }}" alt="{{ member.name }}" class="profile-pic">
     <div class="info">
         <h2>{{ member.name }}</h2>
