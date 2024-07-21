@@ -14,6 +14,14 @@ redirect_from:
         margin: 10px;
     }
 
+    .align-center {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
     .align-left, .align-right {
         display: flex;
         align-items: center;
@@ -58,6 +66,21 @@ redirect_from:
 # Our Team
 
 Welcome to the Team iSET page! Here you'll find information about our brilliant team members.
+
+<div class="align-center">
+    <img src="{{ '/images/MdNazmus_Sakib.jpg' | relative_url }}" alt="MD NAZMUS SAKIB" class="profile-pic">
+    <div class="info">
+        <h2>MD NAZMUS SAKIB, PH.D., A.M.ASCE, M.IEEE</h2>
+        <p><strong>Position:</strong> Director</p>
+        <p><strong>Research Interests:</strong> Artificial Intelligence, Data Science</p>
+        <p><strong>Email:</strong> <a href="mailto:john.doe@university.edu">john.doe@university.edu</a></p>
+        <p>
+            <a href="https://linkedin.com/in/johndoe" class="btn btn-blue">LinkedIn</a>
+            <a href="https://scholar.google.com/citations?user=johndoe" class="btn btn-green">Google Scholar</a>
+            <a href="/files/john_doe_cv.pdf" class="btn btn-red">CV</a>
+        </p>
+    </div>
+</div>
 
 {% assign count = 0 %}
 {% for member in site.data.team %}
