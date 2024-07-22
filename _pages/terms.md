@@ -1,6 +1,6 @@
 ---
 permalink: /team/
-# title: "Team iSET"
+title: "Team iSET"
 author_profile: false
 redirect_from: 
   - /md/
