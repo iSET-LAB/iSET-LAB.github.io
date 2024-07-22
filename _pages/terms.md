@@ -86,7 +86,7 @@ Welcome to the Team iSET page! Here you'll find information about our brilliant 
 
 {% for member in site.data.team %}
 {% if member.name != "MD NAZMUS SAKIB, PH.D., A.M.ASCE, M.IEEE" %}
-<div class="{% if count | modulo: 2 == 0 %}align-left{% else %}align-right{% endif %}">
+<div class="align-{{ member.alignment }}">
     <img src="{{ '/images/' | append: member.image | relative_url }}" alt="{{ member.name }}" class="profile-pic">
     <div class="info">
         <h2>{{ member.name }}</h2>
@@ -98,6 +98,5 @@ Welcome to the Team iSET page! Here you'll find information about our brilliant 
         </p>
     </div>
 </div>
-{% assign count = count | plus: 1 %}
 {% endif %}
 {% endfor %}
