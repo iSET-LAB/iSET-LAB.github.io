@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: 
+title: "Join"
 permalink: /join/
 author_profile: true
 ---

@@ -1,0 +1,14 @@
+- title: "Presentation Title 1"
+  image: "presentation1.jpg"
+  link: "http://example.com/presentation1"
+  description: "This is a brief description of Presentation 1."
+
+- title: "Presentation Title 2"
+  image: "presentation2.jpg"
+  link: "http://example.com/presentation2"
+  description: "This is a brief description of Presentation 2."
+
+- title: "Presentation Title 3"
+  image: "presentation3.jpg"
+  link: "http://example.com/presentation3"
+  description: "This is a brief description of Presentation 3."
