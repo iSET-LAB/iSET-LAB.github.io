@@ -1,8 +1,10 @@
 ---
-layout: archive
-title: false
 permalink: /research/
-author_profile: true
+title: false
+author_profile: false
+redirect_from: 
+  - /md/
+  - /markdown.html
 ---
 
 {% if site.author.googlescholar %}
