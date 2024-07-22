@@ -1,6 +1,6 @@
 ---
 permalink: /presentations/
-title: "Presentations"
+title: false
 author_profile: false
 redirect_from: 
   - /md/
