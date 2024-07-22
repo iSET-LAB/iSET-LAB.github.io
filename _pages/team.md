@@ -3,8 +3,8 @@ permalink: /team/
 # title: "Team iSET"
 author_profile: false
 redirect_from: 
-  - /about/
-  - /about.html
+  - /md/
+  - /markdown.html
 ---
 
 <style>
