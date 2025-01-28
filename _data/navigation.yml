@@ -6,6 +6,9 @@ main:
   - title: "Publications"
     url: /publications/
 
+  - title: "hudai"
+    url: /hudai/
+
   - title: "Teaching"
     url: /teaching/
 
