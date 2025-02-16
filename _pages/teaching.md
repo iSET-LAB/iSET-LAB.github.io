@@ -4,7 +4,17 @@ title: "Teaching"
 permalink: /teaching/
 ---
 
-<div style="max-width: 800px; margin: 0 auto; text-align: center;">
+<!-- Optional inline CSS for centering -->
+<style>
+.centered-content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+</style>
+
+<!-- This div uses the .centered-content class and markdown="1" -->
+<div class="centered-content" markdown="1">
 
 # Teaching
 
