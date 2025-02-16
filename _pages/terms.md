@@ -65,9 +65,11 @@ redirect_from:
     }
 </style>
 
-# Our Team
-
-Welcome to the Team iSET page! Here you'll find information about our brilliant team members.
+<!-- Centered heading and intro text -->
+<h1 style="text-align: center;">Our Team</h1>
+<p style="text-align: center;">
+  Welcome to the Team iSET page! Here you'll find information about our brilliant team members.
+</p>
 
 <div class="align-center">
     <img src="{{ '/images/MdNazmus_Sakib.jpg' | relative_url }}" alt="MD NAZMUS SAKIB" class="profile-pic">
