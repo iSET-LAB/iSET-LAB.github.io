@@ -4,32 +4,23 @@ title: "Teaching"
 permalink: /teaching/
 ---
 
-<div style="text-align: center;">
+# Teaching
 
-  <h1>Teaching</h1>
+![Banner for BIM Course](bim_image.png)
 
-  <!-- Use a relative path: ./bim_image.png 
-       (the leading ./ indicates the file is in the same folder as this markdown) -->
-  <img src="./bim_image.png" alt="BIM Course Banner" 
-       style="max-width: 600px; width: 100%; height: auto;" />
+## CE/CM 5343: Advanced Building Information Modeling
 
-  <h2>CE/CM 5343: Advanced Building Information Modeling</h2>
+**Semesters:**  
+- Fall 2023  
+- Spring 2024  
+- Fall 2024  
+- Spring 2025  
 
-  <p><strong>Semesters:</strong><br>
-    Fall 2023<br>
-    Spring 2024<br>
-    Fall 2024<br>
-    Spring 2025
-  </p>
+**Instructor:**  
+- Md Nazmus Sakib, Ph.D.  
+  - [Faculty Profile](https://www.uta.edu/academics/faculty/profile?username=sakibm)
 
-  <p><strong>Instructor:</strong><br>
-    Md Nazmus Sakib, Ph.D.<br>
-    <a href="https://www.uta.edu/academics/faculty/profile?username=sakibm">Faculty Profile</a>
-  </p>
+**Teaching Assistant:**  
+- Sanjay Acharjee
 
-  <p><strong>Teaching Assistant:</strong><br>
-    Sanjay Acharjee
-  </p>
-
-  <p><a href="#">Course Website</a></p>
-</div>
+[Course Website](#)  <!-- Replace # with the actual course link if available -->
