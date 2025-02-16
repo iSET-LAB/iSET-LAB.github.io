@@ -26,31 +26,46 @@ permalink: /teaching/
     height: auto;        /* Maintain aspect ratio */
   }
 
-  /* Optional: style subheadings or other elements as needed */
-  h2, h3 {
-    margin-top: 1.5rem;
+  /* Two-column layout for Semesters (left) and Instructor/TA (right) */
+  .two-column {
+    display: flex;
+    flex-wrap: wrap;         /* Allows columns to stack on small screens */
+    justify-content: space-between;
+    gap: 2rem;               /* Spacing between columns */
+  }
+
+  .column {
+    flex: 1;                 /* Columns expand to fill available space */
+    min-width: 200px;        /* Ensures columns don’t get too narrow */
+  }
+
+  /* Optional: reduce top margin on sub-headings */
+  h2, h3, h4 {
+    margin-top: 1.2rem;
     margin-bottom: 0.5rem;
   }
 </style>
 
-<!-- Use markdown="1" so that Markdown inside the div is parsed correctly -->
 <div class="centered-container" markdown="1">
 
-<!-- Main heading is center-aligned -->
 # Teaching
 {: .center-text}
 
-<!-- Centered banner image -->
 ![Banner for BIM Course](bim_image.png){: .banner-image}
 
 ## CE/CM 5343: Advanced Building Information Modeling
 
+<div class="two-column">
+
+<div class="column" markdown="1">
 ### Semesters:
 - Fall 2023
 - Spring 2024
 - Fall 2024
 - Spring 2025
+</div>
 
+<div class="column" markdown="1">
 ### Instructor:
 - Md Nazmus Sakib, Ph.D.  
   - [Faculty Profile](https://www.uta.edu/academics/faculty/profile?username=sakibm)
@@ -59,5 +74,7 @@ permalink: /teaching/
 - Sanjay Acharjee
 
 [Course Website](#) <!-- Replace # with the actual course link if available -->
+</div>
 
+</div>
 </div>
