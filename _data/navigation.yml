@@ -3,8 +3,8 @@ main:
   - title: "Research"
     url: /research/
 
-  # - title: "hudai"
-  #   url: /hudai/
+  - title: "publications"
+    url: /publications/
 
   - title: "Teaching"
     url: /teaching/

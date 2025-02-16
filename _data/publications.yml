@@ -1,14 +1,58 @@
-- title: "Publication Title 1"
-  image: "publication1.jpg"
-  link: "http://example.com/publication1"
-  description: "This is a brief description of Publication 1."
+- category: "Conference Proceeding"
+  reference: "Sakib, M. N., Chaspari, T., Arthur, W., & Behzadan, A. H. (2024). A Survey of Barriers and Enablers of the Successful Transition of Military Veterans into the Construction Industry. 8th International Project and Construction Management Conference (IPCMC), 346–354."
+  link: "https://ipcmc2024.yildiz.edu.tr/proceedings-book"
 
-- title: "Publication Title 2"
-  image: "publication2.jpg"
-  link: "http://example.com/publication2"
-  description: "This is a brief description of Publication 2."
+- category: "Conference Proceeding"
+  reference: "Alizadeh, B., Sakib, M., & Behzadan, A. (2023). Immersive Virtual Reality to Measure Flood Risk Perception in Urban Environments. 30th International Conference on Intelligent Computing in Engineering (EG-ICE), 103--112."
 
-- title: "Publication Title 3"
-  image: "publication3.jpg"
-  link: "http://example.com/publication3"
-  description: "This is a brief description of Publication 3."
+- category: "Conference Proceeding"
+  reference: "Haque Nirjhar, E., Sakib, M. N., Hagen, E., Rani, N., Lynn Chu, S., Arthur, W., Behzadan, A. H., & Chaspari, T. (2022). Investigating the Interplay Between Self-Reported and Bio-Behavioral Measures of Stress: A Pilot Study of Civilian Job Interviews with Military Veterans. 2022 10th International Conference on Affective Computing and Intelligent Interaction (ACII), 2, 1–8."
+  link: "https://doi.org/10.1109/acii55700.2022.9953815"
+
+- category: "Conference Proceeding"
+  reference: "Sakib, M. N., Chaspari, T., Ahn, C. R., & Behzadan, A. H. (2020). An Experimental Study of Wearable Technology and Immersive Virtual Reality for Drone Operator Training. 27th International Workshop on Intelligent Computing in Engineering (EG-ICE), 154--163."
+
+- category: "Conference Proceeding"
+  reference: "Sakib, M. N., Yadav, M., Chaspari, T., & Behzadan, A. H. (2019). Coupling virtual reality and physiological markers to improve public speaking performance. 19th International Conference on Construction Applications of Virtual Reality (CONVR). Published."
+
+- category: "Conference Proceeding"
+  reference: "Yadav, M., Sakib, M. N., Feng, K., Chaspari, T., & Behzadan, A. (2019). Virtual reality interfaces and population-specific models to mitigate public speaking anxiety. 2019 8th International Conference on Affective Computing and Intelligent Interaction (ACII), 1--7."
+
+- category: "Conference Proceeding"
+  reference: "Feng, K., Yadav, M., Sakib, M. N., Behzadan, A., & Chaspari, T. (2019). Estimating Public Speaking Anxiety from Speech Signals Using Unsupervised Transfer Learning. 2019 IEEE Global Conference on Signal and Information Processing (GlobalSIP), 1–5."
+  link: "https://doi.org/10.1109/globalsip45357.2019.8969502"
+
+- category: "Conference Proceeding"
+  reference: "Sakib, M. N., Islam, M. M., Khan, A. J., & Khan, I. (2016). Determination of Absorption Capacity of Open Mesh Type Jute Geotextile (JGT). International Geotechnical Engineering Conference on Sustainability in Geotechnical Engineering Practices and Related Urban Issues. Published."
+
+- category: "Journal Article"
+  reference: "Sakib, M. N., & Behzadan, A. H. (2025). Human-AI Partnership to Improve Construction Workers’ Experience on Safety, Performance, and Health: A Systematic Review of The North American Construction Industry. Journal of Engineering, Project, and Production Management, 15(1), 006."
+  link: "https://doi.org/10.32738/JEPPM-2025-0006"
+
+- category: "Journal Article"
+  reference: "Sakib, M. N., Hagen, E., Mazza, N., Rani, N., Nirjhar, E. H., Chu, S. L., Chaspari, T., Behzadan, A. H., & Arthur Jr., W. (2024). Capitalizing on strengths and minimizing weaknesses of veterans in civilian employment interviews: Perceptions of interviewers and veteran interviewees. Military Psychology, 1–13."
+  link: "https://doi.org/10.1080/08995605.2024.2356498"
+
+- category: "Journal Article"
+  reference: "Sakib, M. N., Chaspari, T., & Behzadan, A. H. (2022). A feedforward neural network for drone accident prediction from physiological signals. Smart and Sustainable Built Environment, 11(4), 1017--1041."
+  link: "https://doi.org/10.1108/SASBE-12-2020-0181"
+
+- category: "Journal Article"
+  reference: "Yadav, M., Sakib, M. N., Nirjhar, E. H., Feng, K., Behzadan, A. H., & Chaspari, T. (2022). Exploring Individual Differences of Public Speaking Anxiety in Real-Life and Virtual Presentations. IEEE Transactions on Affective Computing, 13(3), 1168–1182."
+  link: "https://doi.org/10.1109/taffc.2020.3048299"
+
+- category: "Journal Article"
+  reference: "Sakib, M. N., Chaspari, T., & Behzadan, A. H. (2021). Physiological Data Models to Understand the Effectiveness of Drone Operation Training in Immersive Virtual Reality. Journal of Computing in Civil Engineering, 35(1), 04020053."
+  link: "https://doi.org/10.1061/(ASCE)CP.1943-5487.00009"
+
+- category: "Other"
+  reference: "Sakib, M. N. (2022). The Future Workforce: Exploring the Role of Artificial Intelligence and Technology in Workforce Skilling. Texas A&M University."
+  link: "https://hdl.handle.net/1969.1/198781"
+
+- category: "Other"
+  reference: "Sakib, M. N. (2019). Wearable Technology to Assess the Effectiveness of Virtual Reality Training for Drone Operators. Texas A&M University."
+  link: "https://hdl.handle.net/1969.1/189173"
+
+- category: "Other"
+  reference: "Khan, I., & Sakib, M. N. (2012). Determination of absorption capacity of GeoJute. Bangladesh University of Engineering and Technology."
+  link: "https://doi.org/10.13140/RG.2.2.22549.06882"
