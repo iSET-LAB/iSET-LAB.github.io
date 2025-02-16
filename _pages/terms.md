@@ -77,11 +77,11 @@ redirect_from:
         <h2>MD NAZMUS SAKIB, PH.D., A.M.ASCE, M.IEEE</h2>
         <p><strong>Position:</strong> Director</p>
         <p><strong>Research Interests:</strong> Artificial Intelligence, Data Science</p>
-        <p><strong>Email:</strong> <a href="mailto:john.doe@university.edu">john.doe@university.edu</a></p>
+        <p><strong>Email:</strong> <a href="mailto:mdnazmus.sakib@uta.edu">mdnazmus.sakib@uta.edu</a></p>
         <p>
-            <a href="https://linkedin.com/in/johndoe" class="btn btn-blue"><i class="fab fa-linkedin"></i></a>
-            <a href="https://scholar.google.com/citations?user=johndoe" class="btn btn-green"><i class="fas fa-graduation-cap"></i></a>
-            <a href="/files/john_doe_cv.pdf" class="btn btn-red"><i class="fas fa-file-alt"></i></a>
+            <a href="https://www.linkedin.com/in/md-nazmus-sakib-8b065124/" class="btn btn-blue"><i class="fab fa-linkedin"></i></a>
+            <a href="https://scholar.google.com/citations?user=pK5cGsAAAAAJ&hl=en&authuser=1&oi=ao" class="btn btn-green"><i class="fas fa-graduation-cap"></i></a>
+            <a href="https://sites.google.com/view/mnsakib-site/cv" class="btn btn-red"><i class="fas fa-file-alt"></i></a>
         </p>
     </div>
 </div>
