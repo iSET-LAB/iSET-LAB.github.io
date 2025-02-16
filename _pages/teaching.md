@@ -9,7 +9,7 @@ permalink: /teaching/
   <h1>Teaching</h1>
 
   <!-- Replace with the actual path to your image -->
-  <img src=".\_pages\bim_image.png" alt="BIM Course Banner" style="max-width: 600px; width: 100%; height: auto;" />
+  <img src=".\_pages\bim_image.png"/>
 
   <h2>CE/CM 5343: Advanced Building Information Modeling</h2>
 
