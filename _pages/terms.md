@@ -90,7 +90,8 @@ Welcome to the Team iSET page! Here you'll find information about our brilliant 
     <img src="{{ '/images/' | append: member.image | relative_url }}" alt="{{ member.name }}" class="profile-pic">
     <div class="info">
         <h2>{{ member.name }}</h2>
-        <p>{{ member.description }}</p> <!-- Description text -->
+        <p>{{ member.description }}</p>
+        <p><strong>Email:</strong> <a href="mailto:{{ member.email }}">{{ member.email }}</a></p>
         <p>
             <a href="{{ member.linkedin }}" class="btn btn-blue"><i class="fab fa-linkedin"></i></a>
             <a href="{{ member.google_scholar }}" class="btn btn-green"><i class="fas fa-graduation-cap"></i></a>
