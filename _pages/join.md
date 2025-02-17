@@ -8,9 +8,12 @@ redirect_from:
 ---
 
 ---
-# <center>**Join Our Lab**</center>  
-### <center>**Funded Ph.D. Student Positions in Civil Engineering at The University of Texas at Arlington (UTA)**</center>  
- 
+---
+<div align="center">
+  <h1><strong>Join Our Lab</strong></h1>
+  <h3><strong>Funded Ph.D. Student Positions in Civil Engineering at The University of Texas at Arlington (UTA)</strong></h3>
+</div>
+---
 
 ## **About the Positions**  
 We are excited to announce two fully funded Ph.D. positions in **Civil Engineering** with a focus on **Construction Engineering and Management** at the **Intelligent Systems and Emerging Technologies (iSET) Lab** at **The University of Texas at Arlington (UTA)**. The positions will begin in **Spring/Fall 2024** under the supervision of **Dr. Md Nazmus Sakib**.  
