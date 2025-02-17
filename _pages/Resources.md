@@ -13,7 +13,7 @@ Our lab is equipped with state-of-the-art technology dedicated to advancing rese
 ---
 
 ## **Trimble X9 Laser Scanner**
-![Trimble X9](https://www.trimble.com/library/products/TrimbleX9Scanner.jpg)
+![Trimble X9](.\_pages\resources_pictures\laser_scanner.jpg)
 
 The **Trimble X9** is a high-precision laser scanner designed for accurate 3D mapping and reality capture. It provides high-speed scanning capabilities with automated calibration, making it an essential tool for digital twin applications.
 
@@ -22,7 +22,7 @@ The **Trimble X9** is a high-precision laser scanner designed for accurate 3D ma
 ---
 
 ## **Meta Quest 3**
-![Meta Quest 3](https://www.meta.com/content/dam/meta/quest-3/images/overview/quest-3-og-image.jpg)
+![Meta Quest 3](.\_pages\resources_pictures\meta_quest.jpg)
 
 The **Meta Quest 3** is an advanced mixed reality headset offering high-resolution visuals and powerful performance. It is widely used in our lab for VR simulations, immersive training, and interactive digital twin applications.
 
@@ -31,7 +31,7 @@ The **Meta Quest 3** is an advanced mixed reality headset offering high-resoluti
 ---
 
 ## **Evo Max 4T Drone**
-![Evo Max 4T](https://shop.autelrobotics.com/cdn/shop/products/EvoMax4T.png)
+![Evo Max 4T](.\_pages\resources_pictures\evo_drone.jpg)
 
 The **Evo Max 4T** is a high-performance drone equipped with advanced AI features, multiple sensors, and thermal imaging. It plays a crucial role in site monitoring, aerial mapping, and construction inspection.
 
@@ -40,14 +40,14 @@ The **Evo Max 4T** is a high-performance drone equipped with advanced AI feature
 ---
 
 ## **Measuring Wheels**
-![Measuring Wheel](https://www.collomix.com/assets/images/pm-measuring-wheel.jpg)
+![Measuring Wheel](.\_pages\resources_pictures\measuring_wheel.jpg)
 
 Measuring wheels provide quick and accurate distance measurements for field surveying and site planning. They are lightweight, durable, and essential for fieldwork in civil engineering and construction projects.
 
 ---
 
 ## **GPU Cluster - NVIDIA H200**
-![NVIDIA H200](https://www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/dgx-h200/dgx-h200-og.jpg)
+![NVIDIA H200](.\_pages\resources_pictures\nvidia_h200.png)
 
 Our **NVIDIA H200 GPU cluster** delivers cutting-edge computational power for AI, deep learning, and data-intensive simulations. It accelerates machine learning workflows and enables high-performance computing for research applications.
 
