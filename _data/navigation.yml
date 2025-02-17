@@ -17,6 +17,9 @@ main:
     
   - title: "Join"
     url: /join/
+
+  - title: "Resources"
+    url: /Resources/
         
   # - title: "Blog Posts"
   #   url: /year-archive/
