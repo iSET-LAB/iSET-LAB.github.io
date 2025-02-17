@@ -16,7 +16,7 @@ The director of iSET Lab, Dr. Md Nazmus Sakib, is an Assistant Professor of Cons
 ---
  
 <center>
-<img src="./lab_group_pictire.jpg" alt="Lab Members Group Picture" width="75%">
+<img src=".\_pages\lab_group_pictire.jpg" alt="Lab Members Group Picture" width="75%">
 </center>  
 
 ---
