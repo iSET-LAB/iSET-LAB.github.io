@@ -1,50 +1,55 @@
 ---
-permalink: /join/
-title: false
-author_profile: false
-redirect_from: 
-  - /md/
-  - /markdown.html
+# **Join Our Lab**  
+### **Funded Ph.D. Student Positions in Civil Engineering at The University of Texas at Arlington (UTA)**  
+
+## **About the Positions**  
+We are excited to announce two fully funded Ph.D. positions in **Civil Engineering** with a focus on **Construction Engineering and Management** at the **Intelligent Systems and Emerging Technologies (iSET) Lab** at **The University of Texas at Arlington (UTA)**. The positions will begin in **Spring/Fall 2024** under the supervision of **Dr. Md Nazmus Sakib**.  
+
+### **Research Areas**  
+Ph.D. students will engage in cutting-edge research at the intersection of civil engineering and emerging technologies, focusing on:  
+✔ **Human Factors**  
+✔ **Digital Twins**  
+✔ **Building Information Modeling (BIM)**  
+✔ **Virtual Reality (VR) & Game Engines**  
+✔ **Wearable Devices & Drone Technology**  
+✔ **Artificial Intelligence (AI)**  
+
 ---
 
-# Join Our Lab
+## **Qualifications**  
+### **Required**  
+✔ **Educational Background**  
+- B.S./B.Sc. or M.S./M.Sc. in **Civil Engineering, Construction Engineering and Management, Computer Science, Electrical Engineering, Mechanical Engineering, Industrial Engineering, Data Science**, or related fields.  
 
-## Funded Ph.D. Student Positions in Civil Engineering at The University of Texas at Arlington (UTA)
+✔ **Skills & Competencies**  
+- Strong motivation and passion for **interdisciplinary research**.  
+- Excellent **written and verbal communication** skills.  
+- Proficiency in one or more programming languages: **Python, R, C#, MATLAB**.  
 
-### About the Positions
+### **Preferred (Not Mandatory, but a Plus!)**  
+✔ Experience in **Human Factors, Game Engines, Machine/Deep Learning, VR/AR**.  
+✔ Proficiency in software like **Revit, Navisworks, Unity**.  
 
-Two fully funded Ph.D. positions in Civil Engineering with a focus on Construction Engineering and Management are available in the Intelligent Systems and Emerging Technologies (iSET) Lab starting in Spring/Fall 2024. The prospective students will be working with Dr. Sakib on one or more interdisciplinary topics related to:
+---
 
-- Human factors
-- Digital twins
-- Building information modeling (BIM)
-- Virtual reality (VR)
-- Game engines
-- Wearable devices
-- Drone technology
-- Artificial intelligence (AI)
+## **How to Apply for the Ph.D. Position at iSET**  
+If you meet the qualifications and share our research interests, we encourage you to apply!  
 
-### Qualifications
+📧 **Email Subject:** *Prospective Ph.D. Student - [Targeted Semester]*  
+📩 **Send Your Application to:** [mdnazmus.sakib@uta.edu](mailto:mdnazmus.sakib@uta.edu)  
 
-- **Educational Background**: 
-  - B.S./B.Sc. or M.S./M.Sc. Degrees in Civil Engineering, Construction Engineering and Management, Computer Science, Electrical Engineering, Mechanical Engineering, Industrial Engineering, Data Science, or related fields.
-- **Skills and Attributes**:
-  - Highly motivated and passionate about interdisciplinary research topics.
-  - Excellent written and verbal communication skills.
-  - Proficiency in one or more programming languages, such as Python, R, C#, and MATLAB.
-  - Experience in human factors, game engines, machine/deep learning, and VR/AR is a plus.
-  - Proficiency in software like Revit, Navisworks, and Unity is a plus.
+### **Application Materials**  
+1️⃣ **Curriculum Vitae (CV)** – Include names and contact details of **three academic/professional references**.  
+2️⃣ **Research Summary** (one page) – Outline your **previous research and accomplishments**.  
+3️⃣ **Research Statement** (one page) – Describe your **long-term research goals** and how they align with iSET Lab.  
 
-### How to Apply for the Ph.D. Position at iSET
+> 📝 **Tip:** Avoid generic email templates. A well-crafted, personalized email increases your chances of receiving a response!  
 
-If your research interests and qualifications align with our requirements, please email the following documents with the subject “Prospective Ph.D. student - [targeted Semester]” to Dr. Md Nazmus Sakib at [mdnazmus.sakib@uta.edu](mailto:mdnazmus.sakib@uta.edu):
+---
 
-1. A detailed CV with names and contacts of a minimum of three academic/professional references.
-2. A summary of previous research and accomplishments (one page).
-3. A narrative outlining your long-term research plans and objectives (one page).
+## **How to Apply for Ph.D. Admission**  
+Applicants must meet **UTA’s Department of Civil Engineering** admission requirements. Both **M.S. to Ph.D.** and **B.S. to Ph.D.** pathways are available.  
 
-*Please avoid using generic email templates to increase your chances of receiving a response.
+📌 **For More Information on Admission:** [Click Here](#)  
 
-### How to Apply for Ph.D. Admission
-
-Applicants must fulfill the department and university’s admission requirements. Both M.S. to Ph.D. and B.S. to Ph.D. admission options are available. More details about the admission requirements can be found [here](#).
+---
