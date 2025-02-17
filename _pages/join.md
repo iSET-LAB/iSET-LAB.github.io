@@ -1,4 +1,13 @@
 ---
+permalink: /join/
+title: false
+author_profile: false
+redirect_from: 
+  - /md/
+  - /markdown.html
+---
+
+---
 # **Join Our Lab**  
 ### **Funded Ph.D. Student Positions in Civil Engineering at The University of Texas at Arlington (UTA)**  
 
