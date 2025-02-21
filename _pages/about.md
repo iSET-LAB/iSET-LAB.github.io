@@ -33,14 +33,15 @@ redirect_from:
 
 <div class="container">
   <div class="text">
-    # Welcome to iSET Lab  
+    <h1>Welcome to iSET Lab</h1>
+    <p>The iSET Lab's commitment is to explore intelligent systems and emerging technologies that shape the future of various industries (e.g., civil engineering and construction) while encompassing the diverse research areas it covers.</p>
 
-    The iSET Lab's commitment is to explore intelligent systems and emerging technologies that shape the future of various industries (e.g., civil engineering and construction) while encompassing the diverse research areas it covers. To pursue the long-term interdisciplinary research vision of future workforce development and digital twin towards a more sustainable and resilient civil/construction industry, iSET Lab will focus on multidisciplinary solutions informed by data science, AI (ML/DL), HPC, BIM, human factors engineering, drone technology, wearable devices, signal processing, and VR/AR.
+    <p>To pursue the long-term interdisciplinary research vision of future workforce development and digital twin towards a more sustainable and resilient civil/construction industry, iSET Lab will focus on multidisciplinary solutions informed by data science, AI (ML/DL), HPC, BIM, human factors engineering, drone technology, wearable devices, signal processing, and VR/AR.</p>
 
-    The director of iSET Lab, Dr. Md Nazmus Sakib, is an Assistant Professor of Construction Engineering and Management in the Department of Civil Engineering at The University of Texas at Arlington.
+    <p>The director of iSET Lab, Dr. Md Nazmus Sakib, is an Assistant Professor of Construction Engineering and Management in the Department of Civil Engineering at The University of Texas at Arlington.</p>
   </div>
   <div class="image">
-    <img src=".\_pages\lab_group_pictire.jpg" alt="Lab Members Group Picture">
+    <img src="/_pages/lab_group_pictire.jpg" alt="Lab Members Group Picture">
   </div>
 </div>
 
@@ -61,6 +62,6 @@ redirect_from:
 
 </div>
 
-For more updates, stay connected with us!  
+<p>For more updates, stay connected with us!</p>
 
 ---
