@@ -13,7 +13,7 @@ Our lab is equipped with state-of-the-art technology dedicated to advancing rese
 ---
 
 ## **Trimble X9 Laser Scanner**
-![Trimble X9](laser_scanner.jpg)
+![Trimble X9](laser_scanner.jpg = 500x500)
 
 The **Trimble X9** is a high-precision laser scanner designed for accurate 3D mapping and reality capture. It provides high-speed scanning capabilities with automated calibration, making it an essential tool for digital twin applications.
 
