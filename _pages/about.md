@@ -27,7 +27,7 @@ redirect_from:
 }
 
 .image img {
-    width: 100%;
+    width: 50%;
     max-width: 500px;
     border-radius: 5px;
 }
