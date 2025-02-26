@@ -27,7 +27,7 @@ redirect_from:
 }
 
 .image img {
-    width: 50%;
+    width: 75%;
     max-width: 500px;
     border-radius: 5px;
 }
@@ -48,10 +48,10 @@ redirect_from:
       The iSET Lab's commitment is to explore intelligent systems and emerging technologies that shape the future of various industries (e.g., civil engineering and construction) while encompassing the diverse research areas it covers.
     </p>
     <p>
-      To pursue the long-term interdisciplinary research vision of future workforce development and digital twin towards a more sustainable and resilient civil/construction industry, iSET Lab will focus on multidisciplinary solutions informed by data science, AI (ML/DL), HPC, BIM, human factors engineering, drone technology, wearable devices, signal processing, and VR/AR.
+      To pursue the long-term interdisciplinary research vision of future workforce development and digital twin towards a more sustainable and resilient civil/construction industry, iSET Lab will focus on multidisciplinary solutions informed by data science, AI (ML/DL/GenAI), HPC, BIM, human factors engineering, drone technology, wearable devices, signal processing, and VR/AR.
     </p>
     <p>
-      The director of iSET Lab, Dr. Md Nazmus Sakib, is an Assistant Professor of Construction Engineering and Management in the Department of Civil Engineering at The University of Texas at Arlington.
+      The director of iSET Lab, Dr. Md Nazmus Sakib, is an Assistant Professor of Construction Engineering and Management in the Department of Civil Engineering and the Department of Computer Science and Engineering (affiliated) at The University of Texas at Arlington.
     </p>
   </div>
   <div class="image">
