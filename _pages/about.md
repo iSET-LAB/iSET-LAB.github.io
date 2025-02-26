@@ -69,7 +69,7 @@ redirect_from:
   Using pure HTML inside the scrollable div so it renders correctly.
   If you want more items, just add more <li> elements.
 -->
-<div style="max-height: 200px; overflow-y: auto; border: 1px solid #ddd; padding: 10px; border-radius: 5px; background-color: #f9f9f9;">
+<div style="max-height: 200px; overflow-y: auto; border: 1px solid #ddd; padding: 15px; border-radius: 5px; background-color: #f9f9f9;">
 
   <ul style="margin: 0; padding-left: 1.5rem; list-style-type: disc;">
     <li>📢 <strong>[News Item 1]</strong> - Brief description of recent achievement, project, or event.</li>
