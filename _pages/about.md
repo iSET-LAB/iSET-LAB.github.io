@@ -9,21 +9,25 @@ redirect_from:
 
 <style>
 /* --- STYLES FOR THE FLEX LAYOUT (WELCOME TEXT & IMAGE) --- */
+<style>
+/* --- FLEX LAYOUT WITH WRAPPING --- */
 .container {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
     gap: 20px;
 }
 
 .text {
-    flex: 1;
-    /* Optional: for visual spacing or design */
+    flex: 2;
+    min-width: 300px; /* Ensures text has a minimum width before wrapping */
 }
 
 .image {
     flex: 1;
     text-align: center;
+    order: -1; /* Moves the image to the left when there's space */
 }
 
 .image img {
@@ -32,16 +36,22 @@ redirect_from:
     border-radius: 5px;
 }
 
-/* --- OPTIONAL: MOBILE RESPONSIVENESS --- */
+/* --- RESPONSIVENESS: SWITCH TO COLUMN LAYOUT ON SMALL SCREENS --- */
 @media (max-width: 768px) {
   .container {
     flex-direction: column;
-    align-items: flex-start;
+  }
+  .image {
+    order: 0; /* Reset order so image appears above/below text on small screens */
   }
 }
 </style>
 
 <div class="container">
+  <div class="image">
+    <!-- Update the image path as needed for your site structure -->
+    <img src="/_pages/lab_group_pictire.jpg" alt="Lab Members Group Picture">
+  </div>
   <div class="text">
     <h1>Welcome to iSET Lab</h1>
     <p>
@@ -54,10 +64,6 @@ redirect_from:
       The director of iSET Lab, Dr. Md Nazmus Sakib, is an Assistant Professor of Construction Engineering and Management in the Department of Civil Engineering and the Department of Computer Science and Engineering (affiliated) at The University of Texas at Arlington.
     </p>
   </div>
-  <div class="image">
-    <!-- Update the image path as needed for your site structure -->
-    <img src="/_pages/lab_group_pictire.jpg" alt="Lab Members Group Picture">
-  </div>
 </div>
 
 ---
@@ -65,12 +71,7 @@ redirect_from:
 ## News
 ### Latest Updates from iSET Lab
 
-<!--
-  Using pure HTML inside the scrollable div so it renders correctly.
-  If you want more items, just add more <li> elements.
--->
 <div style="max-height: 200px; overflow-y: auto; border: 1px solid #ddd; padding: 15px; border-radius: 5px; background-color: #f9f9f9;">
-
   <ul style="margin: 0; padding-left: 1.5rem; list-style-type: disc;">
     <li>📢 <strong>[News Item 1]</strong> - Brief description of recent achievement, project, or event.</li>
     <li>📢 <strong>[News Item 2]</strong> - Another key update regarding the lab's work.</li>
@@ -80,7 +81,7 @@ redirect_from:
     <li>📢 <strong>[News Item 6]</strong> - Lab members receiving awards or recognitions.</li>
     <li>📢 <strong>[News Item 7]</strong> - Latest publications and research insights.</li>
   </ul>
-
 </div>
 
 <p>For more updates, stay connected with us!</p>
+
