@@ -4,77 +4,104 @@ title: "Teaching"
 permalink: /teaching/
 ---
 
-<!-- Inline CSS for demonstration; consider moving this into your main stylesheet -->
 <style>
-  /* Container that is centered horizontally, with a maximum width */
-  .centered-container {
-    max-width: 800px;
+  /* General Styling */
+  .container {
+    max-width: 900px;
     margin: 0 auto;
-    padding: 1.5rem; /* Add some spacing around the container */
+    padding: 2rem;
+    font-family: Arial, sans-serif;
   }
 
-  /* Center the main heading text */
-  .center-text {
+  .title {
     text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
   }
 
-  /* Style the banner image to be centered and responsive */
-  .banner-image {
+  /* Responsive Banner */
+  .banner {
+    width: 100%;
+    height: auto;
     display: block;
-    margin: 1.5rem auto; /* Centers the image and adds vertical spacing */
-    max-width: 100%;     /* Make image responsive */
-    height: auto;        /* Maintain aspect ratio */
+    margin: 1rem auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
   }
 
-  /* Two-column layout for Semesters (left) and Instructor/TA (right) */
-  .two-column {
-    display: flex;
-    flex-wrap: wrap;         /* Allows columns to stack on small screens */
-    justify-content: space-between;
-    gap: 2rem;               /* Spacing between columns */
+  /* Grid Layout for Course Details */
+  .course-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    margin-top: 1.5rem;
   }
 
-  .column {
-    flex: 1;                 /* Columns expand to fill available space */
-    min-width: 200px;        /* Ensures columns don’t get too narrow */
+  .course-box {
+    background: #f8f8f8;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
   }
 
-  /* Optional: reduce top margin on sub-headings */
-  h2, h3, h4 {
-    margin-top: 1.2rem;
-    margin-bottom: 0.5rem;
+  .course-box h3 {
+    margin-top: 0;
+    font-size: 1.4rem;
+    color: #333;
+  }
+
+  .course-box ul {
+    padding-left: 1rem;
+  }
+
+  .course-link {
+    display: block;
+    text-align: center;
+    margin-top: 1.5rem;
+    font-size: 1rem;
+    color: #0077cc;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .course-link:hover {
+    text-decoration: underline;
+  }
+
+  @media (max-width: 600px) {
+    .course-info {
+      grid-template-columns: 1fr;
+    }
   }
 </style>
 
-<div class="centered-container" markdown="1">
+<div class="container">
+  <div class="title">Teaching</div>
 
-# Teaching
-{: .center-text}
+  <img src="/_pages/bim_class_image/image (1).png" alt="Banner for BIM Course" class="banner">
 
-![Banner for BIM Course](bim_image.png){: .banner-image}
+  <h2>CE/CM 5343: Advanced Building Information Modeling</h2>
 
-## CE/CM 5343: Advanced Building Information Modeling
+  <div class="course-info">
+    <div class="course-box">
+      <h3>Semesters</h3>
+      <ul>
+        <li>Fall 2023</li>
+        <li>Spring 2024</li>
+        <li>Fall 2024</li>
+        <li>Spring 2025</li>
+      </ul>
+    </div>
 
-<div class="two-column">
+    <div class="course-box">
+      <h3>Instructor</h3>
+      <p><strong>Md Nazmus Sakib, Ph.D.</strong></p>
+      <a href="https://www.uta.edu/academics/faculty/profile?username=sakibm" target="_blank">Faculty Profile</a>
+      <h3>Teaching Assistant</h3>
+      <p>Sanjay Acharjee</p>
+    </div>
+  </div>
 
-<div class="column" markdown="1">
-### Semesters:
-- Fall 2023
-- Spring 2024
-- Fall 2024
-- Spring 2025
-</div>
-
-<div class="column" markdown="1">
-### Instructor:
-- Md Nazmus Sakib, Ph.D.  
-  - [Faculty Profile](https://www.uta.edu/academics/faculty/profile?username=sakibm)
-
-### Teaching Assistant:
-- Sanjay Acharjee
-
-[Course Website](#) <!-- Replace # with the actual course link if available -->
-</div>
-
-</div>
+  <a href="#" class="course-link">Visit Course Website</a>
 </div>
