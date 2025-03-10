@@ -8,8 +8,6 @@ redirect_from:
 ---
 
 <style>
-/* --- STYLES FOR THE FLEX LAYOUT (WELCOME TEXT & IMAGE) --- */
-<style>
 /* --- FLEX LAYOUT WITH WRAPPING --- */
 .container {
     display: flex;
