@@ -20,9 +20,10 @@ permalink: /teaching/
     margin-bottom: 1rem;
   }
 
-  /* Responsive Banner */
+  /* Responsive Banner with Reduced Size */
   .banner {
-    width: 100%;
+    width: 80%;
+    max-width: 600px;
     height: auto;
     display: block;
     margin: 1rem auto;
@@ -105,3 +106,6 @@ permalink: /teaching/
 
   <a href="#" class="course-link">Visit Course Website</a>
 </div>
+
+
+
