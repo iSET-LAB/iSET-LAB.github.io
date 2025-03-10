@@ -39,27 +39,27 @@ Our lab is equipped with state-of-the-art technology dedicated to advancing rese
   </div>
 
   <div class="resource">
-    <img src="resources_pictures/meta_quest.jpg" alt="Meta Quest 3">
+    <img src="/_pages/resources_pictures/meta_quest.jpg" alt="Meta Quest 3">
     <h2>Meta Quest 3</h2>
     <p>The <strong>Meta Quest 3</strong> is an advanced mixed reality headset offering high-resolution visuals and powerful performance. It is widely used in our lab for VR simulations, immersive training, and interactive digital twin applications.</p>
     <a href="https://www.meta.com/quest/quest-3/?srsltid=AfmBOorfStGhCrtk1qbhmK4Tm5fq0LZiwBQSzFdaV-FJpizbXKKrO2jY">🔗 More Info</a>
   </div>
   
   <div class="resource">
-    <img src="resources_pictures/evo_drone.jpg" alt="Evo Max 4T">
+    <img src="/_pages/resources_pictures/evo_drone.jpg" alt="Evo Max 4T">
     <h2>Evo Max 4T Drone</h2>
     <p>The <strong>Evo Max 4T</strong> is a high-performance drone equipped with advanced AI features, multiple sensors, and thermal imaging. It plays a crucial role in site monitoring, aerial mapping, and construction inspection.</p>
     <a href="https://shop.autelrobotics.com/products/evo-max-4t">🔗 More Info</a>
   </div>
 
   <div class="resource">
-    <img src="resources_pictures/measuring_wheel.jpg" alt="Measuring Wheels">
+    <img src="/_pages/resources_pictures/measuring_wheel.jpg" alt="Measuring Wheels">
     <h2>Measuring Wheels</h2>
     <p>Measuring wheels provide quick and accurate distance measurements for field surveying and site planning. They are lightweight, durable, and essential for fieldwork in civil engineering and construction projects.</p>
   </div>
   
   <div class="resource">
-    <img src="resources_pictures/nvidia_h200.png" alt="NVIDIA H200">
+    <img src="/_pages/resources_pictures/nvidia_h200.png" alt="NVIDIA H200">
     <h2>GPU Cluster - NVIDIA H200</h2>
     <p>Our <strong>NVIDIA H200 GPU cluster</strong> delivers cutting-edge computational power for AI, deep learning, and data-intensive simulations. It accelerates machine learning workflows and enables high-performance computing for research applications.</p>
     <a href="https://www.nvidia.com/en-us/data-center/dgx-h200/">🔗 More Info</a>
