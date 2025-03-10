@@ -9,23 +9,23 @@ redirect_from:
 
 <style>
     .profile-pic {
-        max-width: 250px;  /* Adjust the max width as needed */
-        height: auto;      /* Maintain the natural aspect ratio */
+        max-width: 250px;
+        height: auto;
         margin: 10px;
+        border-radius: 10px;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .align-center, .align-left, .align-right {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        margin-bottom: 20px;
     }
 
     .align-center {
-        display: flex;
         flex-direction: column;
-        align-items: center;
         text-align: center;
-        margin-bottom: 20px;
-    }
-
-    .align-left, .align-right {
-        display: flex;
-        align-items: flex-start;
-        margin-bottom: 20px;
     }
 
     .align-left {
@@ -39,35 +39,32 @@ redirect_from:
     }
 
     .info {
-        padding: 0 15px;
-        max-width: 500px; /* Adjust the max width as needed */
+        max-width: 500px;
+        padding: 15px;
+        text-align: justify;
     }
 
     .btn {
-        padding: 5px 10px;
+        padding: 8px 12px;
         margin: 5px;
-        border: none;
-        color: white;
+        border-radius: 5px;
         text-decoration: none;
-        font-size: 1.2em;
+        font-size: 1.1em;
+        transition: all 0.3s ease;
     }
 
-    .btn-blue {
-        color: #007BFF;
-    }
-
-    .btn-green {
-        color: #28a745;
-    }
-
-    .btn-red {
-        color: #dc3545;
+    .btn-blue { color: #007BFF; }
+    .btn-green { color: #28a745; }
+    .btn-red { color: #dc3545; }
+    
+    .btn:hover {
+        transform: scale(1.1);
     }
 </style>
 
 <!-- Centered heading and intro text -->
 <h1 style="text-align: center;">Our Team</h1>
-<p style="text-align: center;">
+<p style="text-align: center; max-width: 800px; margin: 0 auto;">
   Welcome to the Team iSET page! Here you'll find information about our brilliant team members.
 </p>
 
