@@ -32,7 +32,7 @@ Our lab is equipped with state-of-the-art technology dedicated to advancing rese
 <div class="resource-container">
   
   <div class="resource">
-    <img src="._pages/resources_pictures/laser_scanner.jpg" alt="Trimble X9">
+    <img src="/_pages/resources_pictures/laser_scanner.jpg" alt="Trimble X9">
     <h2>Trimble X9 Laser Scanner</h2>
     <p>The <strong>Trimble X9</strong> is a high-precision laser scanner designed for accurate 3D mapping and reality capture. It provides high-speed scanning capabilities with automated calibration, making it an essential tool for digital twin applications.</p>
     <a href="https://www.trimble.com/en/products/building-construction-field-systems/x9-scanner">🔗 More Info</a>
