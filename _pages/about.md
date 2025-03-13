@@ -32,7 +32,7 @@ h1:hover {
     transform: scale(1.05); /* Slight zoom effect */
 }
 
-/* --- LINE AFTER NEWS TITLE --- */
+/* --- NEWS TITLE WITH UNDERLINE --- */
 .news-title {
     color: #0077cc;
     font-size: 24px;
@@ -51,16 +51,15 @@ h1:hover {
 
 /* --- FLEX CONTAINER FOR IMAGE + TEXT --- */
 .wrap-text {
-    display: grid;
-    grid-template-columns: 1fr auto; /* Text takes remaining space, image stays on the right */
+    display: flex;
+    align-items: flex-start;
     gap: 20px; /* Space between text and image */
-    align-items: start;
     text-align: justify;
 }
 
 /* --- IMAGE STYLES --- */
 .image {
-    width: 30%; /* Keeps image proportionate */
+    flex: 0 0 250px; /* Keeps image width fixed while maintaining height */
 }
 
 .image img {
@@ -72,17 +71,25 @@ h1:hover {
 
 /* --- PARAGRAPH STYLES --- */
 .full-width {
-    clear: both;
     width: 100%;
     display: block;
     text-align: justify;
 }
 
+/* --- NEWS SECTION STYLES --- */
+.news-container {
+    max-height: 200px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
 /* --- RESPONSIVE LAYOUT FOR SMALL SCREENS --- */
 @media (max-width: 768px) {
     .wrap-text {
-        grid-template-columns: 1fr; /* Stacks text and image on mobile */
-        text-align: left;
+        flex-direction: column;
     }
 
     .image {
@@ -100,7 +107,7 @@ h1:hover {
         The iSET Lab's commitment is to explore intelligent systems and emerging technologies that shape the future of various industries (e.g., civil engineering and construction) while encompassing the diverse research areas it covers.
     </div>
 
-    <!-- Second paragraph (wraps around the image, using grid layout) -->
+    <!-- Second paragraph (wraps around the image, using flexbox) -->
     <div class="wrap-text">
         <div>
             To pursue the long-term interdisciplinary research vision of future workforce development and digital twin towards a more sustainable and resilient civil/construction industry, iSET Lab will focus on multidisciplinary solutions informed by data science, AI (ML/DL/GenAI), HPC, BIM, human factors engineering, drone technology, wearable devices, signal processing, and VR/AR.
@@ -118,7 +125,7 @@ h1:hover {
     <!-- News Section -->
     <h2 class="news-title">Latest Updates from iSET Lab</h2>
     
-    <div style="max-height: 200px; overflow-y: auto; border: 1px solid #ddd; padding: 15px; border-radius: 5px; background-color: #f9f9f9;">
+    <div class="news-container">
       <ul style="margin: 0; padding-left: 1.5rem; list-style-type: disc;">
         <li>📢 <strong>[News Item 1]</strong> - Brief description of recent achievement, project, or event.</li>
         <li>📢 <strong>[News Item 2]</strong> - Another key update regarding the lab's work.</li>
