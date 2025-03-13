@@ -25,7 +25,7 @@ Our lab is equipped with state-of-the-art technology dedicated to advancing rese
   .resource img {
     width: 300px; /* Set a fixed width */
     height: 200px; /* Set a fixed height */
-    object-fit: cover; /* Ensure uniform sizing without distortion */
+    object-fit: contain; /* Ensure uniform sizing without distortion */
     border-radius: 8px;
   }
 </style>
