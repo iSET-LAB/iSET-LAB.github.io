@@ -16,7 +16,7 @@ redirect_from:
 }
 
 /* --- HEADER & NEWS TITLE STYLES WITH EFFECTS --- */
-h1, .news-title {
+h1 {
     color: #0077cc; /* Blue color */
     font-size: 28px;
     font-weight: bold;
@@ -26,45 +26,48 @@ h1, .news-title {
     transition: all 0.3s ease-in-out;
 }
 
-/* --- HOVER EFFECT: GRADIENT + SCALE --- */
-h1:hover, .news-title:hover {
+h1:hover {
     color: #0055aa;
     text-shadow: 4px 4px 8px rgba(0, 119, 204, 0.5);
     transform: scale(1.05); /* Slight zoom effect */
 }
 
 /* --- LINE AFTER NEWS TITLE --- */
+.news-title {
+    color: #0077cc;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+}
+
 .news-title::after {
     content: "";
     display: block;
     width: 100%;
     height: 2px;
-    background-color: #0077cc; /* Blue line */
+    background-color: #0077cc;
     margin-top: 5px;
 }
 
-/* --- WRAP-TEXT (PARA 2 + IMAGE) FLEX CONTAINER --- */
+/* --- FLEX CONTAINER FOR IMAGE + TEXT --- */
 .wrap-text {
-    display: flex;
-    align-items: stretch;
-    justify-content: flex-end; /* Moves image to the right */
-    gap: 20px;
+    display: grid;
+    grid-template-columns: 1fr auto; /* Text takes remaining space, image stays on the right */
+    gap: 20px; /* Space between text and image */
+    align-items: start;
     text-align: justify;
 }
 
-/* --- IMAGE STYLES (AUTO HEIGHT) --- */
+/* --- IMAGE STYLES --- */
 .image {
-    flex: 0 0 30%;
-    display: flex;
-    align-items: stretch;
+    width: 30%; /* Keeps image proportionate */
 }
 
 .image img {
     width: 100%;
     height: auto;
-    max-height: 100%;
-    object-fit: cover;
     border-radius: 5px;
+    display: block;
 }
 
 /* --- PARAGRAPH STYLES --- */
@@ -78,23 +81,13 @@ h1:hover, .news-title:hover {
 /* --- RESPONSIVE LAYOUT FOR SMALL SCREENS --- */
 @media (max-width: 768px) {
     .wrap-text {
-        flex-direction: column;
-        align-items: center; /* Centers the image */
+        grid-template-columns: 1fr; /* Stacks text and image on mobile */
+        text-align: left;
     }
 
     .image {
-        flex: none;
-        width: 100%; /* Full width image on mobile */
-        height: auto;
+        width: 100%;
         text-align: center;
-    }
-
-    .image img {
-        height: auto;
-    }
-
-    .wrap-text p {
-        text-align: left;
     }
 }
 </style>
@@ -103,24 +96,24 @@ h1:hover, .news-title:hover {
     <h1>Welcome to iSET Lab</h1>
     
     <!-- First paragraph (full width) -->
-    <p class="full-width">
+    <div class="full-width">
         The iSET Lab's commitment is to explore intelligent systems and emerging technologies that shape the future of various industries (e.g., civil engineering and construction) while encompassing the diverse research areas it covers.
-    </p>
+    </div>
 
-    <!-- Second paragraph (wraps around the image, auto-adjusting height) -->
+    <!-- Second paragraph (wraps around the image, using grid layout) -->
     <div class="wrap-text">
-        <p>
+        <div>
             To pursue the long-term interdisciplinary research vision of future workforce development and digital twin towards a more sustainable and resilient civil/construction industry, iSET Lab will focus on multidisciplinary solutions informed by data science, AI (ML/DL/GenAI), HPC, BIM, human factors engineering, drone technology, wearable devices, signal processing, and VR/AR.
-        </p>
+        </div>
         <div class="image">
             <img src="/_pages/lab_group_pictire.jpg" alt="Lab Members Group Picture">
         </div>
     </div>
 
     <!-- Third paragraph (full width) -->
-    <p class="full-width">
+    <div class="full-width">
         The director of iSET Lab, Dr. Md Nazmus Sakib, is an Assistant Professor of Construction Engineering and Management in the Department of Civil Engineering and the Department of Computer Science and Engineering (affiliated) at The University of Texas at Arlington.
-    </p>
+    </div>
 
     <!-- News Section -->
     <h2 class="news-title">Latest Updates from iSET Lab</h2>
