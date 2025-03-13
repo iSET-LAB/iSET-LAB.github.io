@@ -15,44 +15,85 @@ redirect_from:
     padding: 20px;
 }
 
-/* --- IMAGE FLOATS RIGHT (WRAPPED BY 2ND PARAGRAPH) --- */
+/* --- HEADER & NEWS TITLE STYLES WITH EFFECTS --- */
+h1, .news-title {
+    color: #0077cc; /* Blue color */
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px rgba(0, 119, 204, 0.3); /* Subtle glow effect */
+    position: relative;
+    display: inline-block;
+    transition: all 0.3s ease-in-out;
+}
+
+/* --- HOVER EFFECT: GRADIENT + SCALE --- */
+h1:hover, .news-title:hover {
+    color: #0055aa;
+    text-shadow: 4px 4px 8px rgba(0, 119, 204, 0.5);
+    transform: scale(1.05); /* Slight zoom effect */
+}
+
+/* --- LINE AFTER NEWS TITLE --- */
+.news-title::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #0077cc; /* Blue line */
+    margin-top: 5px;
+}
+
+/* --- WRAP-TEXT (PARA 2 + IMAGE) FLEX CONTAINER --- */
+.wrap-text {
+    display: flex;
+    align-items: stretch;
+    gap: 20px;
+    text-align: justify;
+}
+
+/* --- IMAGE STYLES (AUTO HEIGHT) --- */
 .image {
-    float: right; /* Moves the image to the right */
-    margin-left: 20px; /* Space between image and text */
-    margin-bottom: 10px; /* Space below the image */
-    width: 30%; /* Adjust size as needed */
+    flex: 0 0 30%;
+    display: flex;
+    align-items: stretch;
 }
 
 .image img {
     width: 100%;
-    max-width: 300px; /* Reduce the image size for better wrapping */
+    height: auto;
+    max-height: 100%;
+    object-fit: cover;
     border-radius: 5px;
-    display: block;
 }
 
 /* --- PARAGRAPH STYLES --- */
 .full-width {
-    clear: both; /* Ensures full-width paragraphs are separate */
+    clear: both;
     width: 100%;
     display: block;
-}
-
-.wrap-text {
-    overflow: hidden; /* Prevents text overlap */
-    text-align: justify; /* Clean text wrap */
+    text-align: justify;
 }
 
 /* --- RESPONSIVE LAYOUT FOR SMALL SCREENS --- */
 @media (max-width: 768px) {
+    .wrap-text {
+        flex-direction: column;
+    }
+
     .image {
-        float: none; /* Removes float on small screens */
-        width: 100%; /* Image takes full width */
-        margin-left: 0;
+        flex: none;
+        width: 100%;
+        height: auto;
         text-align: center;
     }
-    
-    .wrap-text {
-        text-align: left; /* Align text normally on small screens */
+
+    .image img {
+        height: auto;
+    }
+
+    .wrap-text p {
+        text-align: left;
     }
 }
 </style>
@@ -65,7 +106,7 @@ redirect_from:
         The iSET Lab's commitment is to explore intelligent systems and emerging technologies that shape the future of various industries (e.g., civil engineering and construction) while encompassing the diverse research areas it covers.
     </p>
 
-    <!-- Second paragraph (wraps around the image) -->
+    <!-- Second paragraph (wraps around the image, auto-adjusting height) -->
     <div class="wrap-text">
         <div class="image">
             <img src="/_pages/lab_group_pictire.jpg" alt="Lab Members Group Picture">
@@ -79,23 +120,21 @@ redirect_from:
     <p class="full-width">
         The director of iSET Lab, Dr. Md Nazmus Sakib, is an Assistant Professor of Construction Engineering and Management in the Department of Civil Engineering and the Department of Computer Science and Engineering (affiliated) at The University of Texas at Arlington.
     </p>
+
+    <!-- News Section -->
+    <h2 class="news-title">Latest Updates from iSET Lab</h2>
+    
+    <div style="max-height: 200px; overflow-y: auto; border: 1px solid #ddd; padding: 15px; border-radius: 5px; background-color: #f9f9f9;">
+      <ul style="margin: 0; padding-left: 1.5rem; list-style-type: disc;">
+        <li>📢 <strong>[News Item 1]</strong> - Brief description of recent achievement, project, or event.</li>
+        <li>📢 <strong>[News Item 2]</strong> - Another key update regarding the lab's work.</li>
+        <li>📢 <strong>[News Item 3]</strong> - Highlighting a conference presentation, publication, or grant.</li>
+        <li>📢 <strong>[News Item 4]</strong> - Another major development in the lab.</li>
+        <li>📢 <strong>[News Item 5]</strong> - A new project collaboration or funding announcement.</li>
+        <li>📢 <strong>[News Item 6]</strong> - Lab members receiving awards or recognitions.</li>
+        <li>📢 <strong>[News Item 7]</strong> - Latest publications and research insights.</li>
+      </ul>
+    </div>
+
+    <p>For more updates, stay connected with us!</p>
 </div>
-
-
-## News
-### Latest Updates from iSET Lab
-
-<div style="max-height: 200px; overflow-y: auto; border: 1px solid #ddd; padding: 15px; border-radius: 5px; background-color: #f9f9f9;">
-  <ul style="margin: 0; padding-left: 1.5rem; list-style-type: disc;">
-    <li>📢 <strong>[News Item 1]</strong> - Brief description of recent achievement, project, or event.</li>
-    <li>📢 <strong>[News Item 2]</strong> - Another key update regarding the lab's work.</li>
-    <li>📢 <strong>[News Item 3]</strong> - Highlighting a conference presentation, publication, or grant.</li>
-    <li>📢 <strong>[News Item 4]</strong> - Another major development in the lab.</li>
-    <li>📢 <strong>[News Item 5]</strong> - A new project collaboration or funding announcement.</li>
-    <li>📢 <strong>[News Item 6]</strong> - Lab members receiving awards or recognitions.</li>
-    <li>📢 <strong>[News Item 7]</strong> - Latest publications and research insights.</li>
-  </ul>
-</div>
-
-<p>For more updates, stay connected with us!</p>
-
