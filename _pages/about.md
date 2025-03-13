@@ -8,60 +8,60 @@ redirect_from:
 ---
 
 <style>
-/* --- FLEX LAYOUT WITH WRAPPING --- */
+/* --- CONTAINER STYLING --- */
 .container {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    overflow: hidden; /* Prevents layout issues */
 }
 
-.text {
-    flex: 2;
-    min-width: 300px; /* Ensures text has a minimum width before wrapping */
-}
-
+/* --- IMAGE FLOATS RIGHT, TEXT WRAPS AROUND --- */
 .image {
-    flex: 1;
-    text-align: center;
-    order: -1; /* Moves the image to the left when there's space */
+    float: right; /* Moves the image to the right */
+    margin-left: 20px; /* Space between image and text */
+    width: 35%; /* Adjust size as needed */
 }
 
 .image img {
     width: 100%;
     max-width: 500px;
     border-radius: 5px;
+    display: block;
 }
 
-/* --- RESPONSIVENESS: SWITCH TO COLUMN LAYOUT ON SMALL SCREENS --- */
+/* --- TEXT WRAPS AROUND IMAGE --- */
+.text {
+    overflow: hidden; /* Ensures text does not overlap */
+}
+
+/* --- RESPONSIVE LAYOUT FOR SMALL SCREENS --- */
 @media (max-width: 768px) {
-  .container {
-    flex-direction: column;
-  }
-  .image {
-    order: 0; /* Reset order so image appears above/below text on small screens */
-  }
+    .image {
+        float: none; /* Removes float on small screens */
+        width: 100%; /* Image takes full width */
+        margin-left: 0;
+        text-align: center;
+    }
 }
 </style>
 
 <div class="container">
-  <div class="image">
-    <!-- Update the image path as needed for your site structure -->
-    <img src="/_pages/lab_group_pictire.jpg" alt="Lab Members Group Picture">
-  </div>
-  <div class="text">
-    <h1>Welcome to iSET Lab</h1>
-    <p>
-      The iSET Lab's commitment is to explore intelligent systems and emerging technologies that shape the future of various industries (e.g., civil engineering and construction) while encompassing the diverse research areas it covers.
-    </p>
-    <p>
-      To pursue the long-term interdisciplinary research vision of future workforce development and digital twin towards a more sustainable and resilient civil/construction industry, iSET Lab will focus on multidisciplinary solutions informed by data science, AI (ML/DL/GenAI), HPC, BIM, human factors engineering, drone technology, wearable devices, signal processing, and VR/AR.
-    </p>
-    <p>
-      The director of iSET Lab, Dr. Md Nazmus Sakib, is an Assistant Professor of Construction Engineering and Management in the Department of Civil Engineering and the Department of Computer Science and Engineering (affiliated) at The University of Texas at Arlington.
-    </p>
-  </div>
+    <div class="image">
+        <img src="/_pages/lab_group_pictire.jpg" alt="Lab Members Group Picture">
+    </div>
+    <div class="text">
+        <h1>Welcome to iSET Lab</h1>
+        <p>
+            The iSET Lab's commitment is to explore intelligent systems and emerging technologies that shape the future of various industries (e.g., civil engineering and construction) while encompassing the diverse research areas it covers.
+        </p>
+        <p>
+            To pursue the long-term interdisciplinary research vision of future workforce development and digital twin towards a more sustainable and resilient civil/construction industry, iSET Lab will focus on multidisciplinary solutions informed by data science, AI (ML/DL/GenAI), HPC, BIM, human factors engineering, drone technology, wearable devices, signal processing, and VR/AR.
+        </p>
+        <p>
+            The director of iSET Lab, Dr. Md Nazmus Sakib, is an Assistant Professor of Construction Engineering and Management in the Department of Civil Engineering and the Department of Computer Science and Engineering (affiliated) at The University of Texas at Arlington.
+        </p>
+    </div>
 </div>
 
 ---
