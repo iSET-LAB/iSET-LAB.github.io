@@ -92,7 +92,7 @@ Our lab is equipped with state-of-the-art technology dedicated to advancing rese
   </div>
 
   <div class="resource">
-    <img src="/_pages/resources_pictures/area51.png" alt="Alienware Area-51 Desktop">
+    <img src="/_pages/resources_pictures/Area51.png" alt="Alienware Area-51 Desktop">
     <h2>Alienware Area-51 Desktop</h2>
     <p>A powerful Alienware Area-51 desktop equipped with high-end specifications for intensive computations, simulations, and AI model training.</p>
     <a href="https://www.dell.com/en-us/shop/desktop-computers/alienware-area-51-gaming-desktop/spd/alienware-area-51-aat2250-gaming-desktop/useaat2250wcto04">🔗 More Info</a>
