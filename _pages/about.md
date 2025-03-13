@@ -20,7 +20,6 @@ h1, .news-title {
     color: #0077cc; /* Blue color */
     font-size: 28px;
     font-weight: bold;
-    text-transform: uppercase;
     text-shadow: 2px 2px 5px rgba(0, 119, 204, 0.3); /* Subtle glow effect */
     position: relative;
     display: inline-block;
@@ -48,6 +47,7 @@ h1:hover, .news-title:hover {
 .wrap-text {
     display: flex;
     align-items: stretch;
+    justify-content: flex-end; /* Moves image to the right */
     gap: 20px;
     text-align: justify;
 }
@@ -79,11 +79,12 @@ h1:hover, .news-title:hover {
 @media (max-width: 768px) {
     .wrap-text {
         flex-direction: column;
+        align-items: center; /* Centers the image */
     }
 
     .image {
         flex: none;
-        width: 100%;
+        width: 100%; /* Full width image on mobile */
         height: auto;
         text-align: center;
     }
@@ -108,12 +109,12 @@ h1:hover, .news-title:hover {
 
     <!-- Second paragraph (wraps around the image, auto-adjusting height) -->
     <div class="wrap-text">
-        <div class="image">
-            <img src="/_pages/lab_group_pictire.jpg" alt="Lab Members Group Picture">
-        </div>
         <p>
             To pursue the long-term interdisciplinary research vision of future workforce development and digital twin towards a more sustainable and resilient civil/construction industry, iSET Lab will focus on multidisciplinary solutions informed by data science, AI (ML/DL/GenAI), HPC, BIM, human factors engineering, drone technology, wearable devices, signal processing, and VR/AR.
         </p>
+        <div class="image">
+            <img src="/_pages/lab_group_pictire.jpg" alt="Lab Members Group Picture">
+        </div>
     </div>
 
     <!-- Third paragraph (full width) -->
