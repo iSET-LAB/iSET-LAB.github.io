@@ -1,4 +1,4 @@
-- name: "MD NAZMUS SAKIB, PH.D., A.M.ASCE, M.IEEE"
+- name: "Md Nazmus Sakib, Ph.D., A.M.ASCE, M.IEEE"
   image: "MdNazmus_Sakib.jpg"
   position: "Director"
   research_interests: "Artificial Intelligence, Data Science"
@@ -8,7 +8,7 @@
   cv: "/files/john_doe_cv.pdf"
   alignment: "center"
 
-- name: "Abir Khan Ratul"
+- name: "Abir Khan Ratul, S.M.ASCE"
   image: "AbirKhan_Ratul.jpg"
   position: "PhD Student"
   research_interests: "Robotics, Automation, VR"
@@ -17,9 +17,9 @@
   google_scholar: "https://www.linkedin.com/in/abir-khan-ratul-41012311b/"
   cv: "/files/alice_johnson_cv.pdf"
   alignment: "left"
-  description: "Abir Khan Ratu is a PhD student focusing on Robotics, Automation, and VR. His research aims to integrate advanced robotic systems with virtual reality to improve automation processes."
+  description: "Abir Khan Ratu is a PhD student focusing on Robotics, Automation, and VR. His research aims to integrate advanced robotic systems with extended reality (MR, VR, AR) to improve automation processes."
 
-- name: "Sanjay Acharjee"
+- name: "Sanjay Acharjee, S.M.ASCE"
   image: "Sanjay_Acharjee.jpg"
   position: "PhD Student"
   research_interests: "Generative AI, Deep Learning, Construction Rbotics"
