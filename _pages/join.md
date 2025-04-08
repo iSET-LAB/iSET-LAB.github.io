@@ -44,13 +44,13 @@ Ph.D. students will engage in cutting-edge research at the intersection of civil
 ## **How to Apply for the Ph.D. Position at iSET**  
 We encourage you to apply **only** if you meet the qualifications and share our research interests!  
 
-📧 **Email Subject:** *Prospective Ph.D. Student - [Targeted Semester]*
+📧 **Email Subject:** *Prospective Ph.D. Student - [Targeted Semester]* <br>
 📩 **Send Your Application to:** [mdnazmus.sakib@uta.edu](mailto:mdnazmus.sakib@uta.edu)  
 
 ### **Application Materials** *(must include for a review & response)*  
-- **Curriculum Vitae (CV)** – Include names and contact details of three academic/professional references.  
-- **Research Summary** (1~2 pages) – Outline your previous research and accomplishments.  
-- **Research Statement** (1~2 pages) – Describe your long-term research goals and how they align with iSET Lab.  
+- **Curriculum Vitae (CV):** Include names and contact details of three academic/professional references.  
+- **Research Summary (1~2 pages):** Outline your previous research and accomplishments.  
+- **Research Statement (1~2 pages):** Describe your long-term research goals and how they align with iSET Lab.  
 
 > 📝 **Tip:** Avoid generic email templates. A well-crafted, personalized email and the above documents will increase your chances of receiving a response!  
 
