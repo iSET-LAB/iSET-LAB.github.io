@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 {% if site.author.googlescholar %}
-  <div class="wordwrap">Coming soon... <a href="{{https://scholar.google.com/citations?user=pK5cGsAAAAAJ&hl}}">my Google Scholar profile</a>.</div>
+  <div class="wordwrap">Coming soon... <a href="{{https://scholar.google.com/citations?user=pK5cGsAAAAAJ&hl}}">Google Scholar profile</a>.</div>
 {% endif %}
 
 /*
