@@ -63,7 +63,7 @@ redirect_from:
 </style>
 
 <!-- Centered heading and intro text -->
-<h1 style="text-align: center;">Meet with our brilliant team members!</h1>
+<h1 style="text-align: center;">Meet our extraordinary team members!</h1>
 
 {% for member in site.data.team %}
 <div class="align-{{ member.alignment }}">
