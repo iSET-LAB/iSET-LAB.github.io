@@ -64,7 +64,6 @@ redirect_from:
 
 <!-- Centered heading and intro text -->
 <h1 style="text-align: center;">Meet with our brilliant team members!</h1>
-</p>
 
 {% for member in site.data.team %}
 <div class="align-{{ member.alignment }}">
@@ -83,5 +82,4 @@ redirect_from:
         </p>
     </div>
 </div>
-{% endif %}
 {% endfor %}
