@@ -63,9 +63,7 @@ redirect_from:
 </style>
 
 <!-- Centered heading and intro text -->
-<h1 style="text-align: center;">Our Team</h1>
-<p style="text-align: center; max-width: 800px; margin: 0 auto;">
-  Meet with our brilliant team members!
+<h1 style="text-align: center;">Meet with our brilliant team members!</h1>
 </p>
 
 {% for member in site.data.team %}
@@ -73,14 +71,15 @@ redirect_from:
     <img src="{{ '/images/' | append: member.image | relative_url }}" alt="{{ member.name }}" class="profile-pic">
     <div class="info">
         <h2>{{ member.name }}</h2>
-        <p><strong>Position:</strong>{{ member.position }}</p>
-        <p><strong>Details:</strong>{{ member.description }}</p>
-        <p><strong>Research Interest:</strong>{{ member.research_interests }}</p>
+        <p><strong>Position:</strong> {{ member.position }}</p>
+        <p><strong>Description:</strong> {{ member.description }}</p>
+        <p><strong>Research Interest:</strong> {{ member.research_interests }}</p>
         <p><strong>Email:</strong> <a href="mailto:{{ member.email }}">{{ member.email }}</a></p>
         <p>
             <a href="{{ member.linkedin }}" class="btn btn-blue"><i class="fab fa-linkedin"></i></a>
             <a href="{{ member.google_scholar }}" class="btn btn-green"><i class="fas fa-graduation-cap"></i></a>
             <a href="{{ member.cv }}" class="btn btn-red"><i class="fas fa-file-alt"></i></a>
+            <a href="{{ member.website }}" class="btn btn-red"><i class="fas fa-user"></i></a>
         </p>
     </div>
 </div>
