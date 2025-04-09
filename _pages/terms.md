@@ -65,13 +65,13 @@ redirect_from:
 <!-- Centered heading and intro text -->
 <h1 style="text-align: center;">Our Team</h1>
 <p style="text-align: center; max-width: 800px; margin: 0 auto;">
-  Welcome to the Team iSET page! Here you'll find information about our brilliant team members.
+  Meet with our brilliant team members!
 </p>
 
 <div class="align-center">
     <img src="{{ '/images/MdNazmus_Sakib.jpg' | relative_url }}" alt="MD NAZMUS SAKIB" class="profile-pic">
     <div class="info">
-        <h2>MD NAZMUS SAKIB, PH.D., A.M.ASCE, M.IEEE</h2>
+        <h2>Md Nazmus Sakib, Ph.D., A.M.ASCE, M.IEEE</h2>
         <p><strong>Position:</strong> Director</p>
         <p><strong>Research Interests:</strong> Artificial Intelligence, Data Science</p>
         <p><strong>Email:</strong> <a href="mailto:mdnazmus.sakib@uta.edu">mdnazmus.sakib@uta.edu</a></p>
@@ -84,12 +84,14 @@ redirect_from:
 </div>
 
 {% for member in site.data.team %}
-{% if member.name != "MD NAZMUS SAKIB, PH.D., A.M.ASCE, M.IEEE" %}
+{% if member.name != "Md Nazmus Sakib, Ph.D., A.M.ASCE, M.IEEE" %}
 <div class="align-{{ member.alignment }}">
     <img src="{{ '/images/' | append: member.image | relative_url }}" alt="{{ member.name }}" class="profile-pic">
     <div class="info">
         <h2>{{ member.name }}</h2>
-        <p>{{ member.description }}</p>
+        <p><strong>Position:</strong>{{ member.position }}</p>
+        <p><strong>Details:</strong>{{ member.description }}</p>
+        <p><strong>Research Interest:</strong>{{ member.research_interests }}</p>
         <p><strong>Email:</strong> <a href="mailto:{{ member.email }}">{{ member.email }}</a></p>
         <p>
             <a href="{{ member.linkedin }}" class="btn btn-blue"><i class="fab fa-linkedin"></i></a>
