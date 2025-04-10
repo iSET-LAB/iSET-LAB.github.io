@@ -38,7 +38,7 @@ Ph.D. students will engage in cutting-edge research at the intersection of civil
 
 ---
 
-## <code style="color : blue">**How to Apply for the Ph.D. Position at iSET**</code>
+## <code style="color : blue">**Apply for the Ph.D. Assistantship Position at iSET Lab**</code>
 We encourage you to apply **only** if you meet the qualifications and share our research interests!  
 - **Email Subject:** *Prospective Ph.D. Student - [Targeted Semester]* <br>
 - **Send Your Application to:** [mdnazmus.sakib@uta.edu](mailto:mdnazmus.sakib@uta.edu)  
@@ -52,7 +52,7 @@ We encourage you to apply **only** if you meet the qualifications and share our 
 
 ---
 
-## <code style="color : blue">**How to Apply for Ph.D. Admission at UTA**</code>  
+## <code style="color : blue">**Apply for Ph.D. Admission at UTA**</code>  
 Applicants must meet **UTA’s Department of Civil Engineering** admission requirements. For both **M.S. to Ph.D.** and **B.S. to Ph.D.** pathways are available at: [Information on Admission](https://catalog.uta.edu/engineering/civil/graduate/#doctoraltext)  
 
 ---
