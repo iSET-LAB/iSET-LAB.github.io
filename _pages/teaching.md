@@ -22,7 +22,7 @@ permalink: /teaching/
 
   /* Responsive Banner with Reduced Size */
   .banner {
-    width: 80%;
+    width: 50%;
     max-width: 600px;
     height: auto;
     display: block;
