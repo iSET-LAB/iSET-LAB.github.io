@@ -12,7 +12,7 @@ redirect_from:
 
 Multiple fully funded Ph.D. student positions are available at the **[Intelligent Systems and Emerging Technologies (iSET) Lab](https://iset-lab.github.io)** in the **Department of Civil Engineering** *(focus: Construction Engineering and Management)* at **The University of Texas at Arlington (UTA)**. The positions will begin in **Fall 2025** under the supervision of **[Dr. Md Nazmus Sakib](https://www.uta.edu/academics/faculty/profile?user=mdnazmus.sakib)**.
 
-## **Research Areas**  
+## **Research Areas** <code style="color : blue">text</code>
 Ph.D. students will engage in cutting-edge research at the intersection of civil engineering, computer science, and emerging technologies, focusing on:  
 - Human Factors
 - Digital Twins
