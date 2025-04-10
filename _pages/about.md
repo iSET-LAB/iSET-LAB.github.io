@@ -112,7 +112,7 @@ h1:hover {
     <!-- Merged Second and Third Paragraph (wraps around image) -->
     <div class="wrap-text">
         <div>
-            To pursue the long-term interdisciplinary research vision of future workforce development and digital twins towards a more sustainable and resilient Architecture, Engineering, and construction industry, iSET Lab will focus on multidisciplinary solutions informed by data science, AI (ML/DL/GenAI), HPC, BIM, human factors engineering, drone technology, wearable devices, signal processing, and XR (VR/AR/MR).
+            We believe that in today's world, the fields of science and technology are extremely broad to be defined by a single concentration. To pursue the long-term interdisciplinary research vision of future workforce development and digital twins towards a more sustainable and resilient Architecture, Engineering, and construction industry, iSET Lab will focus on multidisciplinary solutions informed by data science, AI (ML/DL/GenAI), HPC, BIM, human factors engineering, drone technology, wearable devices, signal processing, and XR (VR/AR/MR).
         </div>
         <div class="image">
             <img src="/_pages/lab_group_pictire.jpg" alt="Lab Members Group Picture">
