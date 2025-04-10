@@ -11,16 +11,16 @@ redirect_from:
     .profile-pic {
         max-width: 250px;
         height: auto;
-        margin: 10px;
-        border-radius: 10px;
+        margin: 5px;
+        border-radius: 5px;
         box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
     }
 
     .align-center, .align-left, .align-right {
         display: flex;
         align-items: center;
-        gap: 20px;
-        margin-bottom: 20px;
+        gap: 10px;
+        margin-bottom: 10px;
     }
 
     .align-center {
@@ -63,7 +63,7 @@ redirect_from:
 </style>
 
 <!-- Centered heading and intro text -->
-<h1 style="text-align: center;">Meet our extraordinary team members!</h1>
+<h1 style="text-align: center;">Meet the team!</h1>
 
 {% for member in site.data.team %}
 <div class="align-{{ member.alignment }}">
