@@ -7,14 +7,6 @@ redirect_from:
   - /markdown.html
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">Coming soon... <a href="{{https://scholar.google.com/citations?user=pK5cGsAAAAAJ&hl}}">Google Scholar profile</a>.</div>
-{% endif %}
+<div class="wordwrap">Details on exciting projects are coming soon... <a href="{{https://scholar.google.com/citations?user=pK5cGsAAAAAJ&hl}}">Google Scholar profile</a>.</div>
 
-/*
-{% include base_path %}
 
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
-*/
