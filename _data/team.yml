@@ -7,7 +7,7 @@
   google_scholar: "https://scholar.google.com/citations?user=pK5cGsAAAAAJ&hl"
   cv: "/files/john_doe_cv.pdf"
   website: "https://www.uta.edu/academics/faculty/profile?user=mdnazmus.sakib"
-  alignment: "left"
+  alignment: "center"
   description: "Dr. Sakib is an Assistant Professor in the Department of Civil Engineering and the Department of Computer Science and Engineering (courtesy) at UTA. His research goal is to apply multidisciplinary knowledge and skillset to understand and advance the human-technology frontier to benefit future development towards a sustainable and resilient AEC industry."
 
 - name: "Abir Khan Ratul, S.M.ASCE"
@@ -18,7 +18,7 @@
   linkedin: "https://www.linkedin.com/in/abir-khan-ratul-41012311b/"
   google_scholar: "https://www.linkedin.com/in/abir-khan-ratul-41012311b/"
   cv: "/files/alice_johnson_cv.pdf"
-  alignment: "right"
+  alignment: "left"
   description: "Abir is a PhD student focusing on Robotics, Automation, and VR. His research aims to integrate advanced robotic systems with extended reality (MR, VR, AR) to improve automation processes."
 
 - name: "Sanjay Acharjee, S.M.ASCE"
@@ -29,5 +29,5 @@
   linkedin: "https://www.linkedin.com/in/sanjayacharjee/"
   google_scholar: "https://scholar.google.com/citations?user=cv1JsJEAAAAJ&hl=en"
   cv: "/files/bob_smith_cv.pdf"
-  alignment: "left"
+  alignment: "right"
   description: "Sanjay is a PhD student specializing in Generative AI and Deep Learning. His research focuses on developing new algorithms for AI systems to enhance their learning capabilities."
