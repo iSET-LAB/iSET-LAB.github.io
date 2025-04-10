@@ -6,9 +6,6 @@ redirect_from:
   - /md/
   - /markdown.html
 ---
-
----
----
 <div align="center">
   <h1><strong>Join The iSET Lab</strong></h1>
 </div>
@@ -26,7 +23,7 @@ Ph.D. students will engage in cutting-edge research at the intersection of civil
 
 ---
 
-## **Qualifications**
+## **Required Qualifications**
 ### **Educational Background**  
 - B.S./B.Sc. or M.S./M.Sc. in Civil Engineering, Construction Engineering and Management, Computer Science, Electrical Engineering, Mechanical Engineering, Industrial Engineering, Data Science, or related fields.  
 
@@ -43,9 +40,8 @@ Ph.D. students will engage in cutting-edge research at the intersection of civil
 
 ## **How to Apply for the Ph.D. Position at iSET**  
 We encourage you to apply **only** if you meet the qualifications and share our research interests!  
-
-📧 **Email Subject:** *Prospective Ph.D. Student - [Targeted Semester]* <br>
-📩 **Send Your Application to:** [mdnazmus.sakib@uta.edu](mailto:mdnazmus.sakib@uta.edu)  
+- **Email Subject:** *Prospective Ph.D. Student - [Targeted Semester]* <br>
+- **Send Your Application to:** [mdnazmus.sakib@uta.edu](mailto:mdnazmus.sakib@uta.edu)  
 
 ### **Application Materials** *(must include for a review & response)*  
 - **Curriculum Vitae (CV):** Include names and contact details of three academic/professional references.  
@@ -56,7 +52,7 @@ We encourage you to apply **only** if you meet the qualifications and share our 
 
 ---
 
-## **How to Apply for Ph.D. Admission**  
-Applicants must meet **UTA’s Department of Civil Engineering** admission requirements. Both **M.S. to Ph.D.** and **B.S. to Ph.D.** pathways are available at: [Information on Admission](https://catalog.uta.edu/engineering/civil/graduate/#doctoraltext)  
+## **How to Apply for Ph.D. Admission at UTA**  
+Applicants must meet **UTA’s Department of Civil Engineering** admission requirements. For both **M.S. to Ph.D.** and **B.S. to Ph.D.** pathways are available at: [Information on Admission](https://catalog.uta.edu/engineering/civil/graduate/#doctoraltext)  
 
 ---
