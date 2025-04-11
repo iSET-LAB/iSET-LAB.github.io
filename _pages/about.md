@@ -57,9 +57,11 @@ h1:hover {
     text-align: justify;
 }
 
-/* --- IMAGE STYLES --- */
+/* --- IMAGE STYLES (DYNAMICALLY ADJUSTS TO TEXT HEIGHT) --- */
 .image {
-    flex: 0 0 250px; /* Keeps image width fixed while maintaining height */
+    flex: 0 0 250px; /* Keeps image width fixed */
+    display: flex;
+    align-items: stretch; /* Ensures image height matches text */
 }
 
 .image img {
@@ -107,19 +109,16 @@ h1:hover {
         The iSET Lab's commitment is to explore intelligent systems and emerging technologies that shape the future of various industries (e.g., civil engineering and construction) while encompassing the diverse research areas it covers.
     </div>
 
-    <!-- Second paragraph (wraps around the image, using flexbox) -->
+    <!-- Merged Second and Third Paragraph (wraps around image) -->
     <div class="wrap-text">
         <div>
             To pursue the long-term interdisciplinary research vision of future workforce development and digital twin towards a more sustainable and resilient civil/construction industry, iSET Lab will focus on multidisciplinary solutions informed by data science, AI (ML/DL/GenAI), HPC, BIM, human factors engineering, drone technology, wearable devices, signal processing, and VR/AR.
+            <br><br>
+            The director of iSET Lab, Dr. Md Nazmus Sakib, is an Assistant Professor of Construction Engineering and Management in the Department of Civil Engineering and the Department of Computer Science and Engineering (affiliated) at The University of Texas at Arlington.
         </div>
         <div class="image">
             <img src="/_pages/lab_group_pictire.jpg" alt="Lab Members Group Picture">
         </div>
-    </div>
-
-    <!-- Third paragraph (full width) -->
-    <div class="full-width">
-        The director of iSET Lab, Dr. Md Nazmus Sakib, is an Assistant Professor of Construction Engineering and Management in the Department of Civil Engineering and the Department of Computer Science and Engineering (affiliated) at The University of Texas at Arlington.
     </div>
 
     <!-- News Section -->
