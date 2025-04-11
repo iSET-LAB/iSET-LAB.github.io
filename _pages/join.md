@@ -28,20 +28,20 @@ Ph.D. students will engage in cutting-edge research at the intersection of civil
 - B.S./B.Sc. or M.S./M.Sc. in Civil Engineering, Construction Engineering and Management, Computer Science, Electrical Engineering, Mechanical Engineering, Industrial Engineering, Data Science, or related fields.  
 
 ### **Skills & Competencies**  
-- Strong motivation and passion for **interdisciplinary research**.  
-- Excellent **written and verbal communication** skills.  
-- Proficiency in one or more programming languages: **Python, R, C#**.  
+- Strong motivation and passion for *interdisciplinary research*.  
+- Excellent *written and verbal communication* skills.  
+- Proficiency in one or more programming languages: Python, R, C#, C++, MATLAB.  
 
 ### **Preferred Skills** *(Not Mandatory, but a Plus!)*  
-- Experience in **Human Factors, Game Engines, Machine/Deep Learning, Generative AI, MR/VR/AR**.  
-- Proficiency in software like **Unity, Revit, Navisworks, Trimble RealWorks**.  
+- Experience in Human Factors, Game Engines, Machine/Deep Learning, Generative AI, MR/VR/AR or relevant field.  
+- Proficiency in software like *Unity, Revit, Navisworks, Trimble RealWorks*.  
 
 ---
 
 ## **<code style="color : blue">Apply for the Ph.D. Assistantship Position at iSET Lab</code>**
 We encourage you to apply **only** if you meet the qualifications and share our research interests!  
-- **Email Subject:** *Prospective Ph.D. Student - [Targeted Semester]* <br>
-- **Send Your Application to:** [mdnazmus.sakib@uta.edu](mailto:mdnazmus.sakib@uta.edu)  
+- **Email Subject:** Prospective Ph.D. Student - [Targeted Semester] <br>
+- **Send Your Application package to:** [mdnazmus.sakib@uta.edu](mailto:mdnazmus.sakib@uta.edu)  
 
 ### **Application Materials** *(must include for a review & response)*  
 - **Curriculum Vitae (CV):** Include names and contact details of three academic/professional references.  
