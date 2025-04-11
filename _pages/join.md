@@ -30,10 +30,10 @@ Ph.D. students will engage in cutting-edge research at the intersection of civil
 ### **Skills & Competencies**  
 - Strong motivation and passion for *interdisciplinary research*.  
 - Excellent *written and verbal communication* skills.  
-- Proficiency in one or more programming languages: Python, R, C#, C++, MATLAB.  
+- Proficiency in one or more programming languages like *Python, R, C#, C++, MATLAB*.  
 
 ### **Preferred Skills** *(Not Mandatory, but a Plus!)*  
-- Experience in Human Factors, Game Engines, Machine/Deep Learning, Generative AI, MR/VR/AR or relevant field.  
+- Experience in *Human Factors, Game Engines, Machine/Deep Learning, Generative AI, MR/VR/AR* or relevant field.  
 - Proficiency in software like *Unity, Revit, Navisworks, Trimble RealWorks*.  
 
 ---
