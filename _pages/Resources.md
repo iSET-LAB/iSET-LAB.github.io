@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 # **Lab Resources**
-Our lab is equipped with state-of-the-art technology dedicated to advancing research in civil engineering, construction, and emerging technologies. Below are some of the key resources available to our team.
+Our lab is equipped with state-of-the-art technology dedicated to advancing research in emerging technologies. Below are some of the key resources available to our team.
 
 ---
 
