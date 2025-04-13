@@ -40,9 +40,8 @@ Ph.D. students will engage in cutting-edge research at the intersection of civil
 
 ## <code style="color : blue">Apply for the Ph.D. Assistantship Position at iSET Lab</code>
 We encourage you to apply **only** if you meet the qualifications and share our research interests!  
-- **Email Subject:** Prospective Ph.D. Student - [Targeted Semester] <br>
-- **Send Your Application package to:** [mdnazmus.sakib@uta.edu](mailto:mdnazmus.sakib@uta.edu)  
-
+### Email Subject: Prospective Ph.D. Student - [Targeted Semester]
+### Send Your Application package to: [mdnazmus.sakib@uta.edu](mailto:mdnazmus.sakib@uta.edu)
 ### Application Materials *(must include for a review & response)*  
 - **Curriculum Vitae (CV):** Include names and contact details of three academic/professional references.  
 - **Research Summary (1~2 pages):** Outline your previous research and accomplishments.  
