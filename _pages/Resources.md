@@ -45,22 +45,22 @@ Our lab is equipped with state-of-the-art technology dedicated to advancing rese
 <div class="resource-container">
   <div class="resource">
     <img src="/_pages/resources_pictures/nvidia_h200.png" alt="NVIDIA H200">
-    <h3 class="resource-title">GPU Cluster - NVIDIA H200</h3>
-    <p>Our <strong>NVIDIA H200 GPU cluster</strong> delivers cutting-edge computational power for AI, deep learning, and data-intensive simulations. It accelerates machine learning workflows and enables high-performance computing for research applications.</p>
+    <h3 class="resource-title">NVIDIA H200 GPU Server</h3>
+    <p>Our <strong>SuperMicro GPU Server AS-5126GS-TNRT (NVIDIA H200)</strong> delivers cutting-edge computational power for AI, deep learning, and data-intensive simulations. It accelerates machine learning workflows and enables high-performance computing for research applications.</p>
     <a href="https://www.nvidia.com/en-us/data-center/dgx-h200/">🔗 More Info</a>
   </div>
   
   <div class="resource">
     <img src="/_pages/resources_pictures/area51.png" alt="Alienware Area-51 Desktop">
     <h3 class="resource-title">Alienware Area-51 Desktop</h3>
-    <p>A powerful Alienware Area-51 desktop equipped with high-end specifications for intensive computations, simulations, and AI model training.</p>
+    <p>A powerful Alienware Area-51 desktop equipped with high-end specifications, such as Intel Core Ultra-9 285K processor, NVIDIA RTX 5090 GPU, 64GB Memory, and 4TB Storage, for intensive computations, simulations, and AI model training.</p>
     <a href="https://www.dell.com/en-us/shop/desktop-computers/alienware-area-51-gaming-desktop/spd/alienware-area-51-aat2250-gaming-desktop/useaat2250wcto04">🔗 More Info</a>
   </div>
   
   <div class="resource">
     <img src="/_pages/resources_pictures/r16.png" alt="Alienware Aurora R16 Desktop">
     <h3 class="resource-title">Alienware Aurora R16 Desktop</h3>
-    <p>The Alienware Aurora R16 desktop is optimized for deep learning, rendering, and high-performance computing tasks.</p>
+    <p>The Alienware Aurora R16 desktop is equipped with an Intel Core i9 14900KF processor, NVIDIA RTX 4090 GPU, 64GB Memory, and 3TB Storage, specifically optimized for deep learning, rendering, and high-performance computing tasks.</p>
     <a href="https://www.dell.com/en-us/shop/desktop-computers/alienware-aurora-r16-gaming-desktop/spd/alienware-aurora-r16-desktop">🔗 More Info</a>
   </div>
 </div>
