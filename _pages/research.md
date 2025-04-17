@@ -9,9 +9,9 @@ redirect_from:
 
 <div class="container my-5">
 
-  <h2 class="text-center mb-4" style="font-weight:700;">
+  <h1 class="text-center mb-4" style="font-weight:700;">
     Ongoing Research Projects
-  </h2>
+  </h1>
   
   <!-- Optional subtitle or summary -->
   <!-- <p class="text-center lead">Recent Highlights</p> -->
