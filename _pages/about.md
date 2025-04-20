@@ -125,8 +125,10 @@ h1:hover {
     <div class="news-container">
       <ul style="margin: 0; padding-left: 1.5rem; list-style-type: disc;">
         <li>📢 <strong>[News Item 3]</strong> - Highlighting a conference presentation, publication, or grant.</li>
-        <li>📢 <strong>[News Item 2]</strong> - Another key update regarding the lab's work.</li>
-        <li>📢 <strong>[News Item 1]</strong> - Brief description of recent achievement, project, or event.</li>
+        <li>📢 <strong>February 24</strong> - Dr. Sakib got secondary affiliation with the Department of Computer Science at the University of Texas at Arlington.</li>
+        <li>📢 <strong>January 24</strong> - Abir Khan Ratul and Sanjay Acharjee joined the iSET Lab and the Department of Civil Engineering as the newest PhD students. They both completed B.Sc. in Civil Engineering from Bangladesh University of Engineering and Technology (BUET), Dhaka, Bangladesh.</li>
+        <li>📢 <strong>January 24</strong> - Dr. Sakib recognized by the Vice President for Student Affairs for contributions to the success Fall 2023 graduates at UTA.</li>
+        <li>📢 <strong>August 23</strong> - Dr. Sakib joined as Assistant Professor of Construction Engineering, Department of Civil Engineering at the University of Texas at Arlington.</li>
       </ul>
     </div>
 
