@@ -12,20 +12,12 @@ redirect_from:
   <h2 class="text-center mb-4" style="font-weight:700;">
     Ongoing Research Projects
   </h2>
-  
-  <!-- Optional subtitle or summary -->
-  <!-- <p class="text-center lead">Recent Highlights</p> -->
-  
+
   <!-- ========================= ROW 1 ========================= -->
   <div class="row justify-content-center">
     
     <!-- PROJECT 1: SfM Meets Thermal -->
     <div class="col-md-4 text-center mb-4">
-      <img 
-        src="/_pages/research_pictures/sfm_result.png" 
-        alt="SfM Thermal Project"
-        style="max-width:100%; border-radius:6px; object-fit:cover; height:auto;"
-      >
       <h5 class="mt-3" style="font-weight:600;">
         SfM Meets Thermal: Reconstructing 3D Thermal Profiles
       </h5>
@@ -38,15 +30,15 @@ redirect_from:
         <a href="#" class="mx-1">[website]</a> | 
         <a href="#" class="mx-1">[code]</a>
       </p>
+      <img 
+        src="/_pages/research_pictures/sfm_result.png" 
+        alt="SfM Thermal Project"
+        style="max-width:100%; border-radius:6px; object-fit:cover; height:auto;"
+      >
     </div>
     
     <!-- PROJECT 2: Data‑Driven Safety -->
     <div class="col-md-4 text-center mb-4">
-      <img
-        src="/_pages/research_pictures/hazard_sec_results.png"
-        alt="Data Driven Safety"
-        style="max-width:100%; border-radius:6px; object-fit:cover; height:auto;"
-      >
       <h5 class="mt-3" style="font-weight:600;">
         Data‑Driven Safety: Generating Workplace Hazard Scenarios
       </h5>
@@ -59,15 +51,15 @@ redirect_from:
         <a href="#" class="mx-1">[website]</a> | 
         <a href="#" class="mx-1">[code]</a>
       </p>
+      <img
+        src="/_pages/research_pictures/hazard_sec_results.png"
+        alt="Data Driven Safety"
+        style="max-width:100%; border-radius:6px; object-fit:cover; height:auto;"
+      >
     </div>
     
     <!-- PROJECT 3: From Sketch to BIM -->
     <div class="col-md-4 text-center mb-4">
-      <img 
-        src="/_pages/research_pictures/sketch_to_bim_results.png" 
-        alt="Sketch to BIM Project"
-        style="max-width:100%; border-radius:6px; object-fit:cover; height:auto;"
-      >
       <h5 class="mt-3" style="font-weight:600;">
         From Sketch to BIM: Automating 3D Model Generation
       </h5>
@@ -80,6 +72,11 @@ redirect_from:
         <a href="#" class="mx-1">[website]</a> | 
         <a href="#" class="mx-1">[code]</a>
       </p>
+      <img 
+        src="/_pages/research_pictures/sketch_to_bim_results.png" 
+        alt="Sketch to BIM Project"
+        style="max-width:100%; border-radius:6px; object-fit:cover; height:auto;"
+      >
     </div>
 
   </div> <!-- /ROW 1 -->
@@ -89,11 +86,6 @@ redirect_from:
 
     <!-- PROJECT 4: Drone‑Based Parking Lot PCI Automation -->
     <div class="col-md-4 text-center mb-4">
-      <img
-        src="/_pages/research_pictures/parking_lot_pci.png"
-        alt="Parking Lot PCI Automation"
-        style="max-width:100%; border-radius:6px; object-fit:cover; height:auto;"
-      >
       <h5 class="mt-3" style="font-weight:600;">
         Drone‑Based Parking Lot PCI Automation
       </h5>
@@ -106,6 +98,11 @@ redirect_from:
         <a href="#" class="mx-1">[website]</a> | 
         <a href="#" class="mx-1">[code]</a>
       </p>
+      <img
+        src="/_pages/research_pictures/parking_lot_pci.png"
+        alt="Parking Lot PCI Automation"
+        style="max-width:100%; border-radius:6px; object-fit:cover; height:auto;"
+      >
     </div>
 
   </div> <!-- /ROW 2 -->
@@ -119,5 +116,5 @@ redirect_from:
       Google Scholar Profile
     </a>
   </div>
-  
+
 </div>
