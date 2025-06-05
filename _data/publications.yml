@@ -17,7 +17,7 @@
 - category: "Journal Article"
   reference: "Sakib, M. N., Chaspari, T., & Behzadan, A. H. (2021). Physiological Data Models to Understand the Effectiveness of Drone Operation Training in Immersive Virtual Reality. Journal of Computing in Civil Engineering, 35(1), 04020053."
   link: "https://doi.org/10.1061/(ASCE)CP.1943-5487.00009"
-  
+
 - category: "Conference Proceeding"
   reference: "Sakib, M. N., Chaspari, T., Arthur, W., & Behzadan, A. H. (2024). A Survey of Barriers and Enablers of the Successful Transition of Military Veterans into the Construction Industry. 8th International Project and Construction Management Conference (IPCMC), 346–354."
   link: "https://ipcmc2024.yildiz.edu.tr/proceedings-book"
@@ -44,6 +44,18 @@
 
 - category: "Conference Proceeding"
   reference: "Sakib, M. N., Islam, M. M., Khan, A. J., & Khan, I. (2016). Determination of Absorption Capacity of Open Mesh Type Jute Geotextile (JGT). International Geotechnical Engineering Conference on Sustainability in Geotechnical Engineering Practices and Related Urban Issues. Published."
+
+- category: "Conference Proceeding"
+  reference: "Acharjee, S., Khan Ratul, A., Patiño, D., & Sakib, M.N. (2025). Data-Driven Safety: Leveraging Historical Accident Data and Generative AI for Generating Workplace Hazard Visualizations. ASCE International Conference on Computing in Civil Engineering (i3CE 2025)."
+
+- category: "Conference Proceeding"
+  reference: "Acharjee, S., Khan Ratul, A., Aryal, A., & Sakib, M.N. (2025). SfM Meets Thermal: Reconstructing 3D Thermal Profiles of Buildings Using Multimodal Drone Data. ASCE International Conference on Computing in Civil Engineering (i3CE 2025)."
+
+- category: "Conference Proceeding"
+  reference: "Khan Ratul, A., Acharjee, S., Park, S., & Sakib, M.N. (2025). From Sketch to BIM: A Framework for Automating the Conversion of Hand-Drawn Plans into 3D Models Using MLLMs and 3D Modeling Software. ASCE International Conference on Computing in Civil Engineering (i3CE 2025)."
+
+- category: "Conference Proceeding"
+  reference: "Khan Ratul, A., Acharjee, S., Liang, C.J., & Sakib, M.N. (2025). Human-Robot Interaction in AEC Industry: A Review of Augmented and Mixed Reality Applications. ASCE International Conference on Computing in Civil Engineering (i3CE 2025)."
 
 - category: "Dissertation & Thesis"
   reference: "Sakib, M. N. (2022). The Future Workforce: Exploring the Role of Artificial Intelligence and Technology in Workforce Skilling. Texas A&M University."
