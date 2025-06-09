@@ -46,3 +46,10 @@ redirect_from:
 - {{ pub.reference }}
   {% if pub.link %}[Link]({{ pub.link }}){% endif %}
 {% endfor %}
+
+## Posters
+{% assign poster_pubs = site.data.publications | where: "category", "Poster" %}
+{% for pub in poster_pubs %}
+- {{ pub.reference }}
+  {% if pub.link %}[Link]({{ pub.link }}){% endif %}
+{% endfor %}
