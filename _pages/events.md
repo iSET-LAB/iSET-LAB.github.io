@@ -7,7 +7,7 @@ author_profile: false
 # Events
 
 <!-- Updated layout for conferences with fixed image distortion -->
-<p>Welcome to our Conferences page! Here you'll find information about the conferences our lab has participated in.</p>
+<!-- <p>Welcome to our Conferences page! Here you'll find information about the conferences our lab has participated in.</p> -->
 
 ## Conferences
 
