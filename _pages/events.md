@@ -4,10 +4,10 @@ title: Events
 author_profile: false
 ---
 
-# Events
+<!-- # Events -->
 
 <!-- Updated layout for conferences with consistent and larger images -->
-<p>Welcome to our Conferences page! Here you'll find information about the conferences our lab has participated in.</p>
+<!-- <p>Welcome to our Conferences page! Here you'll find information about the conferences our lab has participated in.</p> -->
 
 ## Conferences
 
