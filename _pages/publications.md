@@ -26,6 +26,13 @@ redirect_from:
   {% if pub.link %}[Link]({{ pub.link }}){% endif %}
 {% endfor %}
 
+## Posters
+{% assign poster_pubs = site.data.publications | where: "category", "Poster" %}
+{% for pub in poster_pubs %}
+- {{ pub.reference }}
+  {% if pub.link %}[Link]({{ pub.link }}){% endif %}
+{% endfor %}
+
 ## Dissertation & Thesis
 {% assign other_pubs = site.data.publications | where: "category", "Dissertation & Thesis" %}
 {% for pub in other_pubs %}
@@ -47,9 +54,4 @@ redirect_from:
   {% if pub.link %}[Link]({{ pub.link }}){% endif %}
 {% endfor %}
 
-## Posters
-{% assign poster_pubs = site.data.publications | where: "category", "Poster" %}
-{% for pub in poster_pubs %}
-- {{ pub.reference }}
-  {% if pub.link %}[Link]({{ pub.link }}){% endif %}
-{% endfor %}
+
