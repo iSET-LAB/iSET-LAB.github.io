@@ -20,7 +20,7 @@ author_profile: false
       <img src="/_pages/event/i3c3/IMG_9295.jpg" alt="i3CE 2025 New Orleans 4" style="width: 100%; max-width: 300px; border-radius: 10px;">
     </div>
     <h3>i3CE 2025 - New Orleans</h3>
-    <p><strong>Date:</strong> June 15, 2025</p>
+    <p><strong>Date:</strong> May 11, 2025</p>
     <p><strong>Location:</strong> New Orleans, Louisiana</p>
     <p><strong>Description:</strong> International Conference on Computing in Civil Engineering.</p>
   </div>
@@ -32,7 +32,7 @@ author_profile: false
       <img src="/_pages/event/icra/20250519_161426.jpg" alt="ICRA 2025 Atlanta 4" style="width: 100%; max-width: 300px; border-radius: 10px;">
     </div>
     <h3>ICRA 2025 - Atlanta</h3>
-    <p><strong>Date:</strong> July 20, 2025</p>
+    <p><strong>Date:</strong> May 20, 2025</p>
     <p><strong>Location:</strong> Atlanta, Georgia</p>
     <p><strong>Description:</strong> International Conference on Robotics and Automation.</p>
   </div>
