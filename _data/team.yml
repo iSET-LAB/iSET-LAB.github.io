@@ -52,3 +52,16 @@
   cv: "/files/bob_smith_cv.pdf"
   alignment: "right"
   description: ""
+
+- name: "Jayeda Aziz Jebun"
+  image: "Jayeda.png"
+  position: "Undergraduate Volunteer Researcher"
+  research_interests: ""
+  email: "jaj0293@mavs.uta.edu"
+  linkedin: ""
+  google_scholar: ""
+  cv: "/files/bob_smith_cv.pdf"
+  alignment: "right"
+  description: ""
+
+  
