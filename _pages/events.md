@@ -41,7 +41,7 @@ author_profile: false
       <img src="/_pages/event/iset_dinner_fall25/IMG_0474.jpg" alt="iSET Lab Dinner Fall 2025" style="width: 100%; max-width: 350px; border-radius: 12px;">
     </div>
     <h3>iSET Lab Dinner - Fall 2025</h3>
-    <p><strong>Date:</strong> November 2025</p>
+    <p><strong>Date:</strong> September 2025</p>
     <p><strong>Location:</strong> Arlington, Texas</p>
     <p><strong>Description:</strong> Lab dinner celebrating achievements and welcoming new members.</p>
   </div>

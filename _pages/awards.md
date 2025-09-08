@@ -5,11 +5,6 @@ author_profile: false
 ---
 
 # Awards
-
-We are proud to share the grants and recognitions our lab has received!
-
----
-
 ## Federal Awards
 
 ### NSF IUSE Grant: Transforming Compliance Training for Drone Operators
