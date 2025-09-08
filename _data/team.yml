@@ -41,7 +41,7 @@
   google_scholar: ""
   cv: "/files/bob_smith_cv.pdf"
   alignment: "left"
-  description: "Venezer is a PhD student in Civil Engineering with a strong interest in how technology can transform infrastructure systems. She focuses on the intersection of civil engineering and data science, exploring how tools like AI and machine learning can improve the design, monitoring, and maintenance of infrastructure.
+  description: "Venezer is a PhD student in Civil Engineering with a strong interest in how technology can transform infrastructure systems. She focuses on the intersection of civil engineering and data science, exploring how tools like AI and machine learning can improve the design, monitoring, and maintenance of infrastructure."
 - name: "Arwin Rai"
   image: "Arwin.jpeg"
   position: "Volunteer Research Assistant"
@@ -64,4 +64,3 @@
   alignment: "left"
   description: ""
 
-  
