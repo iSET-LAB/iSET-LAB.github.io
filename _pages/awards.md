@@ -4,7 +4,6 @@ title: "Awards"
 author_profile: false
 ---
 
-# Awards
 ## Federal Awards
 
 ### NSF IUSE Grant: Transforming Compliance Training for Drone Operators
