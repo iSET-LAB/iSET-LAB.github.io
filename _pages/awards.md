@@ -7,12 +7,11 @@ author_profile: false
 ## Federal Awards
 
 ### Transforming Compliance Training for Drone Operators through an Extended Reality and Generative AI-Driven System
-**PI:** Sakib, M. N. 
-**Co-PIs:** Yin, Z., Park, S., Rahman, M. M.
-**Agency:** National Science Foundation (NSF)  
+**PI:** Sakib, M. N.  
+**Co-PIs:** Yin, Z., Park, S., Rahman, M. M.  
+**Agency:** National Science Foundation (NSF); **Award Number:** [2519021](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2519021&HistoricalAwards=false)  
 **Amount:** $399,871.35  
 **Dates:** October 15, 2025 – September 30, 2028  
-**NSF Award Number:** [2519021](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2519021&HistoricalAwards=false) 
 
 ---
 
