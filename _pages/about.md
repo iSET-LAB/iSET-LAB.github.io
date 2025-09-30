@@ -80,11 +80,11 @@ h1:hover {
 
 /* --- NEWS SECTION STYLES --- */
 .news-container {
-    max-height: 200px;
-    overflow-y: auto;
+    max-height: 400px;     /* increased height */
+    overflow-y: auto;      /* enable vertical scrolling when needed */
     border: 1px solid #ddd;
-    padding: 15px;
-    border-radius: 5px;
+    padding: 12px;
+    border-radius: 6px;
     background-color: #f9f9f9;
 }
 
