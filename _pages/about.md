@@ -126,10 +126,10 @@ h1:hover {
       <ul style="margin: 0; padding-left: 1.5rem; list-style-type: disc;">
         <li>📢 <strong>August 21-2025</strong> - Dr. Sakib received a three-year $399,871 National Science Foundation IUSE grant for the project, <strong>Transforming Compliance Training for Drone Operators through an Extended Reality and Generative Artificial Intelligence-Driven System</strong>. This project will develop SKYGEN-XR, an advanced training system integrating XR and GenAI to enhance drone operation training for the AEC industry. <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2519021&HistoricalAwards=false" target="_blank">[NSF Award Details]</a></li>
         <li>📢 <strong>May 14-2025</strong> - iSET Lab presented 4 papers at the International Conference on Computing in Civil Engineering (i3CE 2025), New Orleans, May 11-14, 2025.</li>
-        <li>📢 <strong>February 24-2025</strong> - Dr. Sakib got secondary affiliation with the Department of Computer Science at the University of Texas at Arlington.</li>
-        <li>📢 <strong>January 24-2025</strong> - Abir Khan Ratul and Sanjay Acharjee joined the iSET Lab and the Department of Civil Engineering as the newest PhD students. They both completed B.Sc. in Civil Engineering from Bangladesh University of Engineering and Technology (BUET), Dhaka, Bangladesh.</li>
-        <li>📢 <strong>January 24-2025</strong> - Dr. Sakib recognized by the Vice President for Student Affairs for contributions to the success Fall 2023 graduates at UTA.</li>
-        <li>📢 <strong>August 23-2025</strong> - Dr. Sakib joined as Assistant Professor of Construction Engineering, Department of Civil Engineering at the University of Texas at Arlington.</li>
+        <li>📢 <strong>February 24-2024</strong> - Dr. Sakib got secondary affiliation with the Department of Computer Science at the University of Texas at Arlington.</li>
+        <li>📢 <strong>January 24-2024</strong> - Abir Khan Ratul and Sanjay Acharjee joined the iSET Lab and the Department of Civil Engineering as the newest PhD students. They both completed B.Sc. in Civil Engineering from Bangladesh University of Engineering and Technology (BUET), Dhaka, Bangladesh.</li>
+        <li>📢 <strong>January 24-2023</strong> - Dr. Sakib recognized by the Vice President for Student Affairs for contributions to the success Fall 2023 graduates at UTA.</li>
+        <li>📢 <strong>August 23-2023</strong> - Dr. Sakib joined as Assistant Professor of Construction Engineering, Department of Civil Engineering at the University of Texas at Arlington.</li>
       </ul>
     </div>
 
