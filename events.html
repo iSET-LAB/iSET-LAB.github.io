@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="iSET Lab events - Conferences, workshops, and lab socials">
+    <title>Events - iSET Lab</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="images/logo.png" type="image/png">
+</head>
+
+<body>
+    <div class="page-wrapper">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="sidebar-logo">
+                <img src="images/logo.png" alt="iSET Lab Logo">
+            </div>
+            <h1 class="sidebar-title">Intelligent Systems and Emerging Technologies (iSET) Lab</h1>
+            <p class="sidebar-subtitle">Department of Civil Engineering, The University of Texas at Arlington</p>
+            <p class="sidebar-location">📍 Arlington, Texas</p>
+            <div class="sidebar-links">
+                <a href="mailto:mdnazmus.sakib@uta.edu">📧 Email</a>
+                <a href="https://github.com/iSET-LAB" target="_blank">GitHub</a>
+                <a href="https://scholar.google.com/citations?user=pK5cGsAAAAAJ" target="_blank">Scholar</a>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Navigation -->
+            <nav class="nav">
+                <div class="nav-container">
+                    <button class="nav-toggle" onclick="toggleNav()">☰</button>
+                    <ul class="nav-links" id="navLinks">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="research.html">Research</a></li>
+                        <li><a href="publications.html">Publications</a></li>
+                        <li><a href="teaching.html">Teaching</a></li>
+                        <li><a href="team.html">Team</a></li>
+                        <li><a href="join.html">Join</a></li>
+                        <li><a href="resources.html">Resources</a></li>
+                        <li><a href="events.html" class="active">Events</a></li>
+                        <li><a href="awards.html">Awards</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+            <!-- Page Header -->
+            <section class="page-header">
+                <h1>Events</h1>
+                <p>Conferences, workshops, and lab activities</p>
+            </section>
+
+            <!-- Events Content -->
+            <div class="container">
+
+                <section class="section">
+                    <h2 class="section-title">Conferences & Lab Events</h2>
+
+                    <!-- i3CE 2025 -->
+                    <div class="event-section">
+                        <div class="event-gallery">
+                            <img src="images/events/i3ce/20250512_101511.jpg" alt="i3CE 2025 New Orleans 1">
+                            <img src="images/events/i3ce/20250512_103459.jpg" alt="i3CE 2025 New Orleans 2">
+                            <img src="images/events/i3ce/20250512_114440.jpg" alt="i3CE 2025 New Orleans 3">
+                            <img src="images/events/i3ce/IMG_9295.jpg" alt="i3CE 2025 New Orleans 4">
+                        </div>
+                        <div class="event-info">
+                            <h4>i3CE 2025 - New Orleans</h4>
+                            <p><strong>Date:</strong> May 11, 2025</p>
+                            <p><strong>Location:</strong> New Orleans, Louisiana</p>
+                            <p><strong>Description:</strong> International Conference on Computing in Civil Engineering.
+                                iSET Lab presented 4 papers at this conference.</p>
+                        </div>
+                    </div>
+
+                    <!-- ICRA 2025 -->
+                    <div class="event-section">
+                        <div class="event-gallery">
+                            <img src="images/events/icra/20250519_085056.jpg" alt="ICRA 2025 Atlanta 1">
+                            <img src="images/events/icra/20250519_085106.jpg" alt="ICRA 2025 Atlanta 2">
+                            <img src="images/events/icra/20250519_141709(0).jpg" alt="ICRA 2025 Atlanta 3">
+                            <img src="images/events/icra/20250519_161426.jpg" alt="ICRA 2025 Atlanta 4">
+                        </div>
+                        <div class="event-info">
+                            <h4>ICRA 2025 - Atlanta</h4>
+                            <p><strong>Date:</strong> May 20, 2025</p>
+                            <p><strong>Location:</strong> Atlanta, Georgia</p>
+                            <p><strong>Description:</strong> International Conference on Robotics and Automation.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="section">
+                    <h2 class="section-title">Lab Socials</h2>
+
+                    <!-- Lab Dinner -->
+                    <div class="event-section">
+                        <div class="event-gallery">
+                            <img src="images/events/dinner/IMG_0474.jpg" alt="iSET Lab Dinner Fall 2025">
+                        </div>
+                        <div class="event-info">
+                            <h4>iSET Lab Dinner - Fall 2025</h4>
+                            <p><strong>Date:</strong> September 2025</p>
+                            <p><strong>Location:</strong> Arlington, Texas</p>
+                            <p><strong>Description:</strong> Lab dinner celebrating achievements and welcoming new
+                                members.</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <!-- Footer -->
+            <footer class="footer">
+                <p>&copy; 2025 iSET Lab - Intelligent Systems and Emerging Technologies Lab | University of Texas at
+                    Arlington</p>
+            </footer>
+        </main>
+    </div>
+
+    <script>
+        function toggleNav() {
+            document.getElementById('navLinks').classList.toggle('active');
+        }
+    </script>
+</body>
+
+</html>
