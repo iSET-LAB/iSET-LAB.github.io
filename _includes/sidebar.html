@@ -1,0 +1,14 @@
+<aside class="sidebar">
+  <div class="sidebar-logo" style="background: transparent;">
+    <img src="{{ '/images/logo.png' | relative_url }}" alt="iSET Lab Logo" style="border-radius: 50%;">
+  </div>
+  <h1 class="sidebar-title">{{ site.lab.name }}</h1>
+  <p class="sidebar-subtitle">{{ site.lab.department }}</p>
+  <p class="sidebar-location">📍 {{ site.lab.location }}</p>
+  <div class="sidebar-links">
+    <a href="mailto:{{ site.lab.email }}">📧 Email</a>
+    <a href="{{ site.lab.github }}" target="_blank">GitHub</a>
+    <a href="{{ site.lab.scholar }}" target="_blank">Scholar</a>
+    <a href="{{ site.lab.researchgate }}" target="_blank">ResearchGate</a>
+  </div>
+</aside>

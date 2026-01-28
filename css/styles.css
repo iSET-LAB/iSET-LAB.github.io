@@ -1,24 +1,38 @@
 /* =========================================
    iSET Lab - Research Lab Website Styles
+   Construction Technology Theme
    ========================================= */
 
 /* ---------- CSS Variables ---------- */
 :root {
-  /* Colors */
-  --primary: #1a365d;
-  --primary-light: #2c5282;
-  --primary-dark: #0d1b2a;
-  --accent: #3182ce;
-  --accent-light: #63b3ed;
+  /* Construction Technology Colors */
+  --primary: #1e3a5f;
+  /* Deep steel blue */
+  --primary-light: #2d5a87;
+  /* Lighter steel blue */
+  --primary-dark: #0f1f33;
+  /* Dark blueprint blue */
+  --accent: #e85d04;
+  /* Safety orange */
+  --accent-light: #f48c42;
+  /* Light orange */
+  --accent-hover: #dc2f02;
+  /* Darker orange for hover */
   --text-primary: #1a202c;
   --text-secondary: #4a5568;
   --text-light: #718096;
   --bg-white: #ffffff;
-  --bg-light: #f7fafc;
-  --bg-gray: #edf2f7;
-  --border-color: #e2e8f0;
-  --success: #38a169;
-  --warning: #d69e2e;
+  --bg-light: #f8fafc;
+  /* Slightly cool white */
+  --bg-gray: #e8eef4;
+  /* Blueprint paper tint */
+  --border-color: #cbd5e1;
+  --success: #059669;
+  /* Tech green */
+  --warning: #d97706;
+  /* Construction warning */
+  --construction-yellow: #fbbf24;
+  --steel-gray: #64748b;
 
   /* Typography */
   --font-main: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
@@ -146,13 +160,14 @@ p {
 
 .sidebar {
   width: 280px;
-  background: linear-gradient(180deg, var(--primary-dark) 0%, var(--primary) 100%);
+  background: linear-gradient(180deg, var(--primary-dark) 0%, var(--primary) 50%, var(--primary-light) 100%);
   color: white;
   padding: var(--space-xl);
   position: fixed;
   height: 100vh;
   overflow-y: auto;
   z-index: 100;
+  border-right: 4px solid var(--accent);
 }
 
 .main-content {
@@ -267,11 +282,17 @@ p {
   transition: all var(--transition-fast);
 }
 
-.nav-links a:hover,
-.nav-links a.active {
-  color: var(--primary);
+.nav-links a:hover {
+  color: var(--accent);
   background: var(--bg-light);
   text-decoration: none;
+}
+
+.nav-links a.active {
+  color: var(--accent);
+  background: rgba(232, 93, 4, 0.1);
+  text-decoration: none;
+  border-bottom: 2px solid var(--accent);
 }
 
 .nav-toggle {
@@ -662,24 +683,27 @@ p {
 }
 
 .btn-primary {
-  background: var(--primary);
+  background: linear-gradient(135deg, var(--accent) 0%, var(--accent-hover) 100%);
   color: white;
+  box-shadow: 0 4px 14px rgba(232, 93, 4, 0.3);
 }
 
 .btn-primary:hover {
-  background: var(--primary-dark);
+  background: linear-gradient(135deg, var(--accent-hover) 0%, #b91c1c 100%);
   color: white;
   text-decoration: none;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(232, 93, 4, 0.4);
 }
 
 .btn-outline {
   background: transparent;
-  border: 2px solid var(--primary);
-  color: var(--primary);
+  border: 2px solid var(--accent);
+  color: var(--accent);
 }
 
 .btn-outline:hover {
-  background: var(--primary);
+  background: var(--accent);
   color: white;
   text-decoration: none;
 }

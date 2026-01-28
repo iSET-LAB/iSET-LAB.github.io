@@ -1,0 +1,35 @@
+# Federal Awards
+- title: "Transforming Compliance Training for Drone Operators through an Extended Reality and Generative AI-Driven System"
+  pi: "Sakib, M. N."
+  co_pis: "Yin, Z., Park, S., Rahman, M. M."
+  agency: "National Science Foundation (NSF)"
+  award_number: "2519021"
+  award_link: "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2519021"
+  amount: "$399,871.35"
+  dates: "October 15, 2025 – September 30, 2028"
+  category: "federal"
+
+# State Awards
+- title: "Develop an Intelligent Digital Assistant for Project Planning"
+  pi: "Shahandashti, S. M."
+  co_pis: "Mattingly, S. P., Sakib, M. N., Ryu, K. R."
+  agency: "Texas Department of Transportation (TxDOT)"
+  amount: "$226,172.00"
+  dates: "September 2024 – August 2026"
+  category: "state"
+
+# University Awards
+- title: "Science and Technology Acquisition and Retention (STARs) Program"
+  pi: "Sakib, M. N."
+  agency: "University of Texas System, The University of Texas at Arlington"
+  amount: "$100,000.00"
+  dates: "September 1, 2023 – August 31, 2026"
+  category: "university"
+
+- title: "Develop Automated and Dynamic Pavement Condition Index (PCI) System"
+  pi: "Sakib, M. N."
+  co_pis: "Loganathan, K., Hladik, G."
+  agency: "Parking and Transportation Services (PATS), The University of Texas at Arlington"
+  amount: "$10,000.00"
+  dates: "May 2024 – Present"
+  category: "university"

@@ -1,0 +1,25 @@
+# Site settings
+title: iSET Lab
+description: Intelligent Systems and Emerging Technologies Lab at The University of Texas at Arlington
+url: "https://iset-lab.github.io"
+baseurl: ""
+
+# Lab information
+lab:
+  name: "Intelligent Systems and Emerging Technologies (iSET) Lab"
+  department: "Department of Civil Engineering, The University of Texas at Arlington"
+  location: "Arlington, Texas"
+  email: "mdnazmus.sakib@uta.edu"
+  github: "https://github.com/iSET-LAB"
+  scholar: "https://scholar.google.com/citations?user=pK5cGsAAAAAJ"
+  researchgate: "https://www.researchgate.net/profile/Md-Nazmus-Sakib-6"
+
+# Build settings
+markdown: kramdown
+
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor

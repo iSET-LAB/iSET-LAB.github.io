@@ -1,0 +1,28 @@
+# Research projects
+- title: "SfM Meets Thermal: Reconstructing 3D Thermal Profiles"
+  image: "images/research/sfm_result.png"
+  description: "A novel fusion of visible-light and low-resolution thermal drone imagery with an open-source SfM pipeline to produce high-resolution 3D thermal profiles."
+  pdf_link: "#"
+  website_link: "#"
+  code_link: "#"
+
+- title: "Data-Driven Safety: Generating Workplace Hazard Scenarios"
+  image: "images/research/hazard_sec_results.png"
+  description: "Combining OSHA accident data, GPT-4o, and Stable Diffusion to generate synthetic workplace accident scenarios for training advanced hazard-detection models."
+  pdf_link: "#"
+  website_link: "#"
+  code_link: "#"
+
+- title: "From Sketch to BIM: Automating 3D Model Generation"
+  image: "images/research/sketch_to_bim_results.png"
+  description: "Harnessing GPT-4o & Blender parametric functions to convert annotated 2D sketches into robust 3D BIM models, minimizing manual labor."
+  pdf_link: "#"
+  website_link: "#"
+  code_link: "#"
+
+- title: "Drone-Based Parking Lot PCI Automation"
+  image: "images/research/parking_lot_pci.png"
+  description: "Integrating drone imagery and manual PCI surveys to build a labeled dataset and train AI models for automated pavement condition assessment across large parking areas."
+  pdf_link: "#"
+  website_link: "#"
+  code_link: "#"

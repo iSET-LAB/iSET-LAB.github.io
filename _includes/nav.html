@@ -1,0 +1,24 @@
+<nav class="nav">
+    <div class="nav-container">
+        <button class="nav-toggle" onclick="toggleNav()">☰</button>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="{{ '/' | relative_url }}" {% if page.active=='home' %}class="active" {% endif %}>Home</a></li>
+            <li><a href="{{ '/research.html' | relative_url }}" {% if page.active=='research' %}class="active" {% endif
+                    %}>Research</a></li>
+            <li><a href="{{ '/publications.html' | relative_url }}" {% if page.active=='publications' %}class="active"
+                    {% endif %}>Publications</a></li>
+            <li><a href="{{ '/teaching.html' | relative_url }}" {% if page.active=='teaching' %}class="active" {% endif
+                    %}>Teaching</a></li>
+            <li><a href="{{ '/team.html' | relative_url }}" {% if page.active=='team' %}class="active" {% endif
+                    %}>Team</a></li>
+            <li><a href="{{ '/join.html' | relative_url }}" {% if page.active=='join' %}class="active" {% endif
+                    %}>Join</a></li>
+            <li><a href="{{ '/resources.html' | relative_url }}" {% if page.active=='resources' %}class="active" {%
+                    endif %}>Resources</a></li>
+            <li><a href="{{ '/events.html' | relative_url }}" {% if page.active=='events' %}class="active" {% endif
+                    %}>Events</a></li>
+            <li><a href="{{ '/awards.html' | relative_url }}" {% if page.active=='awards' %}class="active" {% endif
+                    %}>Awards</a></li>
+        </ul>
+    </div>
+</nav>

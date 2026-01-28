@@ -1,202 +1,91 @@
-<!DOCTYPE html>
-<html lang="en">
+---
+layout: default
+title: Team
+active: team
+description: Meet the iSET Lab team - researchers working on intelligent systems and emerging technologies
+---
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Meet the iSET Lab team - researchers working on intelligent systems and emerging technologies">
-    <title>Team - iSET Lab</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="icon" href="images/logo.png" type="image/png">
-</head>
+<!-- Page Header -->
+<section class="page-header">
+    <h1>Our Team</h1>
+    <p>Meet the researchers driving innovation in intelligent systems and emerging technologies</p>
+</section>
 
-<body>
-    <div class="page-wrapper">
-        <!-- Sidebar -->
-        <aside class="sidebar">
-            <div class="sidebar-logo">
-                <img src="images/logo.png" alt="iSET Lab Logo">
-            </div>
-            <h1 class="sidebar-title">Intelligent Systems and Emerging Technologies (iSET) Lab</h1>
-            <p class="sidebar-subtitle">Department of Civil Engineering, The University of Texas at Arlington</p>
-            <p class="sidebar-location">📍 Arlington, Texas</p>
-            <div class="sidebar-links">
-                <a href="mailto:mdnazmus.sakib@uta.edu">📧 Email</a>
-                <a href="https://github.com/iSET-LAB" target="_blank">GitHub</a>
-                <a href="https://scholar.google.com/citations?user=pK5cGsAAAAAJ" target="_blank">Scholar</a>
-            </div>
-        </aside>
-
-        <!-- Main Content -->
-        <main class="main-content">
-            <!-- Navigation -->
-            <nav class="nav">
-                <div class="nav-container">
-                    <button class="nav-toggle" onclick="toggleNav()">☰</button>
-                    <ul class="nav-links" id="navLinks">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="research.html">Research</a></li>
-                        <li><a href="publications.html">Publications</a></li>
-                        <li><a href="teaching.html">Teaching</a></li>
-                        <li><a href="team.html" class="active">Team</a></li>
-                        <li><a href="join.html">Join</a></li>
-                        <li><a href="resources.html">Resources</a></li>
-                        <li><a href="events.html">Events</a></li>
-                        <li><a href="awards.html">Awards</a></li>
-                    </ul>
+<!-- Team Content -->
+<div class="container">
+    <!-- Director Section -->
+    <section class="section">
+        <h2 class="section-title">Lab Director</h2>
+        {% for member in site.data.team %}
+        {% if member.category == "director" %}
+        <div class="director-card">
+            <img src="{{ member.image | relative_url }}" alt="{{ member.name }}" class="team-card-image">
+            <div class="team-card-content">
+                <h3 class="team-card-name">{{ member.name }}</h3>
+                <p class="team-card-position">{{ member.position }}</p>
+                <p class="team-card-interests"><strong>Research Interests:</strong> {{ member.interests }}</p>
+                <p class="team-card-bio">{{ member.bio }}</p>
+                <div class="team-card-links">
+                    {% if member.email %}<a href="mailto:{{ member.email }}">📧 Email</a>{% endif %}
+                    {% if member.linkedin %}<a href="{{ member.linkedin }}" target="_blank">LinkedIn</a>{% endif %}
+                    {% if member.scholar %}<a href="{{ member.scholar }}" target="_blank">Google Scholar</a>{% endif %}
+                    {% if member.faculty_profile %}<a href="{{ member.faculty_profile }}" target="_blank">Faculty
+                        Profile</a>{% endif %}
                 </div>
-            </nav>
-
-            <!-- Page Header -->
-            <section class="page-header">
-                <h1>Our Team</h1>
-                <p>Meet the researchers driving innovation in intelligent systems and emerging technologies</p>
-            </section>
-
-            <!-- Team Content -->
-            <div class="container">
-                <!-- Director Section -->
-                <section class="section">
-                    <h2 class="section-title">Lab Director</h2>
-                    <div class="director-card">
-                        <img src="images/team/MdNazmus_Sakib.jpg" alt="Dr. Md Nazmus Sakib" class="team-card-image">
-                        <div class="team-card-content">
-                            <h3 class="team-card-name">Md Nazmus Sakib, Ph.D., A.M.ASCE, M.IEEE</h3>
-                            <p class="team-card-position">Director</p>
-                            <p class="team-card-interests"><strong>Research Interests:</strong> Digital Twin, AI, XR,
-                                Wearable Devices, Human Factor</p>
-                            <p class="team-card-bio">Dr. Sakib is an Assistant Professor in the Department of Civil
-                                Engineering and the Department of Computer Science and Engineering (courtesy) at UTA.
-                                His research goal is to apply multidisciplinary knowledge and skillset to understand and
-                                advance the human-technology frontier to benefit future development towards a
-                                sustainable and resilient AEC industry.</p>
-                            <div class="team-card-links">
-                                <a href="mailto:mdnazmus.sakib@uta.edu">📧 Email</a>
-                                <a href="https://linkedin.com/in/mnsakib" target="_blank">LinkedIn</a>
-                                <a href="https://scholar.google.com/citations?user=pK5cGsAAAAAJ" target="_blank">Google
-                                    Scholar</a>
-                                <a href="https://www.uta.edu/academics/faculty/profile?user=mdnazmus.sakib"
-                                    target="_blank">Faculty Profile</a>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-                <!-- PhD Students Section -->
-                <section class="section">
-                    <h2 class="section-title">PhD Students</h2>
-                    <div class="team-grid">
-                        <!-- Abir Khan Ratul -->
-                        <div class="team-card">
-                            <img src="images/team/AbirKhan_Ratul.jpg" alt="Abir Khan Ratul" class="team-card-image">
-                            <div class="team-card-content">
-                                <h3 class="team-card-name">Abir Khan Ratul, S.M.ASCE</h3>
-                                <p class="team-card-position">Ph.D. Student</p>
-                                <p class="team-card-interests"><strong>Research:</strong> Robotics, Automation, XR</p>
-                                <p class="team-card-bio">Abir is a PhD student focusing on Robotics, Automation, and VR.
-                                    His research aims to integrate advanced robotic systems with extended reality (MR,
-                                    VR, AR) to improve automation processes.</p>
-                                <div class="team-card-links">
-                                    <a href="mailto:abirkhan.ratul@uta.edu">📧 Email</a>
-                                    <a href="https://www.linkedin.com/in/abir-khan-ratul-41012311b/"
-                                        target="_blank">LinkedIn</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Sanjay Acharjee -->
-                        <div class="team-card">
-                            <img src="images/team/Sanjay_Acharjee.jpg" alt="Sanjay Acharjee" class="team-card-image">
-                            <div class="team-card-content">
-                                <h3 class="team-card-name">Sanjay Acharjee, S.M.ASCE</h3>
-                                <p class="team-card-position">Ph.D. Student</p>
-                                <p class="team-card-interests"><strong>Research:</strong> Generative AI, Deep Learning,
-                                    Construction Robotics</p>
-                                <p class="team-card-bio">Sanjay is a PhD student specializing in Generative AI and Deep
-                                    Learning. His research focuses on developing new algorithms for AI systems to
-                                    enhance their learning capabilities.</p>
-                                <div class="team-card-links">
-                                    <a href="mailto:sanjay.acharjee@uta.edu">📧 Email</a>
-                                    <a href="https://www.linkedin.com/in/sanjayacharjee/" target="_blank">LinkedIn</a>
-                                    <a href="https://scholar.google.com/citations?user=cv1JsJEAAAAJ"
-                                        target="_blank">Google Scholar</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Venezer Odhiambo -->
-                        <div class="team-card">
-                            <img src="images/team/Venezer.jpg" alt="Venezer Odhiambo" class="team-card-image">
-                            <div class="team-card-content">
-                                <h3 class="team-card-name">Venezer Odhiambo</h3>
-                                <p class="team-card-position">Ph.D. Student</p>
-                                <p class="team-card-interests"><strong>Research:</strong> Digital Twins, Signal
-                                    Processing, Machine Learning</p>
-                                <p class="team-card-bio">Venezer is a PhD student in Civil Engineering with a strong
-                                    interest in how technology can transform infrastructure systems. She focuses on the
-                                    intersection of civil engineering and data science, exploring how tools like AI and
-                                    machine learning can improve the design, monitoring, and maintenance of
-                                    infrastructure.</p>
-                                <div class="team-card-links">
-                                    <a href="mailto:venezer.odhiambo@uta.edu">📧 Email</a>
-                                    <a href="https://www.linkedin.com/in/venezer-odhiambo-007951193/"
-                                        target="_blank">LinkedIn</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-                <!-- Research Assistants Section -->
-                <section class="section">
-                    <h2 class="section-title">Research Assistants</h2>
-                    <div class="team-grid">
-                        <!-- Arwin Rai -->
-                        <div class="team-card">
-                            <img src="images/team/Arwin.jpeg" alt="Arwin Rai" class="team-card-image">
-                            <div class="team-card-content">
-                                <h3 class="team-card-name">Arwin Rai</h3>
-                                <p class="team-card-position">Volunteer Research Assistant</p>
-                                <p class="team-card-interests"><strong>Research:</strong> Reality Capture, 3D
-                                    Reconstruction, Drone Technology</p>
-                                <div class="team-card-links">
-                                    <a href="mailto:axr2687@mavs.uta.edu">📧 Email</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Jayeda Aziz Jebun -->
-                        <div class="team-card">
-                            <img src="images/team/Jayeda.png" alt="Jayeda Aziz Jebun" class="team-card-image">
-                            <div class="team-card-content">
-                                <h3 class="team-card-name">Jayeda Aziz Jebun</h3>
-                                <p class="team-card-position">Undergraduate Volunteer Researcher</p>
-                                <div class="team-card-links">
-                                    <a href="mailto:jaj0293@mavs.uta.edu">📧 Email</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
             </div>
+        </div>
+        {% endif %}
+        {% endfor %}
+    </section>
 
-            <!-- Footer -->
-            <footer class="footer">
-                <p>&copy; 2025 iSET Lab - Intelligent Systems and Emerging Technologies Lab | University of Texas at
-                    Arlington</p>
-            </footer>
-        </main>
-    </div>
+    <!-- PhD Students Section -->
+    <section class="section">
+        <h2 class="section-title">PhD Students</h2>
+        <div class="team-grid">
+            {% for member in site.data.team %}
+            {% if member.category == "phd" %}
+            <div class="team-card">
+                <img src="{{ member.image | relative_url }}" alt="{{ member.name }}" class="team-card-image">
+                <div class="team-card-content">
+                    <h3 class="team-card-name">{{ member.name }}</h3>
+                    <p class="team-card-position">{{ member.position }}</p>
+                    <p class="team-card-interests"><strong>Research:</strong> {{ member.interests }}</p>
+                    {% if member.bio %}<p class="team-card-bio">{{ member.bio }}</p>{% endif %}
+                    <div class="team-card-links">
+                        {% if member.email %}<a href="mailto:{{ member.email }}">📧 Email</a>{% endif %}
+                        {% if member.linkedin %}<a href="{{ member.linkedin }}" target="_blank">LinkedIn</a>{% endif %}
+                        {% if member.scholar %}<a href="{{ member.scholar }}" target="_blank">Google Scholar</a>{% endif
+                        %}
+                    </div>
+                </div>
+            </div>
+            {% endif %}
+            {% endfor %}
+        </div>
+    </section>
 
-    <script>
-        function toggleNav() {
-            document.getElementById('navLinks').classList.toggle('active');
-        }
-    </script>
-</body>
-
-</html>
+    <!-- Research Assistants Section -->
+    <section class="section">
+        <h2 class="section-title">Research Assistants</h2>
+        <div class="team-grid">
+            {% for member in site.data.team %}
+            {% if member.category == "ra" %}
+            <div class="team-card">
+                <img src="{{ member.image | relative_url }}" alt="{{ member.name }}" class="team-card-image">
+                <div class="team-card-content">
+                    <h3 class="team-card-name">{{ member.name }}</h3>
+                    <p class="team-card-position">{{ member.position }}</p>
+                    {% if member.interests %}<p class="team-card-interests"><strong>Research:</strong> {{
+                        member.interests }}</p>{% endif %}
+                    {% if member.bio %}<p class="team-card-bio">{{ member.bio }}</p>{% endif %}
+                    <div class="team-card-links">
+                        {% if member.email %}<a href="mailto:{{ member.email }}">📧 Email</a>{% endif %}
+                        {% if member.linkedin %}<a href="{{ member.linkedin }}" target="_blank">LinkedIn</a>{% endif %}
+                    </div>
+                </div>
+            </div>
+            {% endif %}
+            {% endfor %}
+        </div>
+    </section>
+</div>

@@ -1,0 +1,156 @@
+# Journal Articles
+- title: "Human-AI Partnership to Improve Construction Workers' Experience on Safety, Performance, and Health: A Systematic Review of The North American Construction Industry"
+  authors: "Sakib, M. N., & Behzadan, A. H."
+  venue: "Journal of Engineering, Project, and Production Management"
+  year: 2025
+  volume: "15(1)"
+  pages: "006"
+  category: "journal"
+  link: "https://doi.org/10.32738/JEPPM-2025-0006"
+
+- title: "Capitalizing on strengths and minimizing weaknesses of veterans in civilian employment interviews: Perceptions of interviewers and veteran interviewees"
+  authors: "Sakib, M. N., Hagen, E., Mazza, N., Rani, N., Nirjhar, E. H., Chu, S. L., Chaspari, T., Behzadan, A. H., & Arthur Jr., W."
+  venue: "Military Psychology"
+  year: 2024
+  pages: "1–13"
+  category: "journal"
+  link: "https://doi.org/10.1080/08995605.2024.2356498"
+
+- title: "A feedforward neural network for drone accident prediction from physiological signals"
+  authors: "Sakib, M. N., Chaspari, T., & Behzadan, A. H."
+  venue: "Smart and Sustainable Built Environment"
+  year: 2022
+  volume: "11(4)"
+  pages: "1017–1041"
+  category: "journal"
+  link: "https://doi.org/10.1108/SASBE-12-2020-0181"
+
+- title: "Exploring Individual Differences of Public Speaking Anxiety in Real-Life and Virtual Presentations"
+  authors: "Yadav, M., Sakib, M. N., Nirjhar, E. H., Feng, K., Behzadan, A. H., & Chaspari, T."
+  venue: "IEEE Transactions on Affective Computing"
+  year: 2022
+  volume: "13(3)"
+  pages: "1168–1182"
+  category: "journal"
+  link: "https://doi.org/10.1109/taffc.2020.3048299"
+
+- title: "Physiological Data Models to Understand the Effectiveness of Drone Operation Training in Immersive Virtual Reality"
+  authors: "Sakib, M. N., Chaspari, T., & Behzadan, A. H."
+  venue: "Journal of Computing in Civil Engineering"
+  year: 2021
+  volume: "35(1)"
+  pages: "04020053"
+  category: "journal"
+  link: "https://doi.org/10.1061/(ASCE)CP.1943-5487.00009"
+
+# Conference Proceedings
+- title: "Data-Driven Safety: Leveraging Historical Accident Data and Generative AI for Generating Workplace Hazard Visualizations"
+  authors: "Acharjee, S., Khan Ratul, A., Patiño, D., & Sakib, M.N."
+  venue: "ASCE International Conference on Computing in Civil Engineering (i3CE 2025)"
+  year: 2025
+  category: "conference"
+
+- title: "SfM Meets Thermal: Reconstructing 3D Thermal Profiles of Buildings Using Multimodal Drone Data"
+  authors: "Acharjee, S., Khan Ratul, A., Aryal, A., & Sakib, M.N."
+  venue: "ASCE International Conference on Computing in Civil Engineering (i3CE 2025)"
+  year: 2025
+  category: "conference"
+
+- title: "From Sketch to BIM: A Framework for Automating the Conversion of Hand-Drawn Plans into 3D Models Using MLLMs and 3D Modeling Software"
+  authors: "Khan Ratul, A., Acharjee, S., Park, S., & Sakib, M.N."
+  venue: "ASCE International Conference on Computing in Civil Engineering (i3CE 2025)"
+  year: 2025
+  category: "conference"
+
+- title: "Human-Robot Interaction in AEC Industry: A Review of Augmented and Mixed Reality Applications"
+  authors: "Khan Ratul, A., Acharjee, S., Liang, C.J., & Sakib, M.N."
+  venue: "ASCE International Conference on Computing in Civil Engineering (i3CE 2025)"
+  year: 2025
+  category: "conference"
+
+- title: "A Survey of Barriers and Enablers of the Successful Transition of Military Veterans into the Construction Industry"
+  authors: "Sakib, M. N., Chaspari, T., Arthur, W., & Behzadan, A. H."
+  venue: "8th International Project and Construction Management Conference (IPCMC)"
+  year: 2024
+  pages: "346–354"
+  category: "conference"
+  link: "https://ipcmc2024.yildiz.edu.tr/proceedings-book"
+
+- title: "Immersive Virtual Reality to Measure Flood Risk Perception in Urban Environments"
+  authors: "Alizadeh, B., Sakib, M., & Behzadan, A."
+  venue: "30th International Conference on Intelligent Computing in Engineering (EG-ICE)"
+  year: 2023
+  pages: "103–112"
+  category: "conference"
+
+- title: "Investigating the Interplay Between Self-Reported and Bio-Behavioral Measures of Stress: A Pilot Study of Civilian Job Interviews with Military Veterans"
+  authors: "Haque Nirjhar, E., Sakib, M. N., Hagen, E., Rani, N., Lynn Chu, S., Arthur, W., Behzadan, A. H., & Chaspari, T."
+  venue: "2022 10th International Conference on Affective Computing and Intelligent Interaction (ACII)"
+  year: 2022
+  volume: "2"
+  pages: "1–8"
+  category: "conference"
+  link: "https://doi.org/10.1109/acii55700.2022.9953815"
+
+- title: "An Experimental Study of Wearable Technology and Immersive Virtual Reality for Drone Operator Training"
+  authors: "Sakib, M. N., Chaspari, T., Ahn, C. R., & Behzadan, A. H."
+  venue: "27th International Workshop on Intelligent Computing in Engineering (EG-ICE)"
+  year: 2020
+  pages: "154–163"
+  category: "conference"
+
+- title: "Coupling virtual reality and physiological markers to improve public speaking performance"
+  authors: "Sakib, M. N., Yadav, M., Chaspari, T., & Behzadan, A. H."
+  venue: "19th International Conference on Construction Applications of Virtual Reality (CONVR)"
+  year: 2019
+  category: "conference"
+
+- title: "Virtual reality interfaces and population-specific models to mitigate public speaking anxiety"
+  authors: "Yadav, M., Sakib, M. N., Feng, K., Chaspari, T., & Behzadan, A."
+  venue: "2019 8th International Conference on Affective Computing and Intelligent Interaction (ACII)"
+  year: 2019
+  pages: "1–7"
+  category: "conference"
+
+- title: "Estimating Public Speaking Anxiety from Speech Signals Using Unsupervised Transfer Learning"
+  authors: "Feng, K., Yadav, M., Sakib, M. N., Behzadan, A., & Chaspari, T."
+  venue: "2019 IEEE Global Conference on Signal and Information Processing (GlobalSIP)"
+  year: 2019
+  pages: "1–5"
+  category: "conference"
+  link: "https://doi.org/10.1109/globalsip45357.2019.8969502"
+
+- title: "Determination of Absorption Capacity of Open Mesh Type Jute Geotextile (JGT)"
+  authors: "Sakib, M. N., Islam, M. M., Khan, A. J., & Khan, I."
+  venue: "International Geotechnical Engineering Conference on Sustainability in Geotechnical Engineering Practices and Related Urban Issues"
+  year: 2016
+  category: "conference"
+
+# Dissertations & Theses
+- title: "The Future Workforce: Exploring the Role of Artificial Intelligence and Technology in Workforce Skilling"
+  authors: "Sakib, M. N."
+  venue: "Texas A&M University"
+  year: 2022
+  category: "dissertation"
+  link: "https://hdl.handle.net/1969.1/198781"
+
+- title: "Wearable Technology to Assess the Effectiveness of Virtual Reality Training for Drone Operators"
+  authors: "Sakib, M. N."
+  venue: "Texas A&M University"
+  year: 2019
+  category: "dissertation"
+  link: "https://hdl.handle.net/1969.1/189173"
+
+- title: "Determination of absorption capacity of GeoJute"
+  authors: "Khan, I., & Sakib, M. N."
+  venue: "Bangladesh University of Engineering and Technology"
+  year: 2012
+  category: "dissertation"
+  link: "https://doi.org/10.13140/RG.2.2.22549.06882"
+
+# Posters
+- title: "Reconstructing 3D Thermal Profiles of Buildings using Multimodal Drone Data"
+  authors: "Acharjee, S., Ratul, A. K., Aryal, A., & Sakib, M. N."
+  venue: "4th Workshop on Future of Construction: Safe, Reliable, and Precise Robots in Construction Environments (ICRA 2025)"
+  year: 2025
+  category: "poster"
