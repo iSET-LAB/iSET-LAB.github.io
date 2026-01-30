@@ -17,7 +17,7 @@ description: iSET Lab events - Conferences, workshops, and lab socials
         <h2 class="section-title">Conferences & Lab Events</h2>
 
         {% for event in site.data.events %}
-        {% if event.category == "conference" %}
+        {% if event.category == "conference" or event.category == "lab_event" %}
         <div class="event-section">
             <div class="event-gallery">
                 {% for image in event.images %}

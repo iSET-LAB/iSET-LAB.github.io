@@ -19,13 +19,24 @@ description: iSET Lab awards and grants - NSF, TxDOT, University funding
         {% for award in site.data.awards %}
         {% if award.category == "federal" %}
         <div class="award-card">
-            <h4>{{ award.title }}</h4>
-            <p class="award-meta"><strong>PI:</strong> {{ award.pi }}</p>
-            {% if award.co_pis %}<p class="award-meta"><strong>Co-PIs:</strong> {{ award.co_pis }}</p>{% endif %}
-            <p class="award-meta"><strong>Agency:</strong> {{ award.agency }}{% if award.award_link %} | <a
-                    href="{{ award.award_link }}" target="_blank">Award #{{ award.award_number }}</a>{% endif %}</p>
-            <p class="award-amount">{{ award.amount }}</p>
-            <p class="award-meta"><strong>Dates:</strong> {{ award.dates }}</p>
+            <div class="award-content">
+                <div class="award-details">
+                    <h4>{{ award.title }}</h4>
+                    <p class="award-meta"><strong>PI:</strong> {{ award.pi }}</p>
+                    {% if award.co_pis %}<p class="award-meta"><strong>Co-PIs:</strong> {{ award.co_pis }}</p>{% endif
+                    %}
+                    <p class="award-meta"><strong>Agency:</strong> {{ award.agency }}{% if award.award_link %} | <a
+                            href="{{ award.award_link }}" target="_blank">Award #{{ award.award_number }}</a>{% endif %}
+                    </p>
+                    <p class="award-amount">{{ award.amount }}</p>
+                    <p class="award-meta"><strong>Dates:</strong> {{ award.dates }}</p>
+                </div>
+                {% if award.image %}
+                <div class="award-logo">
+                    <img src="{{ award.image | relative_url }}" alt="{{ award.agency }} Logo">
+                </div>
+                {% endif %}
+            </div>
         </div>
         {% endif %}
         {% endfor %}
@@ -37,12 +48,22 @@ description: iSET Lab awards and grants - NSF, TxDOT, University funding
         {% for award in site.data.awards %}
         {% if award.category == "state" %}
         <div class="award-card">
-            <h4>{{ award.title }}</h4>
-            <p class="award-meta"><strong>PI:</strong> {{ award.pi }}</p>
-            {% if award.co_pis %}<p class="award-meta"><strong>Co-PIs:</strong> {{ award.co_pis }}</p>{% endif %}
-            <p class="award-meta"><strong>Agency:</strong> {{ award.agency }}</p>
-            <p class="award-amount">{{ award.amount }}</p>
-            <p class="award-meta"><strong>Dates:</strong> {{ award.dates }}</p>
+            <div class="award-content">
+                <div class="award-details">
+                    <h4>{{ award.title }}</h4>
+                    <p class="award-meta"><strong>PI:</strong> {{ award.pi }}</p>
+                    {% if award.co_pis %}<p class="award-meta"><strong>Co-PIs:</strong> {{ award.co_pis }}</p>{% endif
+                    %}
+                    <p class="award-meta"><strong>Agency:</strong> {{ award.agency }}</p>
+                    <p class="award-amount">{{ award.amount }}</p>
+                    <p class="award-meta"><strong>Dates:</strong> {{ award.dates }}</p>
+                </div>
+                {% if award.image %}
+                <div class="award-logo">
+                    <img src="{{ award.image | relative_url }}" alt="{{ award.agency }} Logo">
+                </div>
+                {% endif %}
+            </div>
         </div>
         {% endif %}
         {% endfor %}
@@ -54,12 +75,22 @@ description: iSET Lab awards and grants - NSF, TxDOT, University funding
         {% for award in site.data.awards %}
         {% if award.category == "university" %}
         <div class="award-card">
-            <h4>{{ award.title }}</h4>
-            <p class="award-meta"><strong>PI:</strong> {{ award.pi }}</p>
-            {% if award.co_pis %}<p class="award-meta"><strong>Co-PIs:</strong> {{ award.co_pis }}</p>{% endif %}
-            <p class="award-meta"><strong>Agency:</strong> {{ award.agency }}</p>
-            <p class="award-amount">{{ award.amount }}</p>
-            <p class="award-meta"><strong>Dates:</strong> {{ award.dates }}</p>
+            <div class="award-content">
+                <div class="award-details">
+                    <h4>{{ award.title }}</h4>
+                    <p class="award-meta"><strong>PI:</strong> {{ award.pi }}</p>
+                    {% if award.co_pis %}<p class="award-meta"><strong>Co-PIs:</strong> {{ award.co_pis }}</p>{% endif
+                    %}
+                    <p class="award-meta"><strong>Agency:</strong> {{ award.agency }}</p>
+                    <p class="award-amount">{{ award.amount }}</p>
+                    <p class="award-meta"><strong>Dates:</strong> {{ award.dates }}</p>
+                </div>
+                {% if award.image %}
+                <div class="award-logo">
+                    <img src="{{ award.image | relative_url }}" alt="{{ award.agency }} Logo">
+                </div>
+                {% endif %}
+            </div>
         </div>
         {% endif %}
         {% endfor %}
