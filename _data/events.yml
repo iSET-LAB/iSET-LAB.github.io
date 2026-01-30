@@ -1,33 +1,4 @@
 # Conferences & Lab Events
-- name: "i3CE 2025 - New Orleans"
-  date: "May 11, 2025"
-  location: "New Orleans, Louisiana"
-  category: "conference"
-  description: "International Conference on Computing in Civil Engineering. iSET Lab presented 4 papers at this conference."
-  images:
-    - "images/events/i3ce/20250512_101511.jpg"
-    - "images/events/i3ce/20250512_103459.jpg"
-    - "images/events/i3ce/20250512_114440.jpg"
-    - "images/events/i3ce/IMG_9295.jpg"
-
-- name: "ICRA 2025 - Atlanta"
-  date: "May 20, 2025"
-  location: "Atlanta, Georgia"
-  category: "conference"
-  description: "International Conference on Robotics and Automation."
-  images:
-    - "images/events/icra/20250519_085056.jpg"
-    - "images/events/icra/20250519_085106.jpg"
-    - "images/events/icra/20250519_141709(0).jpg"
-    - "images/events/icra/20250519_161426.jpg"
-
-- name: "Research Integrity Symposium"
-  date: "November 2025"
-  location: "Trinity Hall, UTA"
-  category: "lab_event"
-  description: "Research Integrity Symposium."
-  images:
-    - "images/events/Research_Integrity_Symposium/Researh_intigrity.jpg"
 - name: "Provost Visit"
   date: "January 2026"
   location: "iSET Lab"
@@ -44,16 +15,36 @@
   images:
     - "images/events/TRA_Visit/TRA.jpg"
 
+- name: "Research Integrity Symposium"
+  date: "November 2025"
+  location: "Trinity Hall, UTA"
+  category: "lab_event"
+  description: "Research Integrity Symposium."
+  images:
+    - "images/events/Research_Integrity_Symposium/Researh_intigrity.jpg"
+
+- name: "ICRA 2025 - Atlanta"
+  date: "May 20, 2025"
+  location: "Atlanta, Georgia"
+  category: "conference"
+  description: "International Conference on Robotics and Automation."
+  images:
+    - "images/events/icra/20250519_085056.jpg"
+    - "images/events/icra/20250519_085106.jpg"
+    - "images/events/icra/20250519_141709(0).jpg"
+    - "images/events/icra/20250519_161426.jpg"
+- name: "i3CE 2025 - New Orleans"
+  date: "May 11, 2025"
+  location: "New Orleans, Louisiana"
+  category: "conference"
+  description: "International Conference on Computing in Civil Engineering. iSET Lab presented 4 papers at this conference."
+  images:
+    - "images/events/i3ce/20250512_101511.jpg"
+    - "images/events/i3ce/20250512_103459.jpg"
+    - "images/events/i3ce/20250512_114440.jpg"
+    - "images/events/i3ce/IMG_9295.jpg"
 
 # Lab Socials
-- name: "iSET Lab Dinner - Fall 2025"
-  date: "September 2025"
-  location: "Arlington, Texas"
-  category: "social"
-  description: "Lab dinner celebrating achievements and welcoming new members."
-  images:
-    - "images/events/dinner/IMG_0474.jpg"
-
 - name: "Homecoming 5K"
   date: "November 2025"
   location: "UTA Campus"
@@ -62,3 +53,11 @@
   images:
     - "images/events/Homecomming5K/Homecomming5k_RUn.jpg"
     - "images/events/Homecomming5K/Homecomming5K_lunch.jpg"
+- name: "iSET Lab Dinner - Fall 2025"
+  date: "September 2025"
+  location: "Arlington, Texas"
+  category: "social"
+  description: "Lab dinner celebrating achievements and welcoming new members."
+  images:
+    - "images/events/dinner/IMG_0474.jpg"
+
