@@ -88,4 +88,29 @@ description: Meet the iSET Lab team - researchers working on intelligent systems
             {% endfor %}
         </div>
     </section>
+
+    <!-- Alumni Section -->
+    <section class="section">
+        <h2 class="section-title">Alumni</h2>
+        <div class="team-grid">
+            {% for member in site.data.team %}
+            {% if member.category == "alumni" %}
+            <div class="team-card">
+                <img src="{{ member.image | relative_url }}" alt="{{ member.name }}" class="team-card-image">
+                <div class="team-card-content">
+                    <h3 class="team-card-name">{{ member.name }}</h3>
+                    <p class="team-card-position">{{ member.position }}</p>
+                    {% if member.interests %}<p class="team-card-interests"><strong>Research:</strong> {{
+                        member.interests }}</p>{% endif %}
+                    {% if member.bio %}<p class="team-card-bio">{{ member.bio }}</p>{% endif %}
+                    <div class="team-card-links">
+                        {% if member.email %}<a href="mailto:{{ member.email }}">📧 Email</a>{% endif %}
+                        {% if member.linkedin %}<a href="{{ member.linkedin }}" target="_blank">LinkedIn</a>{% endif %}
+                    </div>
+                </div>
+            </div>
+            {% endif %}
+            {% endfor %}
+        </div>
+    </section>
 </div>
