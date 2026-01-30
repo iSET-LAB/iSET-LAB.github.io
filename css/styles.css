@@ -698,17 +698,20 @@ p {
 
 .event-gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
   gap: var(--space-md);
   margin-bottom: var(--space-md);
 }
 
 .event-gallery img {
   width: 100%;
-  height: 180px;
-  object-fit: cover;
+  height: auto;
+  object-fit: contain;
+  /* database redundancy */
+  display: block;
   border-radius: var(--radius-md);
   transition: transform var(--transition-normal);
+  box-shadow: var(--shadow-sm);
 }
 
 .event-gallery img:hover {
