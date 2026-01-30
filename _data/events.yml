@@ -53,6 +53,7 @@
   images:
     - "images/events/Homecomming5K/Homecomming5k_RUn.jpg"
     - "images/events/Homecomming5K/Homecomming5K_lunch.jpg"
+    
 - name: "iSET Lab Dinner - Fall 2025"
   date: "September 2025"
   location: "Arlington, Texas"

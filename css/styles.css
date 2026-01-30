@@ -585,7 +585,7 @@ p {
   border: 1px solid var(--border-color);
   border-radius: var(--radius-lg);
   padding: var(--space-lg);
-  max-height: 400px;
+  max-height: 1000px;
   overflow-y: auto;
 }
 
