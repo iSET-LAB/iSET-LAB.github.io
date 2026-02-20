@@ -19,13 +19,13 @@ description: Publications from iSET Lab - Journal articles, conference papers, a
         </a>
     </div>
 
-        <!-- Pre-prints -->
+        <!-- Preprints -->
     <section class="section">
         <div class="publication-category">
-            <h3>Pre-prints</h3>
+            <h3>Preprints</h3>
             <ul class="publication-list">
                 {% for pub in site.data.publications %}
-                {% if pub.category == "pre-print" %}
+                {% if pub.category == "preprint" %}
                 <li class="publication-item">
                     <p class="publication-text">{{ pub.authors }} ({{ pub.year }}). {{ pub.title }}. <em>{{ pub.venue
                             }}</em>{% if pub.volume %}, {{ pub.volume }}{% endif %}{% if pub.pages %}, {{ pub.pages }}{%
