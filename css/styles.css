@@ -356,6 +356,24 @@ p {
   margin-bottom: var(--space-xl);
 }
 
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 350px;
+  gap: 2rem;
+  align-items: start;
+}
+
+@media (max-width: 768px) {
+  .about-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .about-grid img {
+    margin: 0 auto;
+    max-width: 100%;
+  }
+}
+
 /* ---------- Cards ---------- */
 .card {
   background: var(--bg-white);

@@ -141,20 +141,20 @@
   year: 2016
   category: "conference"
 
-# Dissertations & Theses
-- title: "The Future Workforce: Exploring the Role of Artificial Intelligence and Technology in Workforce Skilling"
-  authors: "Sakib, M. N."
-  venue: "Texas A&M University"
-  year: 2022
-  category: "dissertation"
-  link: "https://hdl.handle.net/1969.1/198781"
+# # Dissertations & Theses
+# - title: "The Future Workforce: Exploring the Role of Artificial Intelligence and Technology in Workforce Skilling"
+#   authors: "Sakib, M. N."
+#   venue: "Texas A&M University"
+#   year: 2022
+#   category: "dissertation"
+#   link: "https://hdl.handle.net/1969.1/198781"
 
-- title: "Wearable Technology to Assess the Effectiveness of Virtual Reality Training for Drone Operators"
-  authors: "Sakib, M. N."
-  venue: "Texas A&M University"
-  year: 2019
-  category: "dissertation"
-  link: "https://hdl.handle.net/1969.1/189173"
+# - title: "Wearable Technology to Assess the Effectiveness of Virtual Reality Training for Drone Operators"
+#   authors: "Sakib, M. N."
+#   venue: "Texas A&M University"
+#   year: 2019
+#   category: "dissertation"
+#   link: "https://hdl.handle.net/1969.1/189173"
 
 # Posters
 - title: "Reconstructing 3D Thermal Profiles of Buildings using Multimodal Drone Data"
@@ -162,3 +162,4 @@
   venue: "4th Workshop on Future of Construction: Safe, Reliable, and Precise Robots in Construction Environments (ICRA 2025)"
   year: 2025
   category: "poster"
+  link: "https://construction-robots.github.io/papers/86.pdf"
