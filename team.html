@@ -19,7 +19,8 @@ description: Meet the iSET Lab team - researchers working on intelligent systems
         {% for member in site.data.team %}
         {% if member.category == "director" %}
         <div class="director-card">
-            <img src="{{ member.image | relative_url }}" alt="{{ member.name }}" class="team-card-image">
+            <img src="{{ member.image | relative_url }}" alt="{{ member.name }}" class="team-card-image"
+                style="object-position: {{ member.photo_position | default: 'center' }}{% if member.photo_height %}; height: {{ member.photo_height }}{% endif %}">
             <div class="team-card-content">
                 <h3 class="team-card-name">{{ member.name }}</h3>
                 <p class="team-card-position">{{ member.position }}</p>
@@ -45,10 +46,13 @@ description: Meet the iSET Lab team - researchers working on intelligent systems
             {% for member in site.data.team %}
             {% if member.category == "phd" %}
             <div class="team-card">
-                <img src="{{ member.image | relative_url }}" alt="{{ member.name }}" class="team-card-image">
+                <img src="{{ member.image | relative_url }}" alt="{{ member.name }}" class="team-card-image"
+                    style="object-position: {{ member.photo_position | default: 'center' }}{% if member.photo_height %}; height: {{ member.photo_height }}{% endif %}">
                 <div class="team-card-content">
                     <h3 class="team-card-name">{{ member.name }}</h3>
                     <p class="team-card-position">{{ member.position }}</p>
+                    {% if member.education %}<p class="team-card-interests"><strong>Education:</strong> {{
+                        member.education }}</p>{% endif %}
                     <p class="team-card-interests"><strong>Research:</strong> {{ member.interests }}</p>
                     {% if member.bio %}<p class="team-card-bio">{{ member.bio }}</p>{% endif %}
                     <div class="team-card-links">
@@ -71,10 +75,13 @@ description: Meet the iSET Lab team - researchers working on intelligent systems
             {% for member in site.data.team %}
             {% if member.category == "ra" %}
             <div class="team-card">
-                <img src="{{ member.image | relative_url }}" alt="{{ member.name }}" class="team-card-image">
+                <img src="{{ member.image | relative_url }}" alt="{{ member.name }}" class="team-card-image"
+                    style="object-position: {{ member.photo_position | default: 'center' }}{% if member.photo_height %}; height: {{ member.photo_height }}{% endif %}">
                 <div class="team-card-content">
                     <h3 class="team-card-name">{{ member.name }}</h3>
                     <p class="team-card-position">{{ member.position }}</p>
+                    {% if member.education %}<p class="team-card-interests"><strong>Education:</strong> {{
+                        member.education }}</p>{% endif %}
                     {% if member.interests %}<p class="team-card-interests"><strong>Research:</strong> {{
                         member.interests }}</p>{% endif %}
                     {% if member.bio %}<p class="team-card-bio">{{ member.bio }}</p>{% endif %}
@@ -96,10 +103,13 @@ description: Meet the iSET Lab team - researchers working on intelligent systems
             {% for member in site.data.team %}
             {% if member.category == "alumni" %}
             <div class="team-card">
-                <img src="{{ member.image | relative_url }}" alt="{{ member.name }}" class="team-card-image">
+                <img src="{{ member.image | relative_url }}" alt="{{ member.name }}" class="team-card-image"
+                    style="object-position: {{ member.photo_position | default: 'center' }}{% if member.photo_height %}; height: {{ member.photo_height }}{% endif %}">
                 <div class="team-card-content">
                     <h3 class="team-card-name">{{ member.name }}</h3>
                     <p class="team-card-position">{{ member.position }}</p>
+                    {% if member.current_position %}<p class="team-card-interests"><strong>Current Position:</strong> {{
+                        member.current_position }}</p>{% endif %}
                     {% if member.interests %}<p class="team-card-interests"><strong>Research:</strong> {{
                         member.interests }}</p>{% endif %}
                     {% if member.bio %}<p class="team-card-bio">{{ member.bio }}</p>{% endif %}
