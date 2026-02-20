@@ -19,6 +19,26 @@ description: Publications from iSET Lab - Journal articles, conference papers, a
         </a>
     </div>
 
+        <!-- Pre-prints -->
+    <section class="section">
+        <div class="publication-category">
+            <h3>Pre-prints</h3>
+            <ul class="publication-list">
+                {% for pub in site.data.publications %}
+                {% if pub.category == "pre-print" %}
+                <li class="publication-item">
+                    <p class="publication-text">{{ pub.authors }} ({{ pub.year }}). {{ pub.title }}. <em>{{ pub.venue
+                            }}</em>{% if pub.volume %}, {{ pub.volume }}{% endif %}{% if pub.pages %}, {{ pub.pages }}{%
+                        endif %}.</p>
+                    {% if pub.link %}<a href="{{ pub.link }}" class="publication-link" target="_blank">🔗 View
+                        Publication</a>{% endif %}
+                </li>
+                {% endif %}
+                {% endfor %}
+            </ul>
+        </div>
+    </section>
+    
     <!-- Journal Articles -->
     <section class="section">
         <div class="publication-category">
