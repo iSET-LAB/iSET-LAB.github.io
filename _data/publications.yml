@@ -1,4 +1,19 @@
-# Journal Articles
+# Pre-prints
+- title: "Sketch2BIM: A Multi-Agent Human-AI Collaborative Pipeline to Convert Hand-Drawn Floor Plans to 3D BIM"
+  authors: "Ratul, A.K., Acharjee, S., Park, S., Sakib, M.N. "
+  venue: "arXiv"
+  year: 2025
+  category: "pre-print"
+  link: "https://arxiv.org/abs/2510.20838"
+
+- title: "Scene Graph-Guided Generative AI Framework for Synthesizing and Evaluating Industrial Hazard Scenarios"
+  authors: "Acharjee, S., Ratul, A.K., Patino, D., Sakib, M.N. "
+  venue: "arXiv"
+  year: 2025
+  category: "pre-print"
+  link: "https://arxiv.org/abs/2511.13970"
+  
+  # Journal Articles
 - title: "Human-AI Partnership to Improve Construction Workers' Experience on Safety, Performance, and Health: A Systematic Review of The North American Construction Industry"
   authors: "Sakib, M. N., & Behzadan, A. H."
   venue: "Journal of Engineering, Project, and Production Management"
@@ -140,13 +155,6 @@
   year: 2019
   category: "dissertation"
   link: "https://hdl.handle.net/1969.1/189173"
-
-- title: "Determination of absorption capacity of GeoJute"
-  authors: "Khan, I., & Sakib, M. N."
-  venue: "Bangladesh University of Engineering and Technology"
-  year: 2012
-  category: "dissertation"
-  link: "https://doi.org/10.13140/RG.2.2.22549.06882"
 
 # Posters
 - title: "Reconstructing 3D Thermal Profiles of Buildings using Multimodal Drone Data"
