@@ -1,4 +1,18 @@
 # Research projects
+- title: "Effects of Robot Embodiment on Human-Robot Interaction in a Virtual Bricklaying Task"
+  image: "images/research/hri_project.png"
+  description: "This project explores how people experience collaboration with construction robots in a VR bricklaying task, comparing a humanoid and a quadruped robot across co-placement and delivery modes using voice-command interaction."
+  pdf_link: "#"
+  website_link: "#"
+  code_link: "#"
+  
+- title: "Creating a Searchable Database of Texas Mobile Work Zone Safety Regulations Through Web Scraping and Semantic Embedding"
+  image: "images/research/Work Zone Safety.png"
+  description: "This project develops a graph augmented, multimodal Retrieval Augmented Generation (RAG) system to support accurate retrieval of Texas mobile work zone safety regulations."
+  pdf_link: "#"
+  website_link: "#"
+  code_link: "#"
+
 - title: "SfM Meets Thermal: Reconstructing 3D Thermal Profiles"
   image: "images/research/sfm_result.png"
   description: "A novel fusion of visible-light and low-resolution thermal drone imagery with an open-source SfM pipeline to produce high-resolution 3D thermal profiles."
@@ -16,6 +30,13 @@
 - title: "From Sketch to BIM: Automating 3D Model Generation"
   image: "images/research/sketch_to_bim_results.png"
   description: "Harnessing GPT-4o & Blender parametric functions to convert annotated 2D sketches into robust 3D BIM models, minimizing manual labor."
+  pdf_link: "#"
+  website_link: "#"
+  code_link: "#"
+
+- title: "Virtual Reality Orientation for Robotics Labs: Safe Entry, Spatial Rules, and Learning Outcomes "
+  image: "images/research/robotics_education.png"
+  description: "This project developed and evaluated an immersive VR robotics lab orientation module that teaches students lab layout, safety procedures, and robot interaction in a low-risk environment."
   pdf_link: "#"
   website_link: "#"
   code_link: "#"
