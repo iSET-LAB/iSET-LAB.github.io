@@ -59,8 +59,11 @@
 
 - name: "Jayeda Aziz Jebun"
   image: "images/team/Jayeda.png"
-  position: "Undergraduate Volunteer Researcher"
+  position: "Undergraduate Researcher"
+  interests: "Digital Twins & XR, Machine Learning"
+  bio: "Jayeda Aziz Jebun is an Honors Architectural Engineering student and REU Scholar with a strong interest in how emerging technologies can enhance the resilience and intelligence of the built environment. As an Undergraduate Researcher in the Intelligent Systems and Emerging Technologies (iSET) Lab, she explores the integration of digital twins with physics-based XR simulations to create immersive training environments for hazard recognition, navigation, and decision-making. Her work sits at the intersection of smart infrastructure, AI/ML, BIM, drones, and VR/AR, reflecting her passion for interdisciplinary innovation in architectural and structural systems."
   category: "ra"
+  linkedin: "www.linkedin.com/in/jayeda-aziz-j123"
   email: "jaj0293@mavs.uta.edu"
   photo_position: "20% 0%"
   photo_height: "400px"
