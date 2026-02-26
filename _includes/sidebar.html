@@ -5,6 +5,15 @@
   <h1 class="sidebar-title">{{ site.lab.name }}</h1>
   <p class="sidebar-subtitle">{{ site.lab.department }}</p>
   <p class="sidebar-location">📍 {{ site.lab.location }}</p>
+  <div class="sidebar-map">
+    <iframe
+      title="iSET Lab location map"
+      src="https://maps.google.com/maps?q=900%20S%20Center%20St%2C%20Arlington%2C%20TX%2076010&z=15&output=embed"
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+      allowfullscreen>
+    </iframe>
+  </div>
   <div class="sidebar-links">
     <a href="mailto:{{ site.lab.email }}">📧 Email</a>
     <a href="{{ site.lab.github }}" target="_blank">GitHub</a>
