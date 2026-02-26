@@ -1,0 +1,77 @@
+# Lab Resources
+
+- category: "Computational Resources"
+  icon: "💻"
+  items:
+    - title: "NVIDIA H200 GPU Server"
+      image: "images/resources/nvidia_h200.png"
+      description: "Our SuperMicro GPU Server AS-5126GS-TNRT (NVIDIA H200) delivers cutting-edge computational power for AI, deep learning, and data-intensive simulations."
+      link: "https://www.nvidia.com/en-us/data-center/dgx-h200/"
+
+    - title: "Alienware Area-51 Desktop"
+      image: "images/resources/area51.png"
+      description: "Intel Core Ultra-9 285K, NVIDIA RTX 5090 GPU, 64GB Memory, 4TB Storage for intensive computations and AI model training."
+      link: "https://www.dell.com/en-us/shop/desktop-computers/alienware-area-51-gaming-desktop/spd/alienware-area-51-aat2250-gaming-desktop/useaat2250wcto04"
+
+    - title: "Alienware Aurora R16 Desktop"
+      image: "images/resources/r16.png"
+      description: "Intel Core i9 14900KF, NVIDIA RTX 4090 GPU, 64GB Memory, 3TB Storage for deep learning and high-performance computing."
+      link: "https://www.dell.com/en-us/shop/desktop-computers/alienware-aurora-r16-gaming-desktop/spd/alienware-aurora-r16-desktop"
+
+- category: "Physiological Monitoring Devices"
+  icon: "❤️"
+  items:
+    - title: "EmbracePlus"
+      image: "images/resources/embrace plus.jpg"
+      description: "Advanced wearable device for real-time health monitoring with AI-driven analytics for human factors and safety research."
+      link: "https://www.empatica.com/embraceplus/"
+
+    - title: "Actiheart 5"
+      image: "images/resources/actihert.jpg"
+      description: "Compact wearable ECG and activity monitor providing high-resolution heart rate variability and energy expenditure data."
+      link: "https://www.camntech.com/actiheart-5/"
+
+- category: "3D Scanning & Reality Capture"
+  icon: "📐"
+  items:
+    - title: "Trimble X9 Laser Scanner"
+      image: "images/resources/laser_scanner.jpg"
+      description: "High-precision laser scanner for accurate 3D mapping and reality capture with automated calibration for digital twin applications."
+      link: "https://www.trimble.com/en/products/building-construction-field-systems/x9-scanner"
+
+    - title: "Trimble RealWorks Licenses"
+      image: "images/resources/Trimble-Logo.jpg"
+      description: "Software for processing and analyzing 3D laser scanning data with powerful tools for point cloud visualization and modeling."
+      link: "https://geospatial.trimble.com/products-and-solutions/trimble-realworks"
+
+- category: "Mixed Reality & Visualization"
+  icon: "🥽"
+  items:
+    - title: "Meta Quest 3"
+      image: "images/resources/meta_quest.jpg"
+      description: "Advanced mixed reality headset for VR simulations, immersive training, and interactive digital twin applications."
+      link: "https://www.meta.com/quest/quest-3/"
+
+- category: "Aerial Imaging & Site Monitoring"
+  icon: "🚁"
+  items:
+    - title: "Evo Max 4T Drone"
+      image: "images/resources/evo_drone.jpg"
+      description: "High-performance drone with advanced AI features, multiple sensors, and thermal imaging for site monitoring and aerial mapping."
+      link: "https://shop.autelrobotics.com/products/evo-max-4t"
+
+    - title: "DJI Matrice 300 RTK"
+      image: "images/resources/dji_matrice_300_rtk.jpg"
+      description: "Enterprise-grade drone platform with advanced AI capabilities, multi-sensor payloads, and centimeter-level positioning for precision aerial surveying and inspection."
+      link: "https://enterprise.dji.com/matrice-300"
+
+    - title: "GoPro Camera"
+      image: "images/resources/gopro.jpg"
+      description: "High-performance camera for recording field activities, site inspections, and experimental setups."
+
+- category: "Field Measurement Tools"
+  icon: "📏"
+  items:
+    - title: "Measuring Wheels"
+      image: "images/resources/measuring_wheel.jpg"
+      description: "Quick and accurate distance measurements for field surveying and site planning in civil engineering projects."
