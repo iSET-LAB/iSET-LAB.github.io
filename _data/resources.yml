@@ -60,6 +60,11 @@
       description: "High-performance drone with advanced AI features, multiple sensors, and thermal imaging for site monitoring and aerial mapping."
       link: "https://shop.autelrobotics.com/products/evo-max-4t"
 
+    - title: "ANAFI USA Drone"
+      image: "images/resources/anafi-usa-newsroom.png"
+      description: "US-made, NDAA-compliant professional drone featuring 32x optical zoom, FLIR thermal imaging, and secure data encryption for rapid site monitoring and advanced aerial mapping."
+      link: "https://www.parrot.com/en/drones/anafi-usa"
+
     - title: "DJI Matrice 300 RTK"
       image: "images/resources/dji_matrice_300_rtk.jpg"
       description: "Enterprise-grade drone platform with advanced AI capabilities, multi-sensor payloads, and centimeter-level positioning for precision aerial surveying and inspection."
