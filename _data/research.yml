@@ -1,4 +1,11 @@
 # Research projects
+- title: "XR-Based Digital Twin Training for Indoor Drone Operations"
+  image: "images/research/indoor_drone_xr.jpg"
+  description: "Leveraging drone photogrammetry and laser scanning to create high-fidelity digital twins for immersive XR environments, enabling first responders to practice indoor drone navigation and hazard recognition in simulated emergency scenarios."
+  pdf_link: "#"
+  website_link: "#"
+  code_link: "#"
+
 - title: "Effects of Robot Embodiment on Human-Robot Interaction in a Virtual Bricklaying Task"
   image: "images/research/hri_project.png"
   description: "This project explores how people experience collaboration with construction robots in a VR bricklaying task, comparing a humanoid and a quadruped robot across co-placement and delivery modes using voice-command interaction."
@@ -47,3 +54,4 @@
   pdf_link: "#"
   website_link: "#"
   code_link: "#"
+
