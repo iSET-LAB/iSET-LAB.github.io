@@ -14,6 +14,15 @@
   link: "https://arxiv.org/abs/2511.13970"
   
   # Journal Articles
+- title: "Multi-agent human–AI collaborative framework for converting hand-drawn floor plans to 3D BIM"
+  authors: "Ratul, A. K., Acharjee, S., Park, S., & Sakib, M. N."
+  venue: "Automation in Construction"
+  year: 2026
+  volume: "189"
+  pages: "106984"
+  category: "journal"
+  link: "https://doi.org/10.1016/j.autcon.2026.106984"
+
 - title: "Human-AI Partnership to Improve Construction Workers' Experience on Safety, Performance, and Health: A Systematic Review of The North American Construction Industry"
   authors: "Sakib, M. N., & Behzadan, A. H."
   venue: "Journal of Engineering, Project, and Production Management"
@@ -59,6 +68,18 @@
   link: "https://doi.org/10.1061/(ASCE)CP.1943-5487.00009"
 
 # Conference Proceedings
+- title: "Effects of Robot Embodiment on Human-Robot Interaction in a Virtual Bricklaying Task"
+  authors: "Ratul, A. K., Acharjee, S., Odhiambo, V. A., Park, S., & Sakib, M. N."
+  venue: "ASCE International Conference on Computing in Civil Engineering (i3CE 2026), Songdo, Incheon, South Korea"
+  year: 2026
+  category: "conference"
+
+- title: "Creating a Searchable Vector Database of Texas Mobile Work Zone Safety Regulations"
+  authors: "Odhiambo, V. A., Ratul, A. K., Hyun, K., & Sakib, M. N."
+  venue: "ASCE International Conference on Computing in Civil Engineering (i3CE 2026), Songdo, Incheon, South Korea"
+  year: 2026
+  category: "conference"
+
 - title: "Data-Driven Safety: Leveraging Historical Accident Data and Generative AI for Generating Workplace Hazard Visualizations"
   authors: "Acharjee, S., Khan Ratul, A., Patiño, D., & Sakib, M.N."
   venue: "ASCE International Conference on Computing in Civil Engineering (i3CE 2025)"

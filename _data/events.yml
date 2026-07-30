@@ -12,6 +12,23 @@
     - "images/events/i3ce2026/5.jpeg"
     - "images/events/i3ce2026/6.jpeg"
 
+- name: "Dr. Md. Mujibur Rahman Lab Visit"
+  date: "May 22, 2026"
+  location: "iSET Lab"
+  category: "lab_event"
+  description: "Dr. Md. Mujibur Rahman, Professor of Civil Engineering at United International University in Bangladesh, visited our lab to explore the emerging technologies used in our research. During his visit, he learned about our applications of extended reality, robotics, artificial intelligence, drones, and advanced sensing technologies."
+  images:
+    - "images/events/mujibur_rahman_visit/IMG_0300.jpeg"
+    - "images/events/mujibur_rahman_visit/IMG_0304.jpeg"
+
+- name: "Hurst-Euless-Bedford Independent School District Lab Visit"
+  date: "April 2026"
+  location: "iSET Lab"
+  category: "lab_event"
+  description: "HEB ISD visit to the iSET Lab."
+  images:
+    - "images/events/Hurst_Euless_visit/Hurst-Eulessvisit.png"
+
 - name: "Provost Visit"
   date: "January 2026"
   location: "iSET Lab"

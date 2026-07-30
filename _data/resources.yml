@@ -18,6 +18,11 @@
       description: "Intel Core i9 14900KF, NVIDIA RTX 4090 GPU, 64GB Memory, 3TB Storage for deep learning and high-performance computing."
       link: "https://www.dell.com/en-us/shop/desktop-computers/alienware-aurora-r16-gaming-desktop/spd/alienware-aurora-r16-desktop"
 
+    - title: "Dell Precision 3680 Tower Workstation"
+      image: "images/resources/IntelCorei7-14700.png"
+      description: "Intel Core i7-14700, NVIDIA T1000 8GB GPU, 16GB DDR5 Memory, and 512GB NVMe SSD Storage for engineering applications, CAD, and computational workloads."
+      link: "https://www.dell.com/en-us/shop/desktop-computers/precision-3680-tower-workstation/spd/precision-t3680-workstation/s006dpt3680mtus_vp"
+
 - category: "Mobile Robotics"
   icon: "🤖"
   items:
@@ -66,6 +71,14 @@
       image: "images/resources/Trimble-Logo.jpg"
       description: "Software for processing and analyzing 3D laser scanning data with powerful tools for point cloud visualization and modeling."
       link: "https://geospatial.trimble.com/products-and-solutions/trimble-realworks"
+
+- category: "Fabrication & Prototyping"
+  icon: "🖨️"
+  items:
+    - title: "Creality Ender-3 V3 SE"
+      image: "images/resources/Ender-3V3SE3__AHQN_v2.jpg"
+      description: "The Creality Ender-3 V3 SE is a desktop fused deposition modeling (FDM) 3D printer used to create physical prototypes, components, and scale models from digital designs. It supports rapid prototyping and hands-on research by enabling cost-effective fabrication of customized parts with thermoplastic materials."
+      link: "https://www.creality.com/support/creality-ender-3-v3-se"
 
 - category: "Mixed Reality & Visualization"
   icon: "🥽"
