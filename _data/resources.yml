@@ -18,6 +18,29 @@
       description: "Intel Core i9 14900KF, NVIDIA RTX 4090 GPU, 64GB Memory, 3TB Storage for deep learning and high-performance computing."
       link: "https://www.dell.com/en-us/shop/desktop-computers/alienware-aurora-r16-gaming-desktop/spd/alienware-aurora-r16-desktop"
 
+- category: "Mobile Robotics"
+  icon: "🤖"
+  items:
+    - title: "Clearpath Husky A300"
+      image: "images/resources/HuskyA300.jpg"
+      large_image: true
+      description: "The Husky A300 Rugged Mobile Manipulator combines a durable mobile robotic platform with a Universal Robots UR5e arm to support advanced manipulation tasks. Its integrated control enclosure and touchscreen interface make it a reliable, research-ready system for operating in complex real-world environments."
+      link: "https://clearpathrobotics.com/blog/2026/04/husky-a300-rugged-mobile-manipulator/"
+
+  subsections:
+    - title: "Accessories: Vision Sensors"
+      icon: "📷"
+      items:
+        - title: "RealSense Depth Camera D456"
+          image: "images/resources/realsense_d456.png"
+          description: "IP65-rated long-range stereo depth camera with global-shutter sensors and an integrated IMU for outdoor perception, navigation, mapping, and object recognition."
+          link: "https://www.realsenseai.com/products/d456-usb/"
+
+        - title: "RealSense Depth Camera D405"
+          image: "images/resources/realsense_d405.png"
+          description: "Compact short-range stereo depth camera for close-range perception, robotic manipulation, inspection, and high-accuracy 3D sensing."
+          link: "https://www.realsenseai.com/products/stereo-depth-camera-d405/"
+
 - category: "Physiological Monitoring Devices"
   icon: "❤️"
   items:

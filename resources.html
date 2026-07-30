@@ -21,7 +21,7 @@ description: iSET Lab resources - Computing equipment, VR headsets, drones, lase
             {% for item in section.items %}
             <div class="resource-card">
                 <img src="{{ '/' | append: item.image | relative_url }}" alt="{{ item.title }}"
-                    class="resource-card-image">
+                    class="resource-card-image{% if item.large_image %} resource-card-image-large{% endif %}">
                 <div class="resource-card-content">
                     <h4 class="resource-card-title">{{ item.title }}</h4>
                     <p class="resource-card-text">{{ item.description }}</p>
@@ -32,6 +32,27 @@ description: iSET Lab resources - Computing equipment, VR headsets, drones, lase
             </div>
             {% endfor %}
         </div>
+
+        {% for subsection in section.subsections %}
+        <div class="resource-subsection">
+            <h4 class="resource-subsection-title">{{ subsection.icon }} {{ subsection.title }}</h4>
+            <div class="resource-accessory-grid">
+                {% for item in subsection.items %}
+                <div class="resource-card resource-accessory-card">
+                    <img src="{{ '/' | append: item.image | relative_url }}" alt="{{ item.title }}"
+                        class="resource-card-image">
+                    <div class="resource-card-content">
+                        <h5 class="resource-card-title">{{ item.title }}</h5>
+                        <p class="resource-card-text">{{ item.description }}</p>
+                        {% if item.link %}
+                        <a href="{{ item.link }}" target="_blank">🔗 More Info</a>
+                        {% endif %}
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        {% endfor %}
     </section>
     {% endfor %}
 
