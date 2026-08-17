@@ -69,6 +69,15 @@
   photo_position: "20% 0%"
   photo_height: "400px"
 
+- name: "Sheikh Ajmaeen Ahmed"
+  image: "images/team/Sheikh_Ajmaeen_Ahmed_Headshot.jpg"
+  position: "Undergraduate Researcher"
+  category: "ra"
+  interests: "Robotics"
+  bio: "Sheikh Ajmaeen Ahmed is an undergraduate researcher with an interest in construction robotics. He explores how robotic systems and automation can improve safety, productivity, and human–robot collaboration in construction environments."
+  photo_position: "center"
+  photo_height: "400px"
+
 - name: "Gurudatha Kasam"
   image: ""
   position: "Alumni (Former Volunteer Research Assistant)"
