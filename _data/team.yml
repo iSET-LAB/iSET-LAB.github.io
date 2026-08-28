@@ -38,18 +38,6 @@
   photo_height: "400px"
   photo_position: "20% 0%"
 
-- name: "Sanju Pk"
-  image: "images/team/Sanju_PK.jpeg"
-  position: "Ph.D. Student"
-  category: "phd"
-  interests: "Extended Reality, Automation, 3D Printing"
-  bio: "Sanju is a Ph.D. student in Civil Engineering at The University of Texas at Arlington and holds a B.Sc. in Civil Engineering from the Bangladesh University of Engineering and Technology. Before joining UTA, he worked for over two years in the construction industry on national infrastructure projects. His research focuses on extended reality, automation, and 3D printing."
-  education: "B.Sc. in Civil Engineering, BUET"
-  linkedin: "https://www.linkedin.com/in/sanjupk"
-  website: "http://sanjupk.netlify.com"
-  photo_height: "400px"
-
-
 - name: "Venezer Odhiambo"
   image: "images/team/Venezer.jpg"
   position: "Ph.D. Student"
@@ -60,6 +48,17 @@
   linkedin: "https://www.linkedin.com/in/venezer-odhiambo-007951193/"
   photo_height: "400px"
   education: "B.Sc. in Construction Management, UTA"
+
+- name: "Sanju Pk"
+  image: "images/team/Sanju_PK.jpeg"
+  position: "Ph.D. Student"
+  category: "phd"
+  interests: "Extended Reality, Automation, 3D Printing"
+  bio: "Sanju is a Ph.D. student in Civil Engineering at The University of Texas at Arlington and holds a B.Sc. in Civil Engineering from the Bangladesh University of Engineering and Technology. Before joining UTA, he worked for over two years in the construction industry on national infrastructure projects. His research focuses on extended reality, automation, and 3D printing."
+  education: "B.Sc. in Civil Engineering, BUET"
+  linkedin: "https://www.linkedin.com/in/sanjupk"
+  website: "http://sanjupk.netlify.com"
+  photo_height: "400px"
 
 - name: "Arwin Rai"
   image: "images/team/Arwin.jpeg"
