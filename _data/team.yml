@@ -38,6 +38,17 @@
   photo_height: "400px"
   photo_position: "20% 0%"
 
+- name: "Sanju Pk"
+  image: "images/team/Sanju_PK.jpeg"
+  position: "Ph.D. Student"
+  category: "phd"
+  interests: "Extended Reality, Automation, 3D Printing"
+  bio: "Sanju is a Ph.D. student in Civil Engineering at The University of Texas at Arlington and holds a B.Sc. in Civil Engineering from the Bangladesh University of Engineering and Technology. Before joining UTA, he worked for over two years in the construction industry on national infrastructure projects. His research focuses on extended reality, automation, and 3D printing."
+  education: "B.Sc. in Civil Engineering, BUET"
+  linkedin: "https://www.linkedin.com/in/sanjupk"
+  website: "http://sanjupk.netlify.com"
+  photo_height: "400px"
+
 
 - name: "Venezer Odhiambo"
   image: "images/team/Venezer.jpg"
@@ -73,8 +84,8 @@
   image: "images/team/Sheikh_Ajmaeen_Ahmed_Headshot.jpg"
   position: "Undergraduate Researcher"
   category: "ra"
-  interests: "Robotics"
-  bio: "Sheikh Ajmaeen Ahmed is an undergraduate researcher with an interest in construction robotics. He explores how robotic systems and automation can improve safety, productivity, and human–robot collaboration in construction environments."
+  interests: "Robotics & Autonomous Systems, Human-Robot Interaction, AI/ML & Smart Mechatronics"
+  bio: "Sheikh Ajmaeen Ahmed is an undergraduate Mechanical Engineering student with a strong focus on autonomous robotics, intelligent controls, and human-robot interaction. As a Volunteer Research Assistant in the Intelligent Systems and Emerging Technologies (iSET) Lab, he investigates co-adaptive navigation and human-in-the-loop control architectures for unmanned ground vehicles (UGVs) operating in complex environments. Drawing from hands-on expertise in CAD modeling, software development (Python/C++), and competitive robotics engineering, his personal interests center on bridging the complete hardware-to-software pipeline by exploring multi-sensor perception, intelligent motion control, and mechanism design to build versatile, self-navigating robotic systems."
   photo_position: "center"
   photo_height: "400px"
 
