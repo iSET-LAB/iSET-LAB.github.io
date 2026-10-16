@@ -32,6 +32,11 @@
       description: "The Husky A300 Rugged Mobile Manipulator combines a durable mobile robotic platform with a Universal Robots UR5e arm to support advanced manipulation tasks. Its integrated control enclosure and touchscreen interface make it a reliable, research-ready system for operating in complex real-world environments."
       link: "https://clearpathrobotics.com/blog/2026/04/husky-a300-rugged-mobile-manipulator/"
 
+    - title: "SunFounder PiCar-X AI Robot"
+      image: "images/resources/picarx aicar.jpg"
+      description: "A Raspberry Pi-powered mobile robot with camera-based perception, voice and video recognition, and Python programming support for research and education in autonomous navigation, computer vision, and intelligent human-robot interaction."
+      link: "https://www.sunfounder.com/products/picar-x"
+
   subsections:
     - title: "Accessories: Vision Sensors"
       icon: "📷"
@@ -49,6 +54,11 @@
 - category: "Physiological Monitoring Devices"
   icon: "❤️"
   items:
+    - title: "EMOTIV EPOC X"
+      image: "images/resources/emotiv.jpg"
+      description: "A research-grade 14-channel wireless EEG headset with whole-brain sensing and integrated motion sensors for mobile neuroscience, brain-computer interface, and human-factors research."
+      link: "https://www.emotiv.com/epoc-x"
+
     - title: "EmbracePlus"
       image: "images/resources/embrace plus.jpg"
       description: "Advanced wearable device for real-time health monitoring with AI-driven analytics for human factors and safety research."

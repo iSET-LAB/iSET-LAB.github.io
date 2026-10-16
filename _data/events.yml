@@ -75,6 +75,14 @@
     - "images/events/i3ce/IMG_9295.jpg"
 
 # Lab Socials
+- name: "iSET Lab Dinner - Fall 2026"
+  date: "Fall 2026"
+  location: "Arlington, Texas"
+  category: "social"
+  description: "Fall lab dinner bringing iSET Lab members together to celebrate the semester and welcome new members."
+  images:
+    - "images/events/dinner/labDinnerFall26.jpg"
+
 - name: "Homecoming 5K"
   date: "November 2025"
   location: "UTA Campus"
