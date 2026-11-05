@@ -1,4 +1,14 @@
 # Federal Awards
+- title: "Safety Nation: A Unified Commitment to Advancing Roadway Safety for Tribal Communities in Rural Areas"
+  pi: "Hyun, K."
+  co_pis: "Sakib, M. N., Kam, K., Park, S. (UNR)"
+  agency: "U.S. Department of Transportation (USDOT)"
+  image: "images/USDOT_Logo.svg"
+  award_link: "https://www.transportation.gov/grants/SS4A"
+  amount: "$4,593,806.76"
+  dates: "September, 2026 – December, 2030"
+  category: "federal"
+  
 - title: "Transforming Compliance Training for Drone Operators through an Extended Reality and Generative AI-Driven System"
   pi: "Sakib, M. N."
   co_pis: "Yin, Z., Park, S., Rahman, M. M."
