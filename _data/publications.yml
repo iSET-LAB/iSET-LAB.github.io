@@ -68,6 +68,13 @@
   link: "https://doi.org/10.1061/(ASCE)CP.1943-5487.00009"
 
 # Conference Proceedings
+- title: "DeltaSeek: Toward Active Perception in Evolving Construction Environments"
+  authors: "Acharjee, S., & Sakib, M. N."
+  venue: "5th Workshop on Future of Construction: Collaborative Robots for Fabrication, Manufacturing, and Inspection (IROS 2026), Pittsburgh, Pennsylvania"
+  year: 2026
+  category: "conference"
+  link: "https://construction-robots.github.io/papers/iros2026_42.pdf"
+
 - title: "Effects of Robot Embodiment on Human-Robot Interaction in a Virtual Bricklaying Task"
   authors: "Ratul, A. K., Acharjee, S., Odhiambo, V. A., Park, S., & Sakib, M. N."
   venue: "ASCE International Conference on Computing in Civil Engineering (i3CE 2026), Songdo, Incheon, South Korea"
